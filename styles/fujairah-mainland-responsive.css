@@ -1,0 +1,161 @@
+/* Fujairah Mainland Page - Responsive Styles */
+
+/* Base styles - similar structure to other mainland pages */
+.fujairah-hero-section {
+  position: relative;
+  min-height: 100vh;
+  padding: 0;
+  background: linear-gradient(120deg, #0f9d8f 0%, #0e3c5d 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.fujairah-hero-bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 0;
+  opacity: 0.18;
+  pointer-events: none;
+}
+
+.fujairah-hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: url(/images/hero-bg.jpg) center/cover no-repeat;
+  opacity: 0.25;
+  z-index: 1;
+}
+
+.fujairah-hero-content-wrapper {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+.fujairah-hero-content {
+  color: #fff;
+  text-align: left;
+  max-width: 900px;
+}
+
+.fujairah-hero-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 2.5rem;
+}
+
+.fujairah-hero-description {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 1.1rem;
+  color: #ffffff;
+  margin-bottom: 0;
+  font-weight: 400;
+  line-height: 1.7;
+  opacity: 0.95;
+}
+
+/* All other responsive classes follow the same pattern as other mainland pages */
+/* Overview Section */
+.fujairah-overview-section { background: #f8f9fa; padding: 3.5rem 0 2.25rem 0; }
+.fujairah-overview-container { max-width: 1100px; margin: 0 auto; padding: 0 2rem; }
+.fujairah-overview-title { text-align: center; font-weight: 700; font-size: 2rem; margin-bottom: 0.625rem; font-family: 'Montserrat', Arial, sans-serif; color: #222; }
+.fujairah-overview-subtitle { text-align: center; color: #444; margin-bottom: 2.25rem; font-family: 'Montserrat', Arial, sans-serif; font-weight: 400; font-size: 1.125rem; }
+.fujairah-overview-content { display: flex; flex-wrap: wrap; gap: 2rem; align-items: center; justify-content: center; }
+.fujairah-overview-image { width: 340px; height: 180px; object-fit: cover; border-radius: 18px; flex: 1 1 340px; min-width: 260px; max-width: 380px; box-shadow: 0 2px 12px rgba(30,198,182,0.07); margin-right: 0.75rem; }
+.fujairah-overview-text { flex: 2 1 340px; min-width: 260px; max-width: 520px; }
+.fujairah-overview-text-title { font-weight: 700; font-size: 1.25rem; margin-bottom: 0.625rem; font-family: 'Montserrat', Arial, sans-serif; color: #222; }
+.fujairah-overview-text-description { color: #444; font-size: 1rem; font-family: 'Montserrat', Arial, sans-serif; margin-bottom: 1.125rem; }
+.fujairah-overview-stats { display: flex; gap: 1.125rem; flex-wrap: wrap; }
+.fujairah-overview-stat { background: #fff; border: 1.5px solid #e5e7eb; border-radius: 12px; padding: 1.125rem 2rem; min-width: 140px; text-align: center; font-family: 'Montserrat', Arial, sans-serif; font-weight: 700; font-size: 1.375rem; color: #1ec6b6; box-shadow: 0 2px 8px rgba(30,198,182,0.04); }
+.fujairah-overview-stat-label { font-weight: 400; font-size: 0.9375rem; color: #222; margin-top: 0.25rem; }
+
+/* All other section styles follow same patterns as other mainland pages */
+.fujairah-why-section { background: #fff; padding: 3.5rem 0 2.25rem 0; }
+.fujairah-steps-section { background: #f8f9fa; padding: 3.5rem 0 2.25rem 0; }
+.fujairah-testimonials-section { background: #f6fafc; padding: 3.5rem 0 2.25rem 0; }
+.fujairah-faq-section { background: #f6f8f9; padding: 3.5rem 0 2.25rem 0; }
+.fujairah-footer { background: #151b26; color: #e5e7eb; padding: 3.5rem 0 0 0; font-size: 1rem; }
+
+/* Responsive Breakpoints */
+@media (max-width: 1024px) {
+  .fujairah-hero-content-wrapper { flex-direction: column; text-align: center; padding: 4rem 3%; gap: 2rem; }
+  .fujairah-hero-title { font-size: 2.8rem; }
+  .fujairah-overview-content { flex-direction: column; gap: 2rem; }
+  .fujairah-overview-image { width: 100%; max-width: 500px; margin-right: 0; }
+}
+
+@media (max-width: 600px) {
+  .fujairah-hero-section { min-height: 90vh; padding-bottom: 2rem; }
+  .fujairah-hero-content-wrapper { padding: 2rem 5%; gap: 1.5rem; }
+  .fujairah-hero-title { font-size: 2.2rem; margin-bottom: 1.5rem; }
+  .fujairah-overview-container { padding: 0 1rem; }
+  .fujairah-overview-title { font-size: 1.75rem; }
+}
+
+/* Mobile and Tablet - Client Success Stories fixes (≤768px) */
+@media (max-width: 768px) {
+  /* Ensure no horizontal overflow on body */
+  body {
+    overflow-x: hidden !important;
+  }
+  
+  /* Client Success Stories Section - Container setup */
+  section[style*="background: '#f6fafc'"] {
+    overflow: visible !important;
+  }
+  
+  section[style*="background: '#f6fafc'"] div[style*="maxWidth: 1100"] {
+    max-width: 100% !important;
+    padding: 0 16px !important;
+  }
+  
+  /* Testimonials container - VERTICAL STACKING like Dubai mainland */
+  section[style*="background: '#f6fafc'"] div[style*="display: flex"][style*="gap: 28"],
+  section[style*="background: '#f6fafc'"] div[style*="flexWrap: 'nowrap'"],
+  section[style*="background: '#f6fafc'"] div[style*="justifyContent: 'center'"][style*="alignItems: 'stretch'"] {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 1.5rem !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    width: 100% !important;
+    overflow: visible !important;
+  }
+  
+  /* Individual testimonial cards - FULL WIDTH like Dubai mainland */
+  section[style*="background: '#f6fafc'"] div[style*="background: '#fff'"][style*="border: '1.5px solid #1ec6b6'"],
+  section[style*="background: '#f6fafc'"] div[style*="minWidth: 260"][style*="maxWidth: 340"],
+  section[style*="background: '#f6fafc'"] div[style*="borderRadius: 14"][style*="padding: '28px 24px'"] {
+    max-width: 100% !important;
+    min-width: 100% !important;
+    flex: none !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    margin: 0 auto !important;
+  }
+  
+  /* Avatar images - keep same size */
+  section[style*="background: '#f6fafc'"] img[style*="width: 44"][style*="height: 44"] {
+    width: 44px !important;
+    height: 44px !important;
+    max-width: 100% !important;
+  }
+} 

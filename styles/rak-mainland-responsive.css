@@ -1,0 +1,1115 @@
+/* RAK Mainland Page - Responsive Styles */
+
+/* Base styles */
+.rak-hero-section {
+  position: relative;
+  min-height: 100vh;
+  padding: 0;
+  background: linear-gradient(120deg, #0f9d8f 0%, #0e3c5d 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.rak-hero-bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 0;
+  opacity: 0.18;
+  pointer-events: none;
+}
+
+.rak-hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: url(/images/hero-bg.jpg) center/cover no-repeat;
+  opacity: 0.25;
+  z-index: 1;
+}
+
+.rak-hero-content-wrapper {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+.rak-hero-content {
+  color: #fff;
+  text-align: left;
+  max-width: 900px;
+}
+
+.rak-hero-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 2.5rem;
+}
+
+.rak-hero-description {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 1.1rem;
+  color: #ffffff;
+  margin-bottom: 0;
+  font-weight: 400;
+  line-height: 1.7;
+  opacity: 0.95;
+}
+
+/* Overview Section */
+.rak-overview-section {
+  background: #f8f9fa;
+  padding: 3.5rem 0 2.25rem 0;
+}
+
+.rak-overview-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.rak-overview-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 0.625rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #222;
+}
+
+.rak-overview-subtitle {
+  text-align: center;
+  color: #444;
+  margin-bottom: 2.25rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+
+.rak-overview-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.rak-overview-image {
+  width: 340px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 18px;
+  flex: 1 1 340px;
+  min-width: 260px;
+  max-width: 380px;
+  box-shadow: 0 2px 12px rgba(30,198,182,0.07);
+  margin-right: 0.75rem;
+}
+
+.rak-overview-text {
+  flex: 2 1 340px;
+  min-width: 260px;
+  max-width: 520px;
+}
+
+.rak-overview-text-title {
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-bottom: 0.625rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #222;
+}
+
+.rak-overview-text-description {
+  color: #444;
+  font-size: 1rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin-bottom: 1.125rem;
+}
+
+.rak-overview-stats {
+  display: flex;
+  gap: 1.125rem;
+  flex-wrap: wrap;
+}
+
+.rak-overview-stat {
+  background: #fff;
+  border: 1.5px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.125rem 2rem;
+  min-width: 140px;
+  text-align: center;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 1.375rem;
+  color: #1ec6b6;
+  box-shadow: 0 2px 8px rgba(30,198,182,0.04);
+}
+
+.rak-overview-stat-label {
+  font-weight: 400;
+  font-size: 0.9375rem;
+  color: #222;
+  margin-top: 0.25rem;
+}
+
+/* Why RAK Mainland Section */
+.rak-why-section {
+  background: #fff;
+  padding: 3.5rem 0 2.25rem 0;
+}
+
+.rak-why-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.rak-why-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #222;
+}
+
+.rak-why-subtitle {
+  text-align: center;
+  color: #444;
+  margin-bottom: 2.5rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.0625rem;
+}
+
+.rak-why-features {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-bottom: 2.25rem;
+  flex-wrap: wrap;
+}
+
+.rak-why-feature {
+  flex: 1 1 220px;
+  min-width: 200px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.rak-why-feature-icon {
+  font-size: 2.25rem;
+  margin-bottom: 0.625rem;
+}
+
+.rak-why-feature-title {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #222;
+}
+
+.rak-why-feature-description {
+  color: #444;
+  font-size: 0.9375rem;
+  margin-bottom: 0;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.rak-why-cards {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.rak-why-card {
+  background: #fafbfc;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(30,198,182,0.04);
+  padding: 1.75rem 2rem;
+  min-width: 260px;
+  max-width: 380px;
+  flex: 1 1 320px;
+}
+
+.rak-why-card-title {
+  font-weight: 700;
+  font-size: 1.0625rem;
+  margin-bottom: 0.75rem;
+  color: #222;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.rak-why-card-list {
+  color: #1ec6b6;
+  font-size: 0.9375rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  padding-left: 1.25rem;
+  margin: 0;
+  list-style: none;
+}
+
+.rak-why-card-list li {
+  margin-bottom: 0.5rem;
+}
+
+.rak-why-card-list li:last-child {
+  margin-bottom: 0;
+}
+
+.rak-why-check {
+  color: #1ec6b6;
+  margin-right: 0.375rem;
+}
+
+/* Steps Section */
+.rak-steps-section {
+  background: #f8f9fa;
+  padding: 3.5rem 0 2.25rem 0;
+}
+
+.rak-steps-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.rak-steps-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #222;
+}
+
+.rak-steps-subtitle {
+  text-align: center;
+  color: #444;
+  margin-bottom: 2.5rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.0625rem;
+}
+
+.rak-step {
+  margin-bottom: 2.25rem;
+}
+
+.rak-step:last-child {
+  margin-bottom: 0;
+}
+
+.rak-step-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.125rem;
+}
+
+.rak-step-number {
+  background: #1ec6b6;
+  color: #fff;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.125rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin-right: 0.75rem;
+}
+
+.rak-step-title {
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: #222;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.rak-step-content {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.rak-step-card {
+  border: 1.5px solid #1ec6b6;
+  border-radius: 12px;
+  padding: 1.375rem 1.5rem;
+  min-width: 220px;
+  flex: 1 1 220px;
+  background: #fff;
+}
+
+.rak-step-card-title {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 0.375rem;
+  color: #222;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.rak-step-card-description {
+  color: #444;
+  font-size: 0.9375rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.rak-step-icons {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.rak-step-icon-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.375rem 1.5rem;
+  min-width: 180px;
+  flex: 1 1 180px;
+  text-align: center;
+  border: 1px solid #e5e7eb;
+}
+
+.rak-step-icon {
+  font-size: 1.75rem;
+  margin-bottom: 0.375rem;
+}
+
+.rak-step-icon-title {
+  font-weight: 700;
+  font-size: 0.9375rem;
+  color: #222;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.rak-step-icon-description {
+  color: #444;
+  font-size: 0.875rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin-top: 0.25rem;
+}
+
+/* Client Success Stories Section */
+.rak-testimonials-section {
+  background: #f6fafc;
+  padding: 3.5rem 0 2.25rem 0;
+}
+
+.rak-testimonials-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.rak-testimonials-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 2.25rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #222;
+}
+
+.rak-testimonials-grid {
+  display: flex;
+  gap: 1.75rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.rak-testimonial-card {
+  background: #fff;
+  border: 1.5px solid #1ec6b6;
+  border-radius: 14px;
+  padding: 1.75rem 1.5rem;
+  min-width: 260px;
+  max-width: 340px;
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.rak-testimonial-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.625rem;
+}
+
+.rak-testimonial-avatar {
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 50%;
+  margin-right: 0.75rem;
+}
+
+.rak-testimonial-name {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #222;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.rak-testimonial-company {
+  color: #6b7a86;
+  font-size: 0.875rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.rak-testimonial-rating {
+  color: #f7b500;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+.rak-testimonial-quote {
+  color: #444;
+  font-size: 0.9375rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-style: italic;
+}
+
+/* FAQ Section */
+.rak-faq-section {
+  background: #f6f8f9;
+  padding: 3.5rem 0 2.25rem 0;
+}
+
+.rak-faq-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.rak-faq-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 2.25rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #176d6b;
+}
+
+.rak-faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.rak-faq-item {
+  background: #fff;
+  border: 1.5px solid #1ec6b6;
+  border-radius: 10px;
+  padding: 1.375rem 1.75rem;
+}
+
+.rak-faq-question {
+  font-weight: 700;
+  font-size: 1.0625rem;
+  color: #222;
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin-bottom: 0.375rem;
+}
+
+.rak-faq-answer {
+  color: #444;
+  font-size: 0.9375rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+/* Footer */
+.rak-footer {
+  background: #151b26;
+  color: #e5e7eb;
+  padding: 3.5rem 0 0 0;
+  font-size: 1rem;
+}
+
+.rak-footer-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 2rem;
+}
+
+.rak-footer-logo-section {
+  flex: 1 1 260px;
+  min-width: 220px;
+  margin-bottom: 2rem;
+}
+
+.rak-footer-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.rak-footer-logo img {
+  width: 180px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  background: transparent;
+}
+
+.rak-footer-description {
+  color: #bfc6d1;
+  font-size: 0.98rem;
+  margin-bottom: 0.75rem;
+}
+
+.rak-footer-section {
+  flex: 1 1 160px;
+  min-width: 160px;
+  margin-bottom: 2rem;
+}
+
+.rak-footer-section-title {
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0.75rem;
+}
+
+.rak-footer-section-item {
+  color: #e5e7eb;
+  margin-bottom: 0.375rem;
+}
+
+.rak-footer-contact {
+  flex: 1 1 200px;
+  min-width: 200px;
+  margin-bottom: 2rem;
+}
+
+.rak-footer-bottom {
+  max-width: 1100px;
+  margin: 2rem auto 0 auto;
+  border-top: 1px solid #232b39;
+  padding: 1.125rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: #bfc6d1;
+  font-size: 0.98rem;
+}
+
+.rak-footer-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.rak-footer-link {
+  cursor: pointer;
+}
+
+/* Responsive Breakpoints */
+
+/* 4K Screens (2560px and above) */
+@media (min-width: 2560px) {
+  .rak-hero-content-wrapper {
+    max-width: 1600px;
+    padding: 0 6%;
+  }
+  
+  .rak-hero-title {
+    font-size: 4.5rem;
+  }
+  
+  .rak-hero-description {
+    font-size: 1.4rem;
+    max-width: 1200px;
+  }
+  
+  .rak-overview-container,
+  .rak-why-container,
+  .rak-steps-container,
+  .rak-testimonials-container {
+    max-width: 1400px;
+    padding: 0 3rem;
+  }
+  
+  .rak-faq-container {
+    max-width: 1200px;
+    padding: 0 3rem;
+  }
+  
+  .rak-footer-content,
+  .rak-footer-bottom {
+    max-width: 1400px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+/* Large Desktop (1920px - 2559px) */
+@media (min-width: 1920px) and (max-width: 2559px) {
+  .rak-hero-content-wrapper {
+    max-width: 1400px;
+    padding: 0 5%;
+  }
+  
+  .rak-hero-title {
+    font-size: 4rem;
+  }
+  
+  .rak-hero-description {
+    font-size: 1.3rem;
+  }
+  
+  .rak-overview-container,
+  .rak-why-container,
+  .rak-steps-container,
+  .rak-testimonials-container {
+    max-width: 1300px;
+  }
+  
+  .rak-faq-container {
+    max-width: 1000px;
+  }
+  
+  .rak-footer-content,
+  .rak-footer-bottom {
+    max-width: 1300px;
+  }
+}
+
+/* Desktop (1280px - 1919px) */
+@media (min-width: 1280px) and (max-width: 1919px) {
+  .rak-hero-title {
+    font-size: 3.5rem;
+  }
+  
+  .rak-hero-description {
+    font-size: 1.2rem;
+  }
+}
+
+/* Tablet (600px - 1024px) */
+@media (max-width: 1024px) {
+  .rak-hero-content-wrapper {
+    flex-direction: column;
+    text-align: center;
+    padding: 4rem 3%;
+    gap: 2rem;
+  }
+  
+  .rak-hero-title {
+    font-size: 2.8rem;
+  }
+  
+  .rak-hero-description {
+    font-size: 1.1rem;
+  }
+  
+  .rak-overview-content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .rak-overview-image {
+    width: 100%;
+    max-width: 500px;
+    margin-right: 0;
+  }
+  
+  .rak-overview-text {
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  .rak-overview-stats {
+    justify-content: center;
+  }
+  
+  .rak-why-features {
+    gap: 2rem;
+  }
+  
+  .rak-why-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .rak-why-card {
+    max-width: 100%;
+  }
+  
+  .rak-step-content,
+  .rak-step-icons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .rak-step-card,
+  .rak-step-icon-card {
+    min-width: 100%;
+  }
+  
+  .rak-testimonials-grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .rak-testimonial-card {
+    max-width: 100%;
+  }
+  
+  .rak-footer-content {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .rak-footer-bottom {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+}
+
+/* Mobile and Tablet - Client Success Stories fixes (≤768px) */
+@media (max-width: 768px) {
+  /* Ensure no horizontal overflow on body */
+  body {
+    overflow-x: hidden !important;
+  }
+  
+  /* Client Success Stories Section - Container setup */
+  section[style*="background: '#f6fafc'"] {
+    overflow: visible !important;
+  }
+  
+  section[style*="background: '#f6fafc'"] div[style*="maxWidth: 1100"] {
+    max-width: 100% !important;
+    padding: 0 16px !important;
+  }
+  
+  /* Testimonials container - VERTICAL STACKING like Dubai mainland */
+  section[style*="background: '#f6fafc'"] div[style*="display: flex"][style*="gap: 28"],
+  section[style*="background: '#f6fafc'"] div[style*="flexWrap: 'nowrap'"],
+  section[style*="background: '#f6fafc'"] div[style*="justifyContent: 'center'"][style*="alignItems: 'stretch'"] {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 1.5rem !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    width: 100% !important;
+    overflow: visible !important;
+  }
+  
+  /* Individual testimonial cards - FULL WIDTH like Dubai mainland */
+  section[style*="background: '#f6fafc'"] div[style*="background: '#fff'"][style*="border: '1.5px solid #1ec6b6'"],
+  section[style*="background: '#f6fafc'"] div[style*="minWidth: 260"][style*="maxWidth: 340"],
+  section[style*="background: '#f6fafc'"] div[style*="borderRadius: 14"][style*="padding: '28px 24px'"] {
+    max-width: 100% !important;
+    min-width: 100% !important;
+    flex: none !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    margin: 0 auto !important;
+  }
+  
+  /* Avatar images - keep same size */
+  section[style*="background: '#f6fafc'"] img[style*="width: 44"][style*="height: 44"] {
+    width: 44px !important;
+    height: 44px !important;
+    max-width: 100% !important;
+  }
+}
+
+
+
+/* Mobile (600px and below) */
+@media (max-width: 600px) {
+  .rak-hero-section {
+    min-height: 90vh;
+    padding-bottom: 2rem;
+  }
+  
+  .rak-hero-content-wrapper {
+    padding: 2rem 5%;
+    gap: 1.5rem;
+  }
+  
+  .rak-hero-title {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .rak-hero-description {
+    font-size: 1rem;
+  }
+  
+  .rak-overview-section,
+  .rak-why-section,
+  .rak-steps-section,
+  .rak-testimonials-section,
+  .rak-faq-section {
+    padding: 2.5rem 0 1.5rem 0;
+  }
+  
+  .rak-overview-container,
+  .rak-why-container,
+  .rak-steps-container,
+  .rak-testimonials-container,
+  .rak-faq-container {
+    padding: 0 1rem;
+  }
+  
+  .rak-overview-title,
+  .rak-why-title,
+  .rak-steps-title,
+  .rak-testimonials-title,
+  .rak-faq-title {
+    font-size: 1.75rem;
+  }
+  
+  .rak-overview-subtitle,
+  .rak-why-subtitle,
+  .rak-steps-subtitle {
+    font-size: 1rem;
+  }
+  
+  .rak-overview-image {
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+  }
+  
+  .rak-overview-stats {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .rak-overview-stat {
+    min-width: 200px;
+    padding: 1rem 1.5rem;
+  }
+  
+  .rak-why-features {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .rak-why-feature {
+    min-width: 100%;
+  }
+  
+  .rak-step-header {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 0.5rem;
+  }
+  
+  .rak-step-number {
+    margin-right: 0;
+  }
+  
+  .rak-testimonials-grid {
+    gap: 1rem;
+  }
+  
+  .rak-testimonial-card {
+    min-width: 100%;
+    padding: 1.5rem 1rem;
+  }
+
+
+  
+  .rak-faq-item {
+    padding: 1rem 1.25rem;
+  }
+  
+  .rak-footer {
+    padding: 2.5rem 0 0 0;
+  }
+  
+  .rak-footer-content {
+    padding: 0 1rem;
+  }
+  
+  .rak-footer-logo-section,
+  .rak-footer-section,
+  .rak-footer-contact {
+    flex: 1 1 100%;
+    min-width: 100%;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .rak-footer-bottom {
+    padding: 1rem;
+  }
+  
+  .rak-footer-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+/* Small Mobile (320px - 479px) */
+@media (max-width: 479px) {
+  .rak-hero-content-wrapper {
+    padding: 1.5rem 4%;
+  }
+  
+  .rak-hero-title {
+    font-size: 1.9rem;
+    line-height: 1.1;
+  }
+  
+  .rak-hero-description {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+  
+  .rak-overview-container,
+  .rak-why-container,
+  .rak-steps-container,
+  .rak-testimonials-container,
+  .rak-faq-container {
+    padding: 0 0.75rem;
+  }
+  
+  .rak-overview-title,
+  .rak-why-title,
+  .rak-steps-title,
+  .rak-testimonials-title,
+  .rak-faq-title {
+    font-size: 1.5rem;
+  }
+  
+  .rak-overview-stat {
+    min-width: 180px;
+    padding: 0.875rem 1.25rem;
+    font-size: 1.25rem;
+  }
+  
+  .rak-overview-stat-label {
+    font-size: 0.875rem;
+  }
+  
+  .rak-why-card {
+    padding: 1.25rem 1.5rem;
+  }
+  
+  .rak-step-card,
+  .rak-step-icon-card {
+    padding: 1rem 1.25rem;
+  }
+  
+  .rak-testimonial-card {
+    padding: 1.25rem 0.875rem;
+  }
+  
+  .rak-faq-item {
+    padding: 0.875rem 1rem;
+  }
+  
+  .rak-footer-content,
+  .rak-footer-bottom {
+    padding: 0 0.75rem;
+  }
+}
+
+/* Prevent horizontal scroll */
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hide horizontal scrollbar */
+body {
+  overflow-x: hidden;
+}
+
+/* General mobile fixes for all inline-styled containers */
+@media (max-width: 768px) {
+  /* Ensure most sections are contained, except testimonials section */
+  section:not([style*="background: '#f6fafc'"]) {
+    overflow-x: hidden !important;
+    max-width: 100% !important;
+  }
+  
+  /* Container width fixes */
+  div[style*="maxWidth: 1200"],
+  div[style*="maxWidth: 900"] {
+    max-width: 100% !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+  
+  /* Flex containers should wrap on mobile, except testimonials */
+  div[style*="display: flex"]:not([style*="flexWrap: 'nowrap'"]) {
+    flex-wrap: wrap !important;
+  }
+  
+  /* Images should be responsive */
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+    width: auto !important;
+  }
+  
+  /* Prevent any element from causing overflow, except horizontal scroll containers */
+  *:not([style*="overflow-x: auto"]) {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+  
+  /* Exception for elements explicitly set to 100% width */
+  div[style*="width: '100%'"],
+  img[style*="width: '100%'"],
+  section[style*="width: '100%'"] {
+    max-width: none !important;
+  }
+}
+
+/* Smooth transitions for responsive changes */
+.rak-hero-content-wrapper,
+.rak-overview-content,
+.rak-why-features,
+.rak-why-cards,
+.rak-step-content,
+.rak-step-icons,
+.rak-testimonials-grid,
+.rak-footer-content {
+  transition: all 0.3s ease;
+} 

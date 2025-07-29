@@ -1,0 +1,703 @@
+/* Shared Offices Page - Responsive Styles */
+
+/* Base styles */
+.shared-hero-section {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(120deg, #0f9d8f 0%, #0e3c5d 100%);
+  position: relative;
+  padding: 0;
+}
+
+.shared-hero-bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(/images/backgroundimg.png) center/cover no-repeat;
+  opacity: 0.18;
+  z-index: 1;
+}
+
+.shared-hero-content-wrapper {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 60px;
+}
+
+.shared-hero-content {
+  color: #fff;
+  text-align: left;
+  max-width: 900px;
+}
+
+.shared-hero-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+
+.shared-hero-description {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 1.1rem;
+  color: #ffffff;
+  margin-bottom: 0;
+  font-weight: 400;
+  line-height: 1.7;
+  opacity: 0.95;
+}
+
+/* Section 2 - Shared Office Space */
+.shared-intro-section {
+  background: #f7fafd;
+  padding: 48px 0 32px 0;
+}
+
+.shared-intro-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 16px;
+}
+
+.shared-intro-content {
+  flex: 1;
+  min-width: 320px;
+}
+
+.shared-intro-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 8px;
+}
+
+.shared-intro-highlight {
+  color: #0b8c8c;
+}
+
+.shared-intro-buttons {
+  margin: 24px 0;
+}
+
+.shared-intro-btn-primary {
+  background: #0b8c8c;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 28px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  margin-right: 12px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.shared-intro-btn-secondary {
+  background: #fff;
+  color: #0b8c8c;
+  border: 1px solid #0b8c8c;
+  border-radius: 6px;
+  padding: 10px 28px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.shared-intro-image-wrapper {
+  flex: 1;
+  min-width: 320px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.shared-intro-image {
+  width: 320px;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+
+/* Section 3 - Why Choose */
+.shared-why-section {
+  background: #fff;
+  padding: 40px 0;
+}
+
+.shared-why-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.shared-why-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 32px;
+}
+
+.shared-why-subtitle {
+  text-align: center;
+  color: #444;
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+
+.shared-why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+}
+
+.shared-why-card {
+  background: #f7fafd;
+  border-radius: 10px;
+  padding: 24px;
+  min-height: 120px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+.shared-why-card-title {
+  color: #0b8c8c;
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 8px;
+}
+
+.shared-why-card-description {
+  color: #444;
+  font-size: 15px;
+}
+
+/* Section 4 - Premium Features */
+.shared-features-section {
+  background: #fff;
+  padding: 0 0 40px 0;
+}
+
+.shared-features-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.shared-features-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 32px;
+}
+
+.shared-features-subtitle {
+  text-align: center;
+  color: #444;
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+
+.shared-features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.shared-features-item {
+  background: #f7fafd;
+  border-radius: 10px;
+  padding: 16px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/* Section 5 - Comprehensive Features */
+.shared-comprehensive-section {
+  background: #fff;
+  padding: 0 0 40px 0;
+}
+
+.shared-comprehensive-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.shared-comprehensive-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 32px;
+}
+
+.shared-comprehensive-grid {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  flex-wrap: wrap;
+}
+
+.shared-comprehensive-item {
+  text-align: center;
+  max-width: 220px;
+}
+
+.shared-comprehensive-icon {
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+.shared-comprehensive-label {
+  font-weight: 600;
+  color: #0b8c8c;
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.shared-comprehensive-description {
+  color: #444;
+  font-size: 14px;
+}
+
+/* Section 6 - Why Spider Business Center */
+.shared-spider-section {
+  background: linear-gradient(180deg, #0b8c8c 0%, #0b8c8c 100%);
+  padding: 48px 0;
+}
+
+.shared-spider-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 16px;
+}
+
+.shared-spider-content {
+  flex: 1;
+  min-width: 320px;
+  color: #fff;
+}
+
+.shared-spider-title {
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.shared-spider-feature {
+  margin-bottom: 12px;
+}
+
+.shared-spider-feature-title {
+  font-weight: bold;
+}
+
+.shared-spider-image-wrapper {
+  flex: 1;
+  min-width: 320px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.shared-spider-image {
+  width: 320px;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+
+/* Section 7 - FAQ */
+.shared-faq-section {
+  background: #fff;
+  padding: 40px 0;
+}
+
+.shared-faq-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.shared-faq-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 32px;
+}
+
+.shared-faq-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.shared-faq-item {
+  background: #f7fafd;
+  border-radius: 10px;
+  padding: 18px;
+}
+
+.shared-faq-question {
+  font-weight: 600;
+  color: #0b8c8c;
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.shared-faq-answer {
+  color: #444;
+  font-size: 15px;
+}
+
+/* Section 8 - CTA */
+.shared-cta-section {
+  background: #0b8c8c;
+  padding: 40px 0;
+}
+
+.shared-cta-container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  padding: 0 16px;
+}
+
+.shared-cta-title {
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+.shared-cta-description {
+  font-size: 16px;
+  margin-bottom: 18px;
+}
+
+.shared-cta-contact {
+  margin-bottom: 18px;
+}
+
+.shared-cta-contact-item {
+  margin-right: 18px;
+}
+
+.shared-cta-btn {
+  background: #fff;
+  color: #0b8c8c;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 32px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Footer */
+.shared-footer {
+  background: #0b8c8c;
+  color: #fff;
+  padding: 32px 0 0 0;
+  font-size: 15px;
+}
+
+.shared-footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 0 16px;
+}
+
+.shared-footer-section {
+  flex: 1;
+  min-width: 220px;
+  margin-bottom: 24px;
+}
+
+.shared-footer-logo {
+  width: 160px;
+  margin-bottom: 12px;
+}
+
+.shared-footer-section-title {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.shared-footer-section-item {
+  margin-bottom: 4px;
+}
+
+.shared-footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.2);
+  margin-top: 24px;
+  padding: 16px 0;
+  text-align: center;
+  font-size: 13px;
+  color: #e0f7fa;
+}
+
+/* Responsive Breakpoints */
+
+/* Large Desktop (1920px and above) */
+@media (min-width: 1920px) {
+  .shared-hero-content-wrapper {
+    max-width: 1400px;
+  }
+  
+  .shared-hero-title {
+    font-size: 4rem;
+  }
+  
+  .shared-hero-description {
+    font-size: 1.3rem;
+  }
+  
+  .shared-intro-container,
+  .shared-why-container,
+  .shared-features-container,
+  .shared-comprehensive-container,
+  .shared-spider-container {
+    max-width: 1400px;
+  }
+}
+
+/* Desktop (1280px - 1919px) */
+@media (min-width: 1280px) and (max-width: 1919px) {
+  .shared-hero-title {
+    font-size: 3.5rem;
+  }
+  
+  .shared-hero-description {
+    font-size: 1.2rem;
+  }
+}
+
+/* Tablet (600px - 1024px) */
+@media (max-width: 1024px) {
+  .shared-hero-content-wrapper {
+    flex-direction: column;
+    text-align: center;
+    padding: 4rem 3%;
+  }
+  
+  .shared-hero-title {
+    font-size: 2.8rem;
+  }
+  
+  .shared-intro-container,
+  .shared-spider-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .shared-intro-content,
+  .shared-spider-content {
+    text-align: center;
+  }
+  
+  .shared-intro-image-wrapper,
+  .shared-spider-image-wrapper {
+    justify-content: center;
+  }
+  
+  .shared-why-grid,
+  .shared-features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .shared-comprehensive-grid {
+    gap: 2rem;
+  }
+  
+  .shared-footer-content {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+/* Mobile (600px and below) */
+@media (max-width: 600px) {
+  .shared-hero-section {
+    min-height: 90vh;
+  }
+  
+  .shared-hero-content-wrapper {
+    padding: 2rem 5%;
+  }
+  
+  .shared-hero-title {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .shared-hero-description {
+    font-size: 1rem;
+  }
+  
+  .shared-intro-section,
+  .shared-why-section,
+  .shared-features-section,
+  .shared-comprehensive-section,
+  .shared-spider-section,
+  .shared-faq-section,
+  .shared-cta-section {
+    padding: 2.5rem 0 1.5rem 0;
+  }
+  
+  .shared-intro-container,
+  .shared-why-container,
+  .shared-features-container,
+  .shared-comprehensive-container,
+  .shared-spider-container,
+  .shared-faq-container,
+  .shared-cta-container {
+    padding: 0 1rem;
+  }
+  
+  .shared-intro-title,
+  .shared-why-title,
+  .shared-features-title,
+  .shared-comprehensive-title,
+  .shared-spider-title,
+  .shared-faq-title,
+  .shared-cta-title {
+    font-size: 1.75rem;
+  }
+  
+  .shared-intro-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .shared-intro-btn-primary,
+  .shared-intro-btn-secondary {
+    text-align: center;
+    margin-right: 0;
+  }
+  
+  .shared-intro-image,
+  .shared-spider-image {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .shared-why-grid,
+  .shared-features-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  .shared-comprehensive-grid {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .shared-cta-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .shared-cta-contact-item {
+    margin-right: 0;
+  }
+  
+  .shared-footer-content {
+    padding: 0 1rem;
+  }
+  
+  .shared-footer-section {
+    text-align: center;
+    min-width: 100%;
+  }
+}
+
+/* Small Mobile (320px - 479px) */
+@media (max-width: 479px) {
+  .shared-hero-content-wrapper {
+    padding: 1.5rem 4%;
+  }
+  
+  .shared-hero-title {
+    font-size: 1.9rem;
+  }
+  
+  .shared-hero-description {
+    font-size: 0.95rem;
+  }
+  
+  .shared-intro-container,
+  .shared-why-container,
+  .shared-features-container,
+  .shared-comprehensive-container,
+  .shared-spider-container,
+  .shared-faq-container,
+  .shared-cta-container {
+    padding: 0 0.75rem;
+  }
+  
+  .shared-intro-title,
+  .shared-why-title,
+  .shared-features-title,
+  .shared-comprehensive-title,
+  .shared-spider-title,
+  .shared-faq-title,
+  .shared-cta-title {
+    font-size: 1.5rem;
+  }
+  
+  .shared-footer-content {
+    padding: 0 0.75rem;
+  }
+}
+
+/* Prevent horizontal scroll */
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hide horizontal scrollbar */
+body {
+  overflow-x: hidden;
+}
+
+/* Smooth transitions for responsive changes */
+.shared-hero-content-wrapper,
+.shared-intro-container,
+.shared-why-grid,
+.shared-comprehensive-grid,
+.shared-spider-container,
+.shared-footer-content {
+  transition: all 0.3s ease;
+} 

@@ -1,0 +1,76 @@
+/* Meydan Free Zone Responsive Styles */
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  /* Hero Section */
+  .hero-section h1 {
+    font-size: 2.5rem !important;
+    line-height: 1.3 !important;
+  }
+  
+  .hero-section p {
+    font-size: 1rem !important;
+  }
+  
+  /* Features Section */
+  .meydan-features-row {
+    flex-direction: column !important;
+    gap: 20px !important;
+  }
+  
+  .meydan-feature-card {
+    flex: 1 1 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+  }
+  
+  /* License Types */
+  .meydan-license-types-row {
+    flex-direction: column !important;
+  }
+  
+  /* Advantages Grid */
+  .meydan-advantages-row {
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+  }
+  
+  /* Steps Grid */
+  div[style*='grid-template-columns: repeat(3, 1fr)'] {
+    grid-template-columns: 1fr !important;
+  }
+  
+  /* Free Zone Locations */
+  div[style*='flex-wrap: wrap'] {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  
+  /* Documents Grid */
+  div[style*='grid-template-columns: repeat(2, 1fr)'] {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Tablet Responsive Styles */
+@media (max-width: 1024px) {
+  .meydan-features-row {
+    flex-wrap: wrap !important;
+  }
+  
+  .meydan-feature-card {
+    flex: 1 1 45% !important;
+    max-width: 45% !important;
+  }
+  
+  .meydan-advantages-row {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+/* Large Screen Adjustments */
+@media (min-width: 1200px) {
+  .hero-section {
+    padding: 0 80px !important;
+  }
+} 

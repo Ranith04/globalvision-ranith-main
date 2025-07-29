@@ -1,0 +1,802 @@
+/* Abu Dhabi Mainland Page - Responsive Styles */
+
+/* Base styles */
+.abu-dhabi-hero-section {
+  position: relative;
+  min-height: 100vh;
+  padding: 0;
+  background: linear-gradient(120deg, #0f9d8f 0%, #0e3c5d 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.abu-dhabi-hero-bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 0;
+  opacity: 0.18;
+  pointer-events: none;
+}
+
+.abu-dhabi-hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: url(/images/hero-bg.jpg) center/cover no-repeat;
+  opacity: 0.25;
+  z-index: 1;
+}
+
+.abu-dhabi-hero-content-wrapper {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+.abu-dhabi-hero-content {
+  color: #fff;
+  text-align: left;
+  max-width: 900px;
+}
+
+.abu-dhabi-hero-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 2.5rem;
+}
+
+.abu-dhabi-hero-description {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 1.1rem;
+  color: #ffffff;
+  margin-bottom: 0;
+  font-weight: 400;
+  line-height: 1.7;
+  opacity: 0.95;
+}
+
+/* Why Invest Section */
+.abu-dhabi-why-invest-section {
+  background: #f8f9fa;
+  padding: 3.75rem 0;
+}
+
+.abu-dhabi-why-invest-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.abu-dhabi-why-invest-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.abu-dhabi-why-invest-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.abu-dhabi-why-invest-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 2rem;
+  flex: 1 1 220px;
+  max-width: 270px;
+  min-width: 220px;
+  text-align: center;
+}
+
+.abu-dhabi-why-invest-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.abu-dhabi-why-invest-card-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.abu-dhabi-why-invest-card-description {
+  color: #555;
+  font-size: 0.9375rem;
+}
+
+/* Types of Business Entities Section */
+.abu-dhabi-entities-section {
+  background: #fff;
+  padding: 3.75rem 0;
+}
+
+.abu-dhabi-entities-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.abu-dhabi-entities-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 0.625rem;
+}
+
+.abu-dhabi-entities-subtitle {
+  text-align: center;
+  color: #444;
+  margin-bottom: 2.5rem;
+}
+
+.abu-dhabi-entities-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.abu-dhabi-entities-card {
+  flex: 1 1 340px;
+  min-width: 300px;
+  max-width: 400px;
+  border: 1.5px solid #1ec6b6;
+  border-radius: 16px;
+  padding: 1.75rem;
+  margin-bottom: 1.5rem;
+  background: #f8f9fa;
+}
+
+.abu-dhabi-entities-card-title {
+  color: #1ec6b6;
+  font-weight: 600;
+  font-size: 1.15rem;
+  margin-bottom: 0.75rem;
+}
+
+.abu-dhabi-entities-card-description {
+  color: #222;
+  margin-bottom: 0.75rem;
+}
+
+.abu-dhabi-entities-card-list {
+  color: #222;
+  padding-left: 1.125rem;
+  margin: 0;
+  font-size: 0.9375rem;
+}
+
+/* Process of Business Setup Section */
+.abu-dhabi-process-section {
+  background: linear-gradient(120deg, #0f9d8f 0%, #0e3c5d 100%);
+  padding: 3.75rem 0;
+  color: #fff;
+}
+
+.abu-dhabi-process-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.abu-dhabi-process-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 0.625rem;
+  font-family: 'Georgia', serif;
+  color: #fff;
+}
+
+.abu-dhabi-process-subtitle {
+  text-align: center;
+  color: #b2f0e9;
+  margin-bottom: 2.5rem;
+  font-size: 1.125rem;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+.abu-dhabi-process-step-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.abu-dhabi-process-step-card {
+  background: #fff;
+  color: #222;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  padding: 1.75rem;
+  flex: 1 1 300px;
+  min-width: 260px;
+  max-width: 340px;
+  margin: 0.5rem;
+}
+
+.abu-dhabi-process-step-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.abu-dhabi-process-step-number {
+  background: #1ec6b6;
+  color: #fff;
+  border-radius: 50%;
+  width: 2.375rem;
+  height: 2.375rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.125rem;
+  margin-right: 0.875rem;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+.abu-dhabi-process-step-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  font-family: 'Georgia', serif;
+}
+
+.abu-dhabi-process-step-description {
+  color: #444;
+  font-size: 0.9375rem;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+/* Documents Required Section */
+.abu-dhabi-documents-section {
+  background: #f7fafb;
+  padding: 3.5rem 0 3rem 0;
+}
+
+.abu-dhabi-documents-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.abu-dhabi-documents-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.55rem;
+  margin-bottom: 0.375rem;
+  font-family: 'Georgia', serif;
+  color: #222;
+  letter-spacing: -0.5px;
+}
+
+.abu-dhabi-documents-subtitle {
+  text-align: center;
+  color: #6b7a86;
+  margin-bottom: 2.375rem;
+  font-size: 0.9375rem;
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 400;
+}
+
+.abu-dhabi-documents-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.75rem;
+  justify-content: center;
+}
+
+.abu-dhabi-documents-card {
+  background: #fff;
+  border: 1.5px solid #e3f7f5;
+  border-radius: 14px;
+  padding: 1.625rem 1.75rem 1.375rem 1.75rem;
+  min-width: 240px;
+  max-width: 500px;
+}
+
+.abu-dhabi-documents-card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.625rem;
+}
+
+.abu-dhabi-documents-card-icon {
+  background: #e3f7f5;
+  color: #1ec6b6;
+  border-radius: 50%;
+  width: 1.75rem;
+  height: 1.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-right: 0.625rem;
+}
+
+.abu-dhabi-documents-card-title {
+  font-weight: 600;
+  font-size: 1.05rem;
+  font-family: 'Georgia', serif;
+  color: #1ec6b6;
+}
+
+.abu-dhabi-documents-card-list {
+  color: #222;
+  font-size: 0.9375rem;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  list-style: none;
+}
+
+.abu-dhabi-documents-card-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.25rem;
+}
+
+.abu-dhabi-documents-card-list li:last-child {
+  margin-bottom: 0;
+}
+
+.abu-dhabi-documents-check {
+  color: #1ec6b6;
+  margin-right: 0.4375rem;
+}
+
+/* FAQ Section */
+.abu-dhabi-faq-section {
+  background: #fafbfc;
+  padding: 3.75rem 0 5rem 0;
+  margin-top: 0;
+}
+
+.abu-dhabi-faq-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.abu-dhabi-faq-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-family: 'Georgia', serif;
+  color: #222;
+}
+
+.abu-dhabi-faq-subtitle {
+  text-align: center;
+  color: #6b7a86;
+  margin-bottom: 2.375rem;
+  font-size: 1rem;
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 400;
+}
+
+/* Footer */
+.abu-dhabi-footer {
+  background: #151b26;
+  color: #e5e7eb;
+  padding: 3.5rem 0 0 0;
+  font-size: 1rem;
+}
+
+.abu-dhabi-footer-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 2rem;
+}
+
+.abu-dhabi-footer-logo-section {
+  flex: 1 1 260px;
+  min-width: 220px;
+  margin-bottom: 2rem;
+}
+
+.abu-dhabi-footer-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.abu-dhabi-footer-logo img {
+  width: 180px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  background: transparent;
+}
+
+.abu-dhabi-footer-description {
+  color: #bfc6d1;
+  font-size: 0.98rem;
+  margin-bottom: 0.75rem;
+}
+
+.abu-dhabi-footer-section {
+  flex: 1 1 160px;
+  min-width: 160px;
+  margin-bottom: 2rem;
+}
+
+.abu-dhabi-footer-section-title {
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0.75rem;
+}
+
+.abu-dhabi-footer-section-item {
+  color: #e5e7eb;
+  margin-bottom: 0.375rem;
+}
+
+.abu-dhabi-footer-contact {
+  flex: 1 1 200px;
+  min-width: 200px;
+  margin-bottom: 2rem;
+}
+
+.abu-dhabi-footer-bottom {
+  max-width: 1100px;
+  margin: 2rem auto 0 auto;
+  border-top: 1px solid #232b39;
+  padding: 1.125rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: #bfc6d1;
+  font-size: 0.98rem;
+}
+
+.abu-dhabi-footer-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.abu-dhabi-footer-link {
+  cursor: pointer;
+}
+
+/* Responsive Breakpoints */
+
+/* 4K Screens (2560px and above) */
+@media (min-width: 2560px) {
+  .abu-dhabi-hero-content-wrapper {
+    max-width: 1600px;
+    padding: 0 6%;
+  }
+  
+  .abu-dhabi-hero-title {
+    font-size: 4.5rem;
+  }
+  
+  .abu-dhabi-hero-description {
+    font-size: 1.4rem;
+    max-width: 1200px;
+  }
+  
+  .abu-dhabi-why-invest-container,
+  .abu-dhabi-entities-container,
+  .abu-dhabi-process-container,
+  .abu-dhabi-documents-container {
+    max-width: 1400px;
+    padding: 0 3rem;
+  }
+  
+  .abu-dhabi-faq-container {
+    max-width: 1000px;
+    padding: 0 3rem;
+  }
+  
+  .abu-dhabi-footer-content,
+  .abu-dhabi-footer-bottom {
+    max-width: 1400px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+/* Large Desktop (1920px - 2559px) */
+@media (min-width: 1920px) and (max-width: 2559px) {
+  .abu-dhabi-hero-content-wrapper {
+    max-width: 1400px;
+    padding: 0 5%;
+  }
+  
+  .abu-dhabi-hero-title {
+    font-size: 4rem;
+  }
+  
+  .abu-dhabi-hero-description {
+    font-size: 1.3rem;
+  }
+  
+  .abu-dhabi-why-invest-container,
+  .abu-dhabi-entities-container,
+  .abu-dhabi-process-container,
+  .abu-dhabi-documents-container {
+    max-width: 1300px;
+  }
+  
+  .abu-dhabi-faq-container {
+    max-width: 900px;
+  }
+  
+  .abu-dhabi-footer-content,
+  .abu-dhabi-footer-bottom {
+    max-width: 1300px;
+  }
+}
+
+/* Desktop (1280px - 1919px) */
+@media (min-width: 1280px) and (max-width: 1919px) {
+  .abu-dhabi-hero-title {
+    font-size: 3.5rem;
+  }
+  
+  .abu-dhabi-hero-description {
+    font-size: 1.2rem;
+  }
+}
+
+/* Tablet (600px - 1024px) */
+@media (max-width: 1024px) {
+  .abu-dhabi-hero-content-wrapper {
+    flex-direction: column;
+    text-align: center;
+    padding: 4rem 3%;
+    gap: 2rem;
+  }
+  
+  .abu-dhabi-hero-title {
+    font-size: 2.8rem;
+  }
+  
+  .abu-dhabi-hero-description {
+    font-size: 1.1rem;
+  }
+  
+  .abu-dhabi-why-invest-row {
+    gap: 1.5rem;
+  }
+  
+  .abu-dhabi-why-invest-card {
+    min-width: 100%;
+    max-width: 400px;
+  }
+  
+  .abu-dhabi-entities-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .abu-dhabi-entities-card {
+    max-width: 100%;
+  }
+  
+  .abu-dhabi-process-step-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .abu-dhabi-process-step-card {
+    max-width: 100%;
+  }
+  
+  .abu-dhabi-documents-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+  
+  .abu-dhabi-footer-content {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .abu-dhabi-footer-bottom {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+}
+
+/* Mobile (600px and below) */
+@media (max-width: 600px) {
+  .abu-dhabi-hero-section {
+    min-height: 90vh;
+    padding-bottom: 2rem;
+  }
+  
+  .abu-dhabi-hero-content-wrapper {
+    padding: 2rem 5%;
+    gap: 1.5rem;
+  }
+  
+  .abu-dhabi-hero-title {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .abu-dhabi-hero-description {
+    font-size: 1rem;
+  }
+  
+  .abu-dhabi-why-invest-section,
+  .abu-dhabi-entities-section,
+  .abu-dhabi-process-section,
+  .abu-dhabi-documents-section,
+  .abu-dhabi-faq-section {
+    padding: 2.5rem 0 1.5rem 0;
+  }
+  
+  .abu-dhabi-why-invest-container,
+  .abu-dhabi-entities-container,
+  .abu-dhabi-process-container,
+  .abu-dhabi-documents-container,
+  .abu-dhabi-faq-container {
+    padding: 0 1rem;
+  }
+  
+  .abu-dhabi-why-invest-title,
+  .abu-dhabi-entities-title,
+  .abu-dhabi-process-title,
+  .abu-dhabi-faq-title {
+    font-size: 1.75rem;
+  }
+  
+  .abu-dhabi-why-invest-card {
+    padding: 1.5rem;
+    min-width: 100%;
+  }
+  
+  .abu-dhabi-entities-card {
+    padding: 1.25rem;
+    min-width: 100%;
+  }
+  
+  .abu-dhabi-process-step-card {
+    padding: 1.25rem;
+    margin: 0.25rem;
+  }
+  
+  .abu-dhabi-documents-card {
+    padding: 1.25rem;
+  }
+  
+  .abu-dhabi-footer {
+    padding: 2.5rem 0 0 0;
+  }
+  
+  .abu-dhabi-footer-content {
+    padding: 0 1rem;
+  }
+  
+  .abu-dhabi-footer-logo-section,
+  .abu-dhabi-footer-section,
+  .abu-dhabi-footer-contact {
+    flex: 1 1 100%;
+    min-width: 100%;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .abu-dhabi-footer-bottom {
+    padding: 1rem;
+  }
+  
+  .abu-dhabi-footer-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+/* Small Mobile (320px - 479px) */
+@media (max-width: 479px) {
+  .abu-dhabi-hero-content-wrapper {
+    padding: 1.5rem 4%;
+  }
+  
+  .abu-dhabi-hero-title {
+    font-size: 1.9rem;
+    line-height: 1.1;
+  }
+  
+  .abu-dhabi-hero-description {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+  
+  .abu-dhabi-why-invest-container,
+  .abu-dhabi-entities-container,
+  .abu-dhabi-process-container,
+  .abu-dhabi-documents-container,
+  .abu-dhabi-faq-container {
+    padding: 0 0.75rem;
+  }
+  
+  .abu-dhabi-why-invest-title,
+  .abu-dhabi-entities-title,
+  .abu-dhabi-process-title,
+  .abu-dhabi-faq-title {
+    font-size: 1.5rem;
+  }
+  
+  .abu-dhabi-why-invest-card {
+    padding: 1.25rem;
+  }
+  
+  .abu-dhabi-entities-card {
+    padding: 1rem;
+  }
+  
+  .abu-dhabi-process-step-card {
+    padding: 1rem;
+  }
+  
+  .abu-dhabi-documents-card {
+    padding: 1rem;
+  }
+  
+  .abu-dhabi-footer-content,
+  .abu-dhabi-footer-bottom {
+    padding: 0 0.75rem;
+  }
+}
+
+/* Prevent horizontal scroll */
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hide horizontal scrollbar */
+body {
+  overflow-x: hidden;
+}
+
+/* Smooth transitions for responsive changes */
+.abu-dhabi-hero-content-wrapper,
+.abu-dhabi-why-invest-row,
+.abu-dhabi-entities-grid,
+.abu-dhabi-process-step-row,
+.abu-dhabi-documents-grid,
+.abu-dhabi-footer-content {
+  transition: all 0.3s ease;
+} 

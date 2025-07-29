@@ -1,0 +1,866 @@
+/* Virtual Offices Page - Responsive Styles */
+
+/* Base styles */
+.virtual-hero-section {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(120deg, #0f9d8f 0%, #0e3c5d 100%);
+  position: relative;
+  padding: 0;
+}
+
+.virtual-hero-bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(/images/backgroundimg.png) center/cover no-repeat;
+  opacity: 0.18;
+  z-index: 1;
+}
+
+.virtual-hero-content-wrapper {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 60px;
+}
+
+.virtual-hero-content {
+  color: #fff;
+  text-align: left;
+  max-width: 900px;
+}
+
+.virtual-hero-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+
+.virtual-hero-description {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 1.1rem;
+  color: #ffffff;
+  margin-bottom: 0;
+  font-weight: 400;
+  line-height: 1.7;
+  opacity: 0.95;
+}
+
+/* Section 2 - Virtual Offices */
+.virtual-intro-section {
+  background: #eafcf8;
+  padding: 56px 0;
+}
+
+.virtual-intro-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.virtual-intro-content {
+  flex: 1;
+  min-width: 320px;
+  max-width: 540px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.virtual-intro-title {
+  font-weight: 800;
+  font-size: 2.1rem;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #151b26;
+  line-height: 1.13;
+  text-align: left;
+}
+
+.virtual-intro-highlight {
+  color: #19c39c;
+  font-weight: 800;
+}
+
+.virtual-intro-buttons {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 22px;
+}
+
+.virtual-intro-btn-primary {
+  background: #19c39c;
+  color: #fff;
+  padding: 11px 28px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  box-shadow: 0 2px 8px rgba(16,185,129,0.10);
+}
+
+.virtual-intro-btn-secondary {
+  background: #fff;
+  color: #19c39c;
+  border: 2px solid #19c39c;
+  padding: 11px 28px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.virtual-intro-image-wrapper {
+  flex: 1;
+  min-width: 320px;
+  max-width: 520px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.virtual-intro-image-container {
+  position: relative;
+  width: 390px;
+  max-width: 100%;
+  height: 210px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.virtual-intro-image-accent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 16px;
+  background: #19c39c;
+  border-radius: 8px 0 8px 0;
+  z-index: 2;
+}
+
+.virtual-intro-image {
+  width: 390px;
+  height: 210px;
+  border-radius: 18px;
+  object-fit: cover;
+  border: 6px solid #fff;
+  box-shadow: 0 8px 32px rgba(16,185,129,0.13);
+  transform: rotate(-2.5deg);
+  position: relative;
+  z-index: 1;
+}
+
+/* Section 3 - Why Choose Virtual Office */
+.virtual-why-section {
+  background: #fff;
+  padding: 48px 0 36px 0;
+}
+
+.virtual-why-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.virtual-why-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #151b26;
+}
+
+.virtual-why-subtitle {
+  text-align: center;
+  color: #444;
+  margin-bottom: 38px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.virtual-why-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.virtual-why-card {
+  background: #f8fafc;
+  border-radius: 14px;
+  padding: 32px 18px;
+  text-align: center;
+  box-shadow: 0 2px 12px rgba(30,198,182,0.04);
+  border: 1.5px solid #e5e7eb;
+}
+
+.virtual-why-card-title {
+  font-weight: 700;
+  font-size: 17px;
+  color: #151b26;
+  margin-bottom: 8px;
+}
+
+.virtual-why-card-description {
+  color: #6b7a86;
+  font-size: 15px;
+}
+
+/* Section 4 - Complete Virtual Office Services */
+.virtual-services-section {
+  background: #fff;
+  padding: 48px 0 36px 0;
+}
+
+.virtual-services-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  gap: 38px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.virtual-services-list {
+  flex: 1;
+  min-width: 320px;
+  max-width: 480px;
+  color: #19c39c;
+  font-size: 15px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.virtual-services-item {
+  margin-bottom: 12px;
+  color: #19c39c;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.virtual-services-image-wrapper {
+  flex: 1;
+  min-width: 320px;
+  max-width: 420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.virtual-services-image-container {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(30,198,182,0.10);
+  padding: 0;
+  width: 340px;
+  max-width: 100%;
+}
+
+.virtual-services-image {
+  width: 440px;
+  height: 240px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+/* Section 5 - 10 Key Advantages */
+.virtual-advantages-section {
+  background: linear-gradient(120deg, #0f9d8f 0%, #19c39c 100%);
+  padding: 56px 0 36px 0;
+}
+
+.virtual-advantages-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.virtual-advantages-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #fff;
+}
+
+.virtual-advantages-subtitle {
+  text-align: center;
+  color: #e6f2ef;
+  margin-bottom: 38px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.virtual-advantages-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 18px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.virtual-advantages-item {
+  background: rgba(255,255,255,0.10);
+  border-radius: 12px;
+  padding: 22px 10px;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 0;
+  font-family: 'Montserrat', Arial, sans-serif;
+  border: 1.5px solid #19c39c;
+}
+
+.virtual-advantages-number {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+/* Section 6 - Premium Facilities */
+.virtual-facilities-section {
+  background: #fff;
+  padding: 48px 0 36px 0;
+}
+
+.virtual-facilities-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.virtual-facilities-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 32px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #151b26;
+}
+
+.virtual-facilities-grid {
+  display: flex;
+  justify-content: center;
+  gap: 38px;
+  flex-wrap: wrap;
+}
+
+.virtual-facilities-item {
+  text-align: center;
+  min-width: 120px;
+}
+
+.virtual-facilities-icon {
+  font-size: 32px;
+  color: #19c39c;
+  margin-bottom: 10px;
+}
+
+.virtual-facilities-label {
+  font-weight: 600;
+  color: #151b26;
+  font-size: 15px;
+}
+
+.virtual-facilities-description {
+  color: #6b7a86;
+  font-size: 13px;
+}
+
+/* Section 7 - FAQ */
+.virtual-faq-section {
+  background: #fff;
+  padding: 32px 0;
+}
+
+.virtual-faq-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.virtual-faq-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 32px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #151b26;
+}
+
+.virtual-faq-item {
+  background: #f8fafc;
+  border-radius: 10px;
+  padding: 22px 28px;
+  margin-bottom: 18px;
+  border: 1.5px solid #e5e7eb;
+}
+
+.virtual-faq-question {
+  font-weight: 700;
+  font-size: 16px;
+  color: #222;
+  margin-bottom: 6px;
+}
+
+.virtual-faq-answer {
+  color: #444;
+  font-size: 15px;
+}
+
+/* Section 8 - CTA */
+.virtual-cta-section {
+  background: #13777c;
+  padding: 56px 0;
+}
+
+.virtual-cta-container {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 32px;
+}
+
+.virtual-cta-title {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.virtual-cta-description {
+  color: #e6f2ef;
+  font-size: 1.08rem;
+  margin-bottom: 24px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.virtual-cta-contact {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  align-items: center;
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 28px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.virtual-cta-separator {
+  font-size: 18px;
+  color: #fff;
+}
+
+.virtual-cta-btn {
+  background: #fff;
+  color: #19c39c;
+  padding: 13px 32px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 1.08rem;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 2px 8px rgba(30,198,182,0.10);
+}
+
+/* Footer */
+.virtual-footer {
+  background: #151b26;
+  color: #e5e7eb;
+  padding: 56px 0 0 0;
+  font-size: 1rem;
+}
+
+.virtual-footer-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 32px;
+}
+
+.virtual-footer-logo-section {
+  flex: 1 1 260px;
+  min-width: 220px;
+  margin-bottom: 32px;
+}
+
+.virtual-footer-logo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.virtual-footer-logo {
+  width: 180px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  background: transparent;
+}
+
+.virtual-footer-description {
+  color: #bfc6d1;
+  font-size: 0.98rem;
+  margin-bottom: 12px;
+}
+
+.virtual-footer-section {
+  flex: 1 1 160px;
+  min-width: 160px;
+  margin-bottom: 32px;
+}
+
+.virtual-footer-section-title {
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.virtual-footer-section-item {
+  color: #e5e7eb;
+  margin-bottom: 6px;
+}
+
+.virtual-footer-contact {
+  flex: 1 1 200px;
+  min-width: 200px;
+  margin-bottom: 32px;
+}
+
+.virtual-footer-bottom {
+  max-width: 1100px;
+  margin: 32px auto 0 auto;
+  border-top: 1px solid #232b39;
+  padding: 18px 32px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: #bfc6d1;
+  font-size: 0.98rem;
+}
+
+.virtual-footer-links {
+  display: flex;
+  gap: 24px;
+}
+
+.virtual-footer-link {
+  cursor: pointer;
+}
+
+/* Responsive Breakpoints */
+
+/* Large Desktop (1920px and above) */
+@media (min-width: 1920px) {
+  .virtual-hero-content-wrapper {
+    max-width: 1400px;
+  }
+  
+  .virtual-hero-title {
+    font-size: 4rem;
+  }
+  
+  .virtual-hero-description {
+    font-size: 1.3rem;
+  }
+  
+  .virtual-intro-container,
+  .virtual-why-container,
+  .virtual-services-container,
+  .virtual-advantages-container,
+  .virtual-facilities-container {
+    max-width: 1400px;
+  }
+}
+
+/* Desktop (1280px - 1919px) */
+@media (min-width: 1280px) and (max-width: 1919px) {
+  .virtual-hero-title {
+    font-size: 3.5rem;
+  }
+  
+  .virtual-hero-description {
+    font-size: 1.2rem;
+  }
+}
+
+/* Tablet (600px - 1024px) */
+@media (max-width: 1024px) {
+  .virtual-hero-content-wrapper {
+    flex-direction: column;
+    text-align: center;
+    padding: 4rem 3%;
+  }
+  
+  .virtual-hero-title {
+    font-size: 2.8rem;
+  }
+  
+  .virtual-intro-container,
+  .virtual-services-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .virtual-intro-content,
+  .virtual-services-list {
+    text-align: center;
+  }
+  
+  .virtual-why-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .virtual-advantages-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .virtual-facilities-grid {
+    gap: 2rem;
+  }
+  
+  .virtual-footer-content {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .virtual-footer-bottom {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+}
+
+/* Mobile (600px and below) */
+@media (max-width: 600px) {
+  .virtual-hero-section {
+    min-height: 90vh;
+  }
+  
+  .virtual-hero-content-wrapper {
+    padding: 2rem 5%;
+  }
+  
+  .virtual-hero-title {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .virtual-hero-description {
+    font-size: 1rem;
+  }
+  
+  .virtual-intro-section,
+  .virtual-why-section,
+  .virtual-services-section,
+  .virtual-advantages-section,
+  .virtual-facilities-section,
+  .virtual-faq-section,
+  .virtual-cta-section {
+    padding: 2.5rem 0 1.5rem 0;
+  }
+  
+  .virtual-intro-container,
+  .virtual-why-container,
+  .virtual-services-container,
+  .virtual-advantages-container,
+  .virtual-facilities-container,
+  .virtual-faq-container,
+  .virtual-cta-container {
+    padding: 0 1rem;
+  }
+  
+  .virtual-intro-title,
+  .virtual-why-title,
+  .virtual-advantages-title,
+  .virtual-facilities-title,
+  .virtual-faq-title,
+  .virtual-cta-title {
+    font-size: 1.75rem;
+  }
+  
+  .virtual-intro-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .virtual-intro-btn-primary,
+  .virtual-intro-btn-secondary {
+    text-align: center;
+  }
+  
+  .virtual-intro-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 16px;
+    border: none;
+    box-shadow: none;
+    transform: none;
+  }
+  
+  .virtual-services-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .virtual-why-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  .virtual-advantages-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  
+  .virtual-facilities-grid {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .virtual-cta-contact {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .virtual-footer {
+    padding: 2.5rem 0 0 0;
+  }
+  
+  .virtual-footer-content {
+    padding: 0 1rem;
+  }
+  
+  .virtual-footer-logo-section,
+  .virtual-footer-section,
+  .virtual-footer-contact {
+    flex: 1 1 100%;
+    min-width: 100%;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .virtual-footer-bottom {
+    padding: 1rem;
+  }
+  
+  .virtual-footer-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+/* Small Mobile (320px - 479px) */
+@media (max-width: 479px) {
+  .virtual-hero-content-wrapper {
+    padding: 1.5rem 4%;
+  }
+  
+  .virtual-hero-title {
+    font-size: 1.9rem;
+  }
+  
+  .virtual-hero-description {
+    font-size: 0.95rem;
+  }
+  
+  .virtual-intro-container,
+  .virtual-why-container,
+  .virtual-services-container,
+  .virtual-advantages-container,
+  .virtual-facilities-container,
+  .virtual-faq-container,
+  .virtual-cta-container {
+    padding: 0 0.75rem;
+  }
+  
+  .virtual-intro-title,
+  .virtual-why-title,
+  .virtual-advantages-title,
+  .virtual-facilities-title,
+  .virtual-faq-title,
+  .virtual-cta-title {
+    font-size: 1.5rem;
+  }
+  
+  .virtual-advantages-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  
+  .virtual-footer-content,
+  .virtual-footer-bottom {
+    padding: 0 0.75rem;
+  }
+}
+
+/* Prevent horizontal scroll */
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hide horizontal scrollbar */
+body {
+  overflow-x: hidden;
+}
+
+/* Smooth transitions for responsive changes */
+.virtual-hero-content-wrapper,
+.virtual-intro-container,
+.virtual-why-grid,
+.virtual-services-container,
+.virtual-advantages-grid,
+.virtual-facilities-grid,
+.virtual-footer-content {
+  transition: all 0.3s ease;
+} 

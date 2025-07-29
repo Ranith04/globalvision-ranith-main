@@ -1,0 +1,935 @@
+/* Cayman Offshore Page - Responsive Styles */
+
+/* Base styles */
+.cayman-hero-section {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(120deg, #0f9d8f 0%, #0e3c5d 100%);
+  position: relative;
+  padding: 0;
+}
+
+.cayman-hero-bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(/images/backgroundimg.png) center/cover no-repeat;
+  opacity: 0.18;
+  z-index: 1;
+}
+
+.cayman-hero-content-wrapper {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 60px;
+}
+
+.cayman-hero-content {
+  color: #fff;
+  text-align: left;
+  max-width: 900px;
+}
+
+.cayman-hero-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+
+.cayman-hero-description {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 1.1rem;
+  color: #ffffff;
+  margin-bottom: 0;
+  font-weight: 400;
+  line-height: 1.7;
+  opacity: 0.95;
+}
+
+/* Section 2 - Cayman Company Formation */
+.cayman-intro-section {
+  background: #e6fcfa;
+  padding: 80px 0;
+}
+
+.cayman-intro-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  min-height: 340px;
+}
+
+.cayman-intro-content {
+  flex: 1;
+  min-width: 320px;
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.cayman-intro-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 2.3rem;
+  color: #23272e;
+  margin-bottom: 10px;
+  line-height: 1.15;
+}
+
+.cayman-intro-highlight {
+  color: #19c39c;
+}
+
+.cayman-intro-features {
+  display: flex;
+  gap: 14px;
+  margin: 18px 0 0 0;
+  flex-wrap: wrap;
+}
+
+.cayman-intro-feature {
+  display: flex;
+  align-items: center;
+  background: #f6fafd;
+  color: #19c39c;
+  border-radius: 30px;
+  padding: 8px 22px;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin-right: 6px;
+}
+
+.cayman-intro-feature-icon {
+  font-size: 18px;
+  margin-right: 7px;
+}
+
+.cayman-intro-buttons {
+  display: flex;
+  gap: 18px;
+  margin: 32px 0 0 0;
+}
+
+.cayman-intro-btn-primary {
+  background: #19c39c;
+  color: #fff;
+  padding: 13px 32px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 1.08rem;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 2px 8px rgba(30,198,182,0.10);
+}
+
+.cayman-intro-btn-secondary {
+  border: 2px solid #19c39c;
+  color: #19c39c;
+  padding: 13px 32px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 1.08rem;
+  text-decoration: none;
+  display: inline-block;
+  background: #fff;
+}
+
+.cayman-intro-image-wrapper {
+  flex: 1;
+  min-width: 320px;
+  max-width: 520px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.cayman-intro-image {
+  width: 420px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 18px;
+  box-shadow: 0 2px 12px rgba(30,198,182,0.13);
+}
+
+/* Section 3 - About Cayman Islands */
+.cayman-about-section {
+  background: #fff;
+  padding: 64px 0 48px 0;
+}
+
+.cayman-about-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.cayman-about-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+  color: #23272e;
+}
+
+.cayman-about-subtitle {
+  text-align: center;
+  color: #444;
+  margin-bottom: 36px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.cayman-about-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.cayman-about-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 32px 18px;
+  border: 2px solid #19c39c;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.cayman-about-card-icon {
+  font-size: 32px;
+  color: #19c39c;
+  margin-bottom: 12px;
+}
+
+.cayman-about-card-title {
+  color: #23272e;
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 6px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.cayman-about-card-description {
+  color: #444;
+  font-size: 15px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+/* Section 4 - Why Choose Cayman */
+.cayman-why-section {
+  background: #f8f9fa;
+  padding: 64px 0 48px 0;
+}
+
+.cayman-why-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.cayman-why-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+  color: #23272e;
+}
+
+.cayman-why-subtitle {
+  text-align: center;
+  color: #444;
+  margin-bottom: 36px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.cayman-why-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.cayman-why-item {
+  background: #fff;
+  border-radius: 12px;
+  padding: 18px 22px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 15px;
+  color: #19c39c;
+  font-weight: 600;
+}
+
+.cayman-why-item-icon {
+  font-size: 20px;
+}
+
+/* Section 5 - Setup Process */
+.cayman-setup-section {
+  background: linear-gradient(120deg, #0f9d8f 0%, #19c39c 100%);
+  padding: 64px 0 48px 0;
+}
+
+.cayman-setup-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.cayman-setup-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #fff;
+}
+
+.cayman-setup-subtitle {
+  text-align: center;
+  color: #e6f2ef;
+  margin-bottom: 36px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.cayman-setup-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.cayman-setup-step {
+  background: rgba(255,255,255,0.10);
+  border-radius: 14px;
+  padding: 32px 18px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(30,198,182,0.07);
+  grid-column: span 1;
+}
+
+.cayman-setup-step-title {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.cayman-setup-step-description {
+  font-weight: 400;
+  font-size: 15px;
+  color: #e6f2ef;
+}
+
+/* Section 6 - Legal Framework */
+.cayman-legal-section {
+  background: #fff;
+  padding: 64px 0 48px 0;
+}
+
+.cayman-legal-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cayman-legal-content {
+  flex: 2;
+  min-width: 320px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.cayman-legal-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #23272e;
+  margin-bottom: 16px;
+}
+
+.cayman-legal-description {
+  color: #444;
+  font-size: 16px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin-bottom: 24px;
+}
+
+.cayman-legal-features {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cayman-legal-feature {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #19c39c;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.cayman-legal-feature-icon {
+  font-size: 20px;
+}
+
+.cayman-legal-feature-text {
+  color: #444;
+  font-weight: 400;
+  font-size: 15px;
+  margin-left: 8px;
+}
+
+.cayman-legal-image-wrapper {
+  flex: 1;
+  min-width: 320px;
+  max-width: 420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.cayman-legal-image {
+  width: 380px;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 18px;
+  box-shadow: 0 2px 12px rgba(30,198,182,0.13);
+}
+
+/* Section 7 - Formation Services */
+.cayman-services-section {
+  background: #fff;
+  padding: 56px 0 36px 0;
+}
+
+.cayman-services-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.cayman-services-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #23272e;
+}
+
+.cayman-services-subtitle {
+  text-align: center;
+  color: #444;
+  margin-bottom: 36px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.cayman-services-grid {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cayman-services-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 32px 28px;
+  min-width: 320px;
+  max-width: 400px;
+  flex: 1 1 320px;
+  box-shadow: 0 2px 16px rgba(30,198,182,0.07);
+  border: 1.5px solid #e5e7eb;
+  margin-bottom: 18px;
+}
+
+.cayman-services-card-alt {
+  background: #f7f6fd;
+}
+
+.cayman-services-card-title {
+  font-weight: 700;
+  font-size: 17px;
+  color: #23272e;
+  margin-bottom: 18px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.cayman-services-list {
+  color: #19c39c;
+  font-size: 15px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.cayman-services-item {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cayman-services-item-icon {
+  font-size: 18px;
+}
+
+/* Section 8 - CTA */
+.cayman-cta-section {
+  background: #13777c;
+  padding: 56px 0;
+}
+
+.cayman-cta-container {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 32px;
+}
+
+.cayman-cta-title {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.cayman-cta-description {
+  color: #e6f2ef;
+  font-size: 1.08rem;
+  margin-bottom: 24px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.cayman-cta-contact {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  align-items: center;
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 28px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.cayman-cta-separator {
+  font-size: 18px;
+  color: #fff;
+}
+
+.cayman-cta-btn {
+  background: #fff;
+  color: #19c39c;
+  padding: 13px 32px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 1.08rem;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 2px 8px rgba(30,198,182,0.10);
+}
+
+/* Footer */
+.cayman-footer {
+  background: #151b26;
+  color: #e5e7eb;
+  padding: 56px 0 0 0;
+  font-size: 1rem;
+}
+
+.cayman-footer-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 32px;
+}
+
+.cayman-footer-logo-section {
+  flex: 1 1 260px;
+  min-width: 220px;
+  margin-bottom: 32px;
+}
+
+.cayman-footer-logo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.cayman-footer-logo {
+  width: 180px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  background: transparent;
+}
+
+.cayman-footer-description {
+  color: #bfc6d1;
+  font-size: 0.98rem;
+  margin-bottom: 12px;
+}
+
+.cayman-footer-section {
+  flex: 1 1 160px;
+  min-width: 160px;
+  margin-bottom: 32px;
+}
+
+.cayman-footer-section-title {
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.cayman-footer-section-item {
+  color: #e5e7eb;
+  margin-bottom: 6px;
+}
+
+.cayman-footer-contact {
+  flex: 1 1 200px;
+  min-width: 200px;
+  margin-bottom: 32px;
+}
+
+.cayman-footer-bottom {
+  max-width: 1100px;
+  margin: 32px auto 0 auto;
+  border-top: 1px solid #232b39;
+  padding: 18px 32px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: #bfc6d1;
+  font-size: 0.98rem;
+}
+
+.cayman-footer-links {
+  display: flex;
+  gap: 24px;
+}
+
+.cayman-footer-link {
+  cursor: pointer;
+}
+
+/* Responsive Breakpoints */
+
+/* Large Desktop (1920px and above) */
+@media (min-width: 1920px) {
+  .cayman-hero-content-wrapper {
+    max-width: 1400px;
+  }
+  
+  .cayman-hero-title {
+    font-size: 4rem;
+  }
+  
+  .cayman-hero-description {
+    font-size: 1.3rem;
+  }
+  
+  .cayman-intro-container,
+  .cayman-about-container,
+  .cayman-why-container,
+  .cayman-legal-container,
+  .cayman-services-container {
+    max-width: 1400px;
+  }
+}
+
+/* Desktop (1280px - 1919px) */
+@media (min-width: 1280px) and (max-width: 1919px) {
+  .cayman-hero-title {
+    font-size: 3.5rem;
+  }
+  
+  .cayman-hero-description {
+    font-size: 1.2rem;
+  }
+}
+
+/* Tablet (600px - 1024px) */
+@media (max-width: 1024px) {
+  .cayman-hero-content-wrapper {
+    flex-direction: column;
+    text-align: center;
+    padding: 4rem 3%;
+  }
+  
+  .cayman-hero-title {
+    font-size: 2.8rem;
+  }
+  
+  .cayman-intro-container,
+  .cayman-legal-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .cayman-intro-content,
+  .cayman-legal-content {
+    text-align: center;
+  }
+  
+  .cayman-about-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .cayman-why-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .cayman-setup-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .cayman-services-grid {
+    gap: 2rem;
+  }
+  
+  .cayman-footer-content {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .cayman-footer-bottom {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+}
+
+/* Mobile (600px and below) */
+@media (max-width: 600px) {
+  .cayman-hero-section {
+    min-height: 90vh;
+  }
+  
+  .cayman-hero-content-wrapper {
+    padding: 2rem 5%;
+  }
+  
+  .cayman-hero-title {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .cayman-hero-description {
+    font-size: 1rem;
+  }
+  
+  .cayman-intro-section,
+  .cayman-about-section,
+  .cayman-why-section,
+  .cayman-setup-section,
+  .cayman-legal-section,
+  .cayman-services-section,
+  .cayman-cta-section {
+    padding: 2.5rem 0 1.5rem 0;
+  }
+  
+  .cayman-intro-container,
+  .cayman-about-container,
+  .cayman-why-container,
+  .cayman-setup-container,
+  .cayman-legal-container,
+  .cayman-services-container,
+  .cayman-cta-container {
+    padding: 0 1rem;
+  }
+  
+  .cayman-intro-title,
+  .cayman-about-title,
+  .cayman-why-title,
+  .cayman-setup-title,
+  .cayman-legal-title,
+  .cayman-services-title,
+  .cayman-cta-title {
+    font-size: 1.75rem;
+  }
+  
+  .cayman-intro-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .cayman-intro-btn-primary,
+  .cayman-intro-btn-secondary {
+    text-align: center;
+  }
+  
+  .cayman-intro-image,
+  .cayman-legal-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .cayman-about-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .cayman-setup-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .cayman-services-grid {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .cayman-cta-contact {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .cayman-footer {
+    padding: 2.5rem 0 0 0;
+  }
+  
+  .cayman-footer-content {
+    padding: 0 1rem;
+  }
+  
+  .cayman-footer-logo-section,
+  .cayman-footer-section,
+  .cayman-footer-contact {
+    flex: 1 1 100%;
+    min-width: 100%;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .cayman-footer-bottom {
+    padding: 1rem;
+  }
+  
+  .cayman-footer-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+/* Small Mobile (320px - 479px) */
+@media (max-width: 479px) {
+  .cayman-hero-content-wrapper {
+    padding: 1.5rem 4%;
+  }
+  
+  .cayman-hero-title {
+    font-size: 1.9rem;
+  }
+  
+  .cayman-hero-description {
+    font-size: 0.95rem;
+  }
+  
+  .cayman-intro-container,
+  .cayman-about-container,
+  .cayman-why-container,
+  .cayman-setup-container,
+  .cayman-legal-container,
+  .cayman-services-container,
+  .cayman-cta-container {
+    padding: 0 0.75rem;
+  }
+  
+  .cayman-intro-title,
+  .cayman-about-title,
+  .cayman-why-title,
+  .cayman-setup-title,
+  .cayman-legal-title,
+  .cayman-services-title,
+  .cayman-cta-title {
+    font-size: 1.5rem;
+  }
+  
+  .cayman-footer-content,
+  .cayman-footer-bottom {
+    padding: 0 0.75rem;
+  }
+}
+
+/* Prevent horizontal scroll */
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hide horizontal scrollbar */
+body {
+  overflow-x: hidden;
+}
+
+/* Smooth transitions for responsive changes */
+.cayman-hero-content-wrapper,
+.cayman-intro-container,
+.cayman-about-grid,
+.cayman-why-grid,
+.cayman-setup-grid,
+.cayman-legal-container,
+.cayman-services-grid,
+.cayman-footer-content {
+  transition: all 0.3s ease;
+} 

@@ -1,0 +1,152 @@
+.env.local
+.gitattributes
+.gitignore
+README.md
+app/api/contact-lead/route.js
+app/api/home-contact/route.js
+app/callback-form/page.js
+app/components/About.js
+app/components/CallbackForm.js
+app/components/Contact.js
+app/components/ContactLeadSection.js
+app/components/FAQList.js
+app/components/FreezoneHeroWithForm.js
+app/components/Hero.js
+app/components/Licenses.js
+app/components/MainlandCompany.js
+app/components/Mission.js
+app/components/Modal/Modal.js
+app/components/Modal/Modal.module.css
+app/components/Modal/ModalDemo.js
+app/components/Navbar.js
+app/components/Services.js
+app/components/Stats.js
+app/components/Testimonial.js
+app/components/TrackRecord.js
+app/components/send-message/MeydanContact.js
+app/freezone/dubai/difc/page.js
+app/freezone/dubai/dmcc/page.js
+app/freezone/dubai/ifza/page.js
+app/freezone/dubai/meydan/page.js
+app/freezone/dubai/page.js
+app/freezone/other/ajman/page.js
+app/freezone/other/page.js
+app/freezone/other/rak/page.js
+app/freezone/other/uaq/page.js
+app/freezone/sharjah/page.js
+app/freezone/sharjah/shams/page.js
+app/freezone/sharjah/spc/page.js
+app/freezone/sharjah/srtip/page.js
+app/layout.js
+app/mainland/abu-dhabi/page.js
+app/mainland/ajman/page.js
+app/mainland/dubai/page.js
+app/mainland/fujairah/page.js
+app/mainland/rak/page.js
+app/mainland/sharjah/page.js
+app/mainland/uaq/page.js
+app/office-assistance/coworking-spaces/page.js
+app/office-assistance/flexi-offices/page.js
+app/office-assistance/private-offices/page.js
+app/office-assistance/shared-offices/page.js
+app/office-assistance/virtual-offices/page.js
+app/offshore/bvi/page.js
+app/offshore/cayman/page.js
+app/offshore/dubai/page.js
+app/offshore/mauritius/page.js
+app/offshore/page.js
+app/offshore/rakicc/page.js
+app/page.js
+app/services/bank-account/page.js
+app/services/certificate/page.js
+app/services/global-visa/page.js
+app/services/golden-visa/page.js
+app/services/local-sponsorship/page.js
+app/services/notary/page.js
+app/services/page.js
+app/services/trademark/page.js
+app/services/visa/page.js
+next.config.js
+package-lock.json
+package.json
+public/images/AMC-1.avif
+public/images/Ajman Mainland.avif
+public/images/BVI-1.avif
+public/images/BVI-2.avif
+public/images/Background+Border+Shadow (1).png
+public/images/Background+Border+Shadow (2).png
+public/images/Background+Border+Shadow (3).png
+public/images/Background+Border+Shadow (4).png
+public/images/Background+Border+Shadow.png
+public/images/Background-services.jpg
+public/images/Certificate Attestation Dubai.png
+public/images/Commercial_Bank_of_Dubai_logo.svg.png
+public/images/DMCC -1.avif
+public/images/Dubai Benefits.png
+public/images/Fujairah Mainland.avif
+public/images/Global Visa Assistance (1).png
+public/images/IFZA-1.avif
+public/images/Notary Services Dubai.png
+public/images/RAK Mainland.avif
+public/images/RAKEZ-1.avif
+public/images/RAKICC-1.avif
+public/images/RAKICC-2.avif
+public/images/SHAMS-1.avif
+public/images/SPC-1.avif
+public/images/SRTIP-1.avif
+public/images/UAE Golden Visa.png
+public/images/UAE Sponsorship Process.png
+public/images/UAE Visa Services.png
+public/images/UAQ Mainland.avif
+public/images/UAQ-1.avif
+public/images/about-img.jpg
+public/images/albaraka.webp
+public/images/bankacount-1.jpg
+public/images/bankacount-2.jpg
+public/images/cayman-1.avif
+public/images/cayman-2.avif
+public/images/coworking-1.jpg
+public/images/coworking-2.jpg
+public/images/coworking-3.jpg
+public/images/dubai-islamic-bank-seeklogo.png
+public/images/dubai-m1.jpg
+public/images/dubai-m2.jpg
+public/images/dubai-m3.jpg
+public/images/dubai-offshore-2.avif
+public/images/dubai-offshore.avif
+public/images/fab.webp
+public/images/flexi-1.jpg
+public/images/flexi-2.jpg
+public/images/footerlogo.png
+public/images/go;den-2.jpg
+public/images/golden-1.jpg
+public/images/hero-bg.jpg
+public/images/hsbc.webp
+public/images/hsbc1.jpg
+public/images/logo.jpg
+public/images/mashreq.webp
+public/images/mauritius-1.avif
+public/images/mauritius-2.avif
+public/images/meydan-1.avif
+public/images/meydan-2.avif
+public/images/mission-img.jpg
+public/images/nbd.png
+public/images/private-1.jpg
+public/images/private-2.jpg
+public/images/service1.png
+public/images/service2.png
+public/images/service3.png
+public/images/service4.png
+public/images/shared-1.jpg
+public/images/shared-2.jpg
+public/images/sharjah-m1.jpg
+public/images/sky.png
+public/images/trade-1.jpg
+public/images/trade-2.jpg
+public/images/uae-flag.png
+public/images/virtual-1.avif
+public/images/virtual-2.avif
+public/video/1.mp4
+public/video/2.mp4
+public/video/ourmission-1.mp4
+styles/globals.css

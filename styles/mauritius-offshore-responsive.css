@@ -1,0 +1,1042 @@
+/* Mauritius Offshore Page - Responsive Styles */
+
+/* Base styles */
+.mauritius-hero-section {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(120deg, #0f9d8f 0%, #0e3c5d 100%);
+  position: relative;
+  padding: 0;
+}
+
+.mauritius-hero-bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(/images/backgroundimg.png) center/cover no-repeat;
+  opacity: 0.18;
+  z-index: 1;
+}
+
+.mauritius-hero-content-wrapper {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 60px;
+}
+
+.mauritius-hero-content {
+  color: #fff;
+  text-align: left;
+  max-width: 900px;
+}
+
+.mauritius-hero-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+
+.mauritius-hero-description {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 1.1rem;
+  color: #ffffff;
+  margin-bottom: 0;
+  font-weight: 400;
+  line-height: 1.7;
+  opacity: 0.95;
+}
+
+/* Section 2 - Mauritius Company Formation */
+.mauritius-intro-section {
+  background: #eafcf8;
+  padding: 32px 0;
+}
+
+.mauritius-intro-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.mauritius-intro-content {
+  flex: 1;
+  min-width: 320px;
+  max-width: 540px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mauritius-intro-title {
+  font-weight: 800;
+  font-size: 2.1rem;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #151b26;
+  line-height: 1.13;
+  text-align: left;
+}
+
+.mauritius-intro-highlight {
+  color: #10b981;
+  font-weight: 800;
+}
+
+.mauritius-intro-features {
+  display: flex;
+  gap: 24px;
+  margin: 0 0 22px 0;
+  color: #151b26;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Montserrat', Arial, sans-serif;
+  align-items: center;
+}
+
+.mauritius-intro-feature {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.mauritius-intro-feature-icon {
+  color: #10b981;
+  font-size: 18px;
+}
+
+.mauritius-intro-buttons {
+  display: flex;
+  gap: 14px;
+}
+
+.mauritius-intro-btn-primary {
+  background: #10b981;
+  color: #fff;
+  padding: 11px 28px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  box-shadow: 0 2px 8px rgba(16,185,129,0.10);
+}
+
+.mauritius-intro-btn-secondary {
+  background: #fff;
+  color: #10b981;
+  border: 2px solid #10b981;
+  padding: 11px 28px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.mauritius-intro-image-wrapper {
+  flex: 1;
+  min-width: 320px;
+  max-width: 520px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mauritius-intro-image-container {
+  position: relative;
+  width: 390px;
+  max-width: 100%;
+  height: 210px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mauritius-intro-accent-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 16px;
+  background: #10b981;
+  border-radius: 8px 0 8px 0;
+  z-index: 2;
+}
+
+.mauritius-intro-image {
+  width: 390px;
+  height: 210px;
+  border-radius: 18px;
+  object-fit: cover;
+  border: 6px solid #fff;
+  box-shadow: 0 8px 32px rgba(16,185,129,0.13);
+  transform: rotate(-2.5deg);
+  position: relative;
+  z-index: 1;
+}
+
+/* Section 3 - Why Mauritius */
+.mauritius-why-section {
+  background: #fff;
+  padding: 48px 0 36px 0;
+}
+
+.mauritius-why-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.mauritius-why-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.7rem;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #151b26;
+}
+
+.mauritius-why-subtitle {
+  text-align: center;
+  color: #444;
+  margin-bottom: 38px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mauritius-why-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.mauritius-why-card {
+  background: #f8fafc;
+  border-radius: 14px;
+  padding: 32px 18px;
+  text-align: center;
+  box-shadow: 0 2px 12px rgba(30,198,182,0.04);
+  border: 1.5px solid #e5e7eb;
+}
+
+.mauritius-why-card-icon {
+  font-size: 32px;
+  color: #10b981;
+  margin-bottom: 12px;
+}
+
+.mauritius-why-card-title {
+  font-weight: 700;
+  font-size: 17px;
+  color: #151b26;
+  margin-bottom: 8px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.mauritius-why-card-description {
+  color: #6b7a86;
+  font-size: 15px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+/* Section 4 - Key Facts */
+.mauritius-facts-section {
+  background: #fff;
+  padding: 48px 0 36px 0;
+}
+
+.mauritius-facts-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.mauritius-facts-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #151b26;
+}
+
+.mauritius-facts-subtitle {
+  text-align: center;
+  color: #444;
+  margin-bottom: 38px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mauritius-facts-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.mauritius-facts-item {
+  background: #f8fafc;
+  border-radius: 10px;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 15px;
+  color: #151b26;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 500;
+}
+
+.mauritius-facts-item-icon {
+  color: #10b981;
+  font-size: 20px;
+}
+
+/* Section 5 - Regulatory Framework */
+.mauritius-regulatory-section {
+  background: linear-gradient(120deg, #0f9d8f 0%, #19c39c 100%);
+  padding: 56px 0 36px 0;
+}
+
+.mauritius-regulatory-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  gap: 38px;
+  flex-wrap: wrap;
+}
+
+.mauritius-regulatory-content {
+  flex: 1;
+  min-width: 320px;
+  max-width: 520px;
+  color: #fff;
+}
+
+.mauritius-regulatory-title {
+  font-weight: 800;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.mauritius-regulatory-description {
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 28px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.mauritius-regulatory-cards {
+  margin-bottom: 22px;
+}
+
+.mauritius-regulatory-card {
+  background: rgba(16,185,129,0.13);
+  border-radius: 8px;
+  padding: 16px 18px;
+  margin-bottom: 12px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.mauritius-regulatory-card-description {
+  color: #e6f2ef;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.mauritius-regulatory-legislation-title {
+  color: #fff;
+  font-weight: 800;
+  font-size: 17px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin-bottom: 8px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.mauritius-regulatory-list {
+  color: #e6f2ef;
+  font-size: 15px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.mauritius-regulatory-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.mauritius-regulatory-item-icon {
+  color: #10b981;
+  font-size: 18px;
+}
+
+.mauritius-regulatory-image-wrapper {
+  flex: 1;
+  min-width: 320px;
+  max-width: 520px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mauritius-regulatory-image-container {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(30,198,182,0.10);
+  padding: 0;
+  width: 450px;
+  max-width: 100%;
+}
+
+.mauritius-regulatory-image {
+  width: 100%;
+  height: 320px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+/* Section 6 - Company Structure */
+.mauritius-structure-section {
+  background: #fff;
+  padding: 48px 0 36px 0;
+}
+
+.mauritius-structure-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.mauritius-structure-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #151b26;
+}
+
+.mauritius-structure-subtitle {
+  text-align: center;
+  color: #444;
+  margin-bottom: 38px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mauritius-structure-grid {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.mauritius-structure-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 32px 28px;
+  min-width: 320px;
+  max-width: 400px;
+  flex: 1 1 320px;
+  box-shadow: 0 2px 16px rgba(30,198,182,0.07);
+  border: 1.5px solid #e5e7eb;
+  margin-bottom: 18px;
+}
+
+.mauritius-structure-card-alt {
+  background: #eafcf8;
+}
+
+.mauritius-structure-card-title {
+  font-weight: 700;
+  font-size: 17px;
+  color: #23272e;
+  margin-bottom: 18px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.mauritius-structure-list {
+  color: #19c39c;
+  font-size: 15px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.mauritius-structure-item {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.mauritius-structure-item-icon {
+  font-size: 18px;
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.mauritius-structure-item-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.mauritius-structure-item-title {
+  color: #19c39c;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.mauritius-structure-item-description {
+  color: #444;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 0;
+}
+
+/* Section 7 - Support */
+.mauritius-support-section {
+  background: #f6f8f9;
+  padding: 48px 0 36px 0;
+}
+
+.mauritius-support-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.mauritius-support-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #151b26;
+}
+
+.mauritius-support-subtitle {
+  text-align: center;
+  color: #444;
+  margin-bottom: 38px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mauritius-support-grid {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+}
+
+.mauritius-support-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 28px 24px;
+  min-width: 260px;
+  max-width: 400px;
+  flex: 1 1 260px;
+  box-shadow: 0 2px 12px rgba(30,198,182,0.04);
+  border: 1.5px solid #e5e7eb;
+  text-align: center;
+}
+
+.mauritius-support-card-title {
+  font-weight: 700;
+  font-size: 17px;
+  color: #10b981;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.mauritius-support-card-description {
+  color: #444;
+  font-size: 15px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.mauritius-support-callout {
+  background: #10b981;
+  border-radius: 12px;
+  padding: 22px 32px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.08rem;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.mauritius-support-callout-subtitle {
+  font-weight: 400;
+  font-size: 15px;
+  color: #e6f2ef;
+}
+
+/* Section 8 - CTA */
+.mauritius-cta-section {
+  background: #13777c;
+  padding: 44px 0;
+}
+
+.mauritius-cta-container {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 32px;
+}
+
+.mauritius-cta-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.mauritius-cta-description {
+  color: #e6f2ef;
+  font-size: 1.01rem;
+  margin-bottom: 18px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.mauritius-cta-contact {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  align-items: center;
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 22px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.mauritius-cta-separator {
+  font-size: 18px;
+  color: #fff;
+}
+
+.mauritius-cta-btn {
+  background: #fff;
+  color: #19c39c;
+  padding: 11px 28px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 1.01rem;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 2px 8px rgba(30,198,182,0.10);
+}
+
+/* Footer */
+.mauritius-footer {
+  background: #151b26;
+  color: #e5e7eb;
+  padding: 56px 0 0 0;
+  font-size: 1rem;
+}
+
+.mauritius-footer-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 32px;
+}
+
+.mauritius-footer-logo-section {
+  flex: 1 1 260px;
+  min-width: 220px;
+  margin-bottom: 32px;
+}
+
+.mauritius-footer-logo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.mauritius-footer-logo {
+  width: 180px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  background: transparent;
+}
+
+.mauritius-footer-description {
+  color: #bfc6d1;
+  font-size: 0.98rem;
+  margin-bottom: 12px;
+}
+
+.mauritius-footer-section {
+  flex: 1 1 160px;
+  min-width: 160px;
+  margin-bottom: 32px;
+}
+
+.mauritius-footer-section-title {
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.mauritius-footer-section-item {
+  color: #e5e7eb;
+  margin-bottom: 6px;
+}
+
+.mauritius-footer-contact {
+  flex: 1 1 200px;
+  min-width: 200px;
+  margin-bottom: 32px;
+}
+
+.mauritius-footer-bottom {
+  max-width: 1100px;
+  margin: 32px auto 0 auto;
+  border-top: 1px solid #232b39;
+  padding: 18px 32px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: #bfc6d1;
+  font-size: 0.98rem;
+}
+
+.mauritius-footer-links {
+  display: flex;
+  gap: 24px;
+}
+
+.mauritius-footer-link {
+  cursor: pointer;
+}
+
+/* Responsive Breakpoints */
+
+/* Large Desktop (1920px and above) */
+@media (min-width: 1920px) {
+  .mauritius-hero-content-wrapper {
+    max-width: 1400px;
+  }
+  
+  .mauritius-hero-title {
+    font-size: 4rem;
+  }
+  
+  .mauritius-hero-description {
+    font-size: 1.3rem;
+  }
+  
+  .mauritius-intro-container,
+  .mauritius-why-container,
+  .mauritius-facts-container,
+  .mauritius-regulatory-container,
+  .mauritius-structure-container,
+  .mauritius-support-container {
+    max-width: 1400px;
+  }
+}
+
+/* Desktop (1280px - 1919px) */
+@media (min-width: 1280px) and (max-width: 1919px) {
+  .mauritius-hero-title {
+    font-size: 3.5rem;
+  }
+  
+  .mauritius-hero-description {
+    font-size: 1.2rem;
+  }
+}
+
+/* Tablet (600px - 1024px) */
+@media (max-width: 1024px) {
+  .mauritius-hero-content-wrapper {
+    flex-direction: column;
+    text-align: center;
+    padding: 4rem 3%;
+  }
+  
+  .mauritius-hero-title {
+    font-size: 2.8rem;
+  }
+  
+  .mauritius-intro-container,
+  .mauritius-regulatory-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .mauritius-intro-content,
+  .mauritius-regulatory-content {
+    text-align: center;
+  }
+  
+  .mauritius-why-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .mauritius-facts-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .mauritius-structure-grid,
+  .mauritius-support-grid {
+    gap: 2rem;
+  }
+  
+  .mauritius-footer-content {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .mauritius-footer-bottom {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+}
+
+/* Mobile (600px and below) */
+@media (max-width: 600px) {
+  .mauritius-hero-section {
+    min-height: 90vh;
+  }
+  
+  .mauritius-hero-content-wrapper {
+    padding: 2rem 5%;
+  }
+  
+  .mauritius-hero-title {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .mauritius-hero-description {
+    font-size: 1rem;
+  }
+  
+  .mauritius-intro-section,
+  .mauritius-why-section,
+  .mauritius-facts-section,
+  .mauritius-regulatory-section,
+  .mauritius-structure-section,
+  .mauritius-support-section,
+  .mauritius-cta-section {
+    padding: 2.5rem 0 1.5rem 0;
+  }
+  
+  .mauritius-intro-container,
+  .mauritius-why-container,
+  .mauritius-facts-container,
+  .mauritius-regulatory-container,
+  .mauritius-structure-container,
+  .mauritius-support-container,
+  .mauritius-cta-container {
+    padding: 0 1rem;
+  }
+  
+  .mauritius-intro-title,
+  .mauritius-why-title,
+  .mauritius-facts-title,
+  .mauritius-regulatory-title,
+  .mauritius-structure-title,
+  .mauritius-support-title,
+  .mauritius-cta-title {
+    font-size: 1.75rem;
+  }
+  
+  .mauritius-intro-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .mauritius-intro-btn-primary,
+  .mauritius-intro-btn-secondary {
+    text-align: center;
+  }
+  
+  .mauritius-intro-image,
+  .mauritius-regulatory-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .mauritius-why-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .mauritius-structure-grid,
+  .mauritius-support-grid {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .mauritius-cta-contact {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .mauritius-footer {
+    padding: 2.5rem 0 0 0;
+  }
+  
+  .mauritius-footer-content {
+    padding: 0 1rem;
+  }
+  
+  .mauritius-footer-logo-section,
+  .mauritius-footer-section,
+  .mauritius-footer-contact {
+    flex: 1 1 100%;
+    min-width: 100%;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .mauritius-footer-bottom {
+    padding: 1rem;
+  }
+  
+  .mauritius-footer-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+/* Small Mobile (320px - 479px) */
+@media (max-width: 479px) {
+  .mauritius-hero-content-wrapper {
+    padding: 1.5rem 4%;
+  }
+  
+  .mauritius-hero-title {
+    font-size: 1.9rem;
+  }
+  
+  .mauritius-hero-description {
+    font-size: 0.95rem;
+  }
+  
+  .mauritius-intro-container,
+  .mauritius-why-container,
+  .mauritius-facts-container,
+  .mauritius-regulatory-container,
+  .mauritius-structure-container,
+  .mauritius-support-container,
+  .mauritius-cta-container {
+    padding: 0 0.75rem;
+  }
+  
+  .mauritius-intro-title,
+  .mauritius-why-title,
+  .mauritius-facts-title,
+  .mauritius-regulatory-title,
+  .mauritius-structure-title,
+  .mauritius-support-title,
+  .mauritius-cta-title {
+    font-size: 1.5rem;
+  }
+  
+  .mauritius-footer-content,
+  .mauritius-footer-bottom {
+    padding: 0 0.75rem;
+  }
+}
+
+/* Prevent horizontal scroll */
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hide horizontal scrollbar */
+body {
+  overflow-x: hidden;
+}
+
+/* Smooth transitions for responsive changes */
+.mauritius-hero-content-wrapper,
+.mauritius-intro-container,
+.mauritius-why-grid,
+.mauritius-facts-grid,
+.mauritius-regulatory-container,
+.mauritius-structure-grid,
+.mauritius-support-grid,
+.mauritius-footer-content {
+  transition: all 0.3s ease;
+} 

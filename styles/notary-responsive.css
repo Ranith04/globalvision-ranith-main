@@ -1,0 +1,238 @@
+/* Notary Services Page - Mobile Responsive Styles */
+
+/* Prevent horizontal scrolling */
+body {
+  overflow-x: hidden;
+}
+
+/* Mobile and Tablet Responsive Styles */
+@media (max-width: 768px) {
+  /* Hero Section Mobile */
+  .notary-hero {
+    min-height: 70vh !important;
+    padding: 80px 0 40px 0 !important;
+  }
+  
+  .notary-hero-content {
+    padding: 0 20px !important;
+    max-width: 100% !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+  
+  .notary-hero h1 {
+    font-size: 2.2rem !important;
+    line-height: 1.3 !important;
+    margin-bottom: 24px !important;
+  }
+  
+  .notary-hero p {
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+    max-width: 100% !important;
+  }
+
+  /* Gateway Section Mobile */
+  .notary-gateway .notary-container {
+    flex-direction: column !important;
+    gap: 24px !important;
+    padding: 0 20px !important;
+    text-align: center !important;
+  }
+  
+  .notary-gateway div[style*="flex: 1"] {
+    flex: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  
+  .notary-gateway div[style*="minWidth: 500"] {
+    min-width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+  
+  .notary-gateway h2 {
+    font-size: 1.8rem !important;
+    margin-bottom: 16px !important;
+  }
+
+  /* Images Mobile Responsive - Same as Global Visa */
+  .notary-image {
+    width: 80% !important;
+    max-width: 300px !important;
+    height: auto !important;
+    margin: 0 auto !important;
+    display: block !important;
+    border-radius: 16px !important;
+    object-fit: cover !important;
+  }
+
+  /* Services Grid Mobile */
+  .notary-services-grid {
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+    padding: 0 20px !important;
+  }
+  
+  .notary-service-card {
+    max-width: 100% !important;
+    margin: 0 auto !important;
+  }
+
+  /* Documents Section Mobile - KEY FIX */
+  .notary-documents {
+    flex-direction: column !important;
+    gap: 32px !important;
+    padding: 40px 0 !important;
+  }
+  
+  .notary-documents > div:first-child {
+    flex: none !important;
+    max-width: 100% !important;
+    padding: 0 20px !important;
+    text-align: center !important;
+  }
+  
+  .notary-documents > div:last-child {
+    flex: none !important;
+    max-width: 100% !important;
+    margin-top: 0 !important;
+    padding: 0 20px !important;
+  }
+  
+  .notary-documents img {
+    margin-top: 0 !important;
+    max-height: 250px !important;
+    width: 100% !important;
+    object-fit: contain !important;
+  }
+  
+  .notary-documents-grid {
+    grid-template-columns: 1fr !important;
+    gap: 0 !important;
+  }
+  
+  .notary-documents h2 {
+    font-size: 2rem !important;
+  }
+
+  /* Process Grid Mobile */
+  .notary-process-grid {
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+    padding: 0 20px !important;
+  }
+  
+  .notary-process-step {
+    max-width: 320px !important;
+    margin: 0 auto !important;
+  }
+
+  /* Features Grid Mobile */
+  .notary-features-grid {
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+    padding: 0 20px !important;
+  }
+  
+  .notary-feature-card {
+    max-width: 320px !important;
+    margin: 0 auto !important;
+  }
+
+  /* Ready Features Mobile */
+  .notary-ready-features {
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+    margin: 0 auto 32px auto !important;
+    padding: 0 20px !important;
+  }
+
+  /* Section Containers Mobile */
+  .notary-section,
+  .notary-container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  
+  .notary-section h2 {
+    font-size: 1.8rem !important;
+    margin-bottom: 16px !important;
+  }
+  
+  .notary-section p {
+    font-size: 1rem !important;
+    margin-bottom: 24px !important;
+  }
+
+  /* Buttons Mobile */
+  .notary-btn {
+    width: 100% !important;
+    justify-content: center !important;
+    max-width: 280px !important;
+    margin: 0 auto !important;
+  }
+
+  /* Footer Mobile */
+  .notary-footer > div:first-child {
+    flex-direction: column !important;
+    gap: 24px !important;
+    text-align: center !important;
+    padding: 0 20px !important;
+  }
+  
+  .notary-footer div[style*="flex: '1 1"] {
+    flex: none !important;
+    min-width: 100% !important;
+    text-align: center !important;
+    margin-bottom: 24px !important;
+  }
+  
+  .notary-footer-bottom {
+    flex-direction: column !important;
+    gap: 16px !important;
+    text-align: center !important;
+    padding: 16px 20px !important;
+  }
+  
+  .notary-footer img {
+    max-width: 150px !important;
+    margin: 0 auto !important;
+  }
+
+  /* Trust Bar Mobile */
+  .notary-trust {
+    font-size: 15px !important;
+    padding: 20px 16px !important;
+  }
+}
+
+/* Small Mobile Responsive (≤480px) */
+@media (max-width: 480px) {
+  .notary-hero h1 {
+    font-size: 1.9rem !important;
+  }
+  
+  .notary-section h2 {
+    font-size: 1.6rem !important;
+  }
+  
+  .notary-gateway h2 {
+    font-size: 1.6rem !important;
+  }
+  
+  .notary-service-card,
+  .notary-process-step,
+  .notary-feature-card {
+    padding: 24px 20px !important;
+  }
+  
+  .notary-documents img {
+    max-height: 200px !important;
+  }
+  
+  .notary-container {
+    padding: 0 16px !important;
+  }
+} 

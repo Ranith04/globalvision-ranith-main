@@ -1,0 +1,877 @@
+/* RAKICC Offshore Page - Responsive Styles */
+
+/* Base styles */
+.rakicc-hero-section {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(120deg, #0f9d8f 0%, #0e3c5d 100%);
+  position: relative;
+  padding: 0;
+}
+
+.rakicc-hero-bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(/images/backgroundimg.png) center/cover no-repeat;
+  opacity: 0.18;
+  z-index: 1;
+}
+
+.rakicc-hero-content-wrapper {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 60px;
+}
+
+.rakicc-hero-content {
+  color: #fff;
+  text-align: left;
+  max-width: 900px;
+}
+
+.rakicc-hero-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+
+.rakicc-hero-description {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 1.1rem;
+  color: #ffffff;
+  margin-bottom: 0;
+  font-weight: 400;
+  line-height: 1.7;
+  opacity: 0.95;
+}
+
+/* Section 2 - RAKICC Company Formation */
+.rakicc-intro-section {
+  background: #eafcf8;
+  padding: 56px 0;
+}
+
+.rakicc-intro-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.rakicc-intro-content {
+  flex: 1;
+  min-width: 320px;
+  max-width: 540px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rakicc-intro-title {
+  font-weight: 800;
+  font-size: 2.1rem;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #151b26;
+  line-height: 1.13;
+  text-align: left;
+}
+
+.rakicc-intro-highlight {
+  color: #19c39c;
+  font-weight: 800;
+}
+
+.rakicc-intro-buttons {
+  display: flex;
+  gap: 14px;
+}
+
+.rakicc-intro-btn-primary {
+  background: #19c39c;
+  color: #fff;
+  padding: 11px 28px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  box-shadow: 0 2px 8px rgba(16,185,129,0.10);
+}
+
+.rakicc-intro-btn-secondary {
+  background: #fff;
+  color: #19c39c;
+  border: 2px solid #19c39c;
+  padding: 11px 28px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.rakicc-intro-image-wrapper {
+  flex: 1;
+  min-width: 320px;
+  max-width: 520px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rakicc-intro-image-container {
+  position: relative;
+  width: 390px;
+  max-width: 100%;
+  height: 210px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rakicc-intro-accent-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 16px;
+  background: #19c39c;
+  border-radius: 8px 0 8px 0;
+  z-index: 2;
+}
+
+.rakicc-intro-image {
+  width: 390px;
+  height: 210px;
+  border-radius: 18px;
+  object-fit: cover;
+  border: 6px solid #fff;
+  box-shadow: 0 8px 32px rgba(16,185,129,0.13);
+  transform: rotate(-2.5deg);
+  position: relative;
+  z-index: 1;
+}
+
+/* Section 3 - Salient Features */
+.rakicc-features-section {
+  background: #fff;
+  padding: 48px 0 36px 0;
+}
+
+.rakicc-features-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.rakicc-features-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #151b26;
+}
+
+.rakicc-features-subtitle {
+  text-align: center;
+  color: #444;
+  margin-bottom: 38px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rakicc-features-content {
+  display: flex;
+  gap: 38px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.rakicc-features-list {
+  flex: 1;
+  min-width: 320px;
+  max-width: 480px;
+  color: #19c39c;
+  font-size: 15px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.rakicc-features-item {
+  margin-bottom: 12px;
+  color: #19c39c;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.rakicc-features-item-icon {
+  font-size: 18px;
+}
+
+.rakicc-features-image-wrapper {
+  flex: 1;
+  min-width: 320px;
+  max-width: 420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rakicc-features-image-container {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(30,198,182,0.10);
+  padding: 0;
+  width: 340px;
+  max-width: 100%;
+}
+
+.rakicc-features-image {
+  width: 440px;
+  height: 240px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+/* Section 4 - Business Activities */
+.rakicc-activities-section {
+  background: #f6f8f9;
+  padding: 48px 0 36px 0;
+}
+
+.rakicc-activities-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.rakicc-activities-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #151b26;
+}
+
+.rakicc-activities-grid {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 32px;
+}
+
+.rakicc-activities-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 32px 28px;
+  min-width: 320px;
+  max-width: 400px;
+  flex: 1 1 320px;
+  box-shadow: 0 2px 16px rgba(30,198,182,0.07);
+  border: 1.5px solid #e5e7eb;
+  margin-bottom: 18px;
+}
+
+.rakicc-activities-card-title {
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 18px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.rakicc-activities-card-title-permitted {
+  color: #19c39c;
+}
+
+.rakicc-activities-card-title-prohibited {
+  color: #e11d48;
+}
+
+.rakicc-activities-list {
+  font-size: 15px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.rakicc-activities-list-permitted {
+  color: #19c39c;
+}
+
+.rakicc-activities-list-prohibited {
+  color: #e11d48;
+}
+
+.rakicc-activities-item {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.rakicc-activities-item-icon {
+  font-size: 18px;
+}
+
+/* Section 5 - Registration Process */
+.rakicc-process-section {
+  background: linear-gradient(120deg, #0f9d8f 0%, #19c39c 100%);
+  padding: 80px 0 64px 0;
+}
+
+.rakicc-process-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  gap: 38px;
+  flex-wrap: wrap;
+}
+
+.rakicc-process-content {
+  flex: 1;
+  min-width: 320px;
+  max-width: 520px;
+  color: #fff;
+}
+
+.rakicc-process-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 18px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #fff;
+}
+
+.rakicc-process-list {
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.rakicc-process-item {
+  margin-bottom: 22px;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.rakicc-process-item-icon {
+  font-size: 20px;
+  margin-top: 2px;
+}
+
+.rakicc-process-item-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.rakicc-process-item-title {
+  font-weight: 700;
+  color: #fff;
+}
+
+.rakicc-process-item-description {
+  color: #e6f2ef;
+  font-weight: 400;
+}
+
+.rakicc-process-image-wrapper {
+  flex: 1;
+  min-width: 320px;
+  max-width: 420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rakicc-process-image-container {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(30,198,182,0.10);
+  padding: 0;
+  width: 340px;
+  max-width: 100%;
+}
+
+.rakicc-process-image {
+  width: 390px;
+  height: 210px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+/* Section 6 - Important Considerations */
+.rakicc-considerations-section {
+  background: #fff;
+  padding: 72px 0 56px 0;
+}
+
+.rakicc-considerations-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.rakicc-considerations-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(30,198,182,0.07);
+  border: 1.5px solid #e5e7eb;
+  padding: 32px 28px;
+  text-align: left;
+}
+
+.rakicc-considerations-title {
+  font-weight: 700;
+  font-size: 18px;
+  color: #151b26;
+  margin-bottom: 16px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.rakicc-considerations-list {
+  color: #151b26;
+  font-size: 15px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.rakicc-considerations-item {
+  margin-bottom: 14px;
+  font-weight: 600;
+}
+
+.rakicc-considerations-item-warning {
+  color: #e11d48;
+}
+
+.rakicc-considerations-item-info {
+  color: #0891b2;
+}
+
+.rakicc-considerations-item-description {
+  color: #444;
+  font-weight: 400;
+}
+
+/* Section 7 - CTA */
+.rakicc-cta-section {
+  background: #13777c;
+  padding: 56px 0;
+}
+
+.rakicc-cta-container {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 32px;
+}
+
+.rakicc-cta-title {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.rakicc-cta-description {
+  color: #e6f2ef;
+  font-size: 1.08rem;
+  margin-bottom: 24px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.rakicc-cta-contact {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  align-items: center;
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 28px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.rakicc-cta-separator {
+  font-size: 18px;
+  color: #fff;
+}
+
+.rakicc-cta-btn {
+  background: #fff;
+  color: #19c39c;
+  padding: 13px 32px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 1.08rem;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 2px 8px rgba(30,198,182,0.10);
+}
+
+/* Footer */
+.rakicc-footer {
+  background: #151b26;
+  color: #e5e7eb;
+  padding: 56px 0 0 0;
+  font-size: 1rem;
+}
+
+.rakicc-footer-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 32px;
+}
+
+.rakicc-footer-logo-section {
+  flex: 1 1 260px;
+  min-width: 220px;
+  margin-bottom: 32px;
+}
+
+.rakicc-footer-logo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.rakicc-footer-logo {
+  width: 180px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  background: transparent;
+}
+
+.rakicc-footer-description {
+  color: #bfc6d1;
+  font-size: 0.98rem;
+  margin-bottom: 12px;
+}
+
+.rakicc-footer-section {
+  flex: 1 1 160px;
+  min-width: 160px;
+  margin-bottom: 32px;
+}
+
+.rakicc-footer-section-title {
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.rakicc-footer-section-item {
+  color: #e5e7eb;
+  margin-bottom: 6px;
+}
+
+.rakicc-footer-contact {
+  flex: 1 1 200px;
+  min-width: 200px;
+  margin-bottom: 32px;
+}
+
+.rakicc-footer-bottom {
+  max-width: 1100px;
+  margin: 32px auto 0 auto;
+  border-top: 1px solid #232b39;
+  padding: 18px 32px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: #bfc6d1;
+  font-size: 0.98rem;
+}
+
+.rakicc-footer-links {
+  display: flex;
+  gap: 24px;
+}
+
+.rakicc-footer-link {
+  cursor: pointer;
+}
+
+/* Responsive Breakpoints */
+
+/* Large Desktop (1920px and above) */
+@media (min-width: 1920px) {
+  .rakicc-hero-content-wrapper {
+    max-width: 1400px;
+  }
+  
+  .rakicc-hero-title {
+    font-size: 4rem;
+  }
+  
+  .rakicc-hero-description {
+    font-size: 1.3rem;
+  }
+  
+  .rakicc-intro-container,
+  .rakicc-features-container,
+  .rakicc-activities-container,
+  .rakicc-process-container {
+    max-width: 1400px;
+  }
+}
+
+/* Desktop (1280px - 1919px) */
+@media (min-width: 1280px) and (max-width: 1919px) {
+  .rakicc-hero-title {
+    font-size: 3.5rem;
+  }
+  
+  .rakicc-hero-description {
+    font-size: 1.2rem;
+  }
+}
+
+/* Tablet (600px - 1024px) */
+@media (max-width: 1024px) {
+  .rakicc-hero-content-wrapper {
+    flex-direction: column;
+    text-align: center;
+    padding: 4rem 3%;
+  }
+  
+  .rakicc-hero-title {
+    font-size: 2.8rem;
+  }
+  
+  .rakicc-intro-container,
+  .rakicc-features-content,
+  .rakicc-process-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .rakicc-intro-content,
+  .rakicc-process-content {
+    text-align: center;
+  }
+  
+  .rakicc-activities-grid {
+    gap: 2rem;
+  }
+  
+  .rakicc-footer-content {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .rakicc-footer-bottom {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+}
+
+/* Mobile (600px and below) */
+@media (max-width: 600px) {
+  .rakicc-hero-section {
+    min-height: 90vh;
+  }
+  
+  .rakicc-hero-content-wrapper {
+    padding: 2rem 5%;
+  }
+  
+  .rakicc-hero-title {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .rakicc-hero-description {
+    font-size: 1rem;
+  }
+  
+  .rakicc-intro-section,
+  .rakicc-features-section,
+  .rakicc-activities-section,
+  .rakicc-process-section,
+  .rakicc-considerations-section,
+  .rakicc-cta-section {
+    padding: 2.5rem 0 1.5rem 0;
+  }
+  
+  .rakicc-intro-container,
+  .rakicc-features-container,
+  .rakicc-activities-container,
+  .rakicc-process-container,
+  .rakicc-considerations-container,
+  .rakicc-cta-container {
+    padding: 0 1rem;
+  }
+  
+  .rakicc-intro-title,
+  .rakicc-features-title,
+  .rakicc-activities-title,
+  .rakicc-process-title,
+  .rakicc-considerations-title,
+  .rakicc-cta-title {
+    font-size: 1.75rem;
+  }
+  
+  .rakicc-intro-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .rakicc-intro-btn-primary,
+  .rakicc-intro-btn-secondary {
+    text-align: center;
+  }
+  
+  .rakicc-intro-image,
+  .rakicc-features-image,
+  .rakicc-process-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .rakicc-activities-grid {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .rakicc-cta-contact {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .rakicc-footer {
+    padding: 2.5rem 0 0 0;
+  }
+  
+  .rakicc-footer-content {
+    padding: 0 1rem;
+  }
+  
+  .rakicc-footer-logo-section,
+  .rakicc-footer-section,
+  .rakicc-footer-contact {
+    flex: 1 1 100%;
+    min-width: 100%;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .rakicc-footer-bottom {
+    padding: 1rem;
+  }
+  
+  .rakicc-footer-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+/* Small Mobile (320px - 479px) */
+@media (max-width: 479px) {
+  .rakicc-hero-content-wrapper {
+    padding: 1.5rem 4%;
+  }
+  
+  .rakicc-hero-title {
+    font-size: 1.9rem;
+  }
+  
+  .rakicc-hero-description {
+    font-size: 0.95rem;
+  }
+  
+  .rakicc-intro-container,
+  .rakicc-features-container,
+  .rakicc-activities-container,
+  .rakicc-process-container,
+  .rakicc-considerations-container,
+  .rakicc-cta-container {
+    padding: 0 0.75rem;
+  }
+  
+  .rakicc-intro-title,
+  .rakicc-features-title,
+  .rakicc-activities-title,
+  .rakicc-process-title,
+  .rakicc-considerations-title,
+  .rakicc-cta-title {
+    font-size: 1.5rem;
+  }
+  
+  .rakicc-footer-content,
+  .rakicc-footer-bottom {
+    padding: 0 0.75rem;
+  }
+}
+
+/* Prevent horizontal scroll */
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hide horizontal scrollbar */
+body {
+  overflow-x: hidden;
+}
+
+/* Smooth transitions for responsive changes */
+.rakicc-hero-content-wrapper,
+.rakicc-intro-container,
+.rakicc-features-content,
+.rakicc-activities-grid,
+.rakicc-process-container,
+.rakicc-footer-content {
+  transition: all 0.3s ease;
+} 

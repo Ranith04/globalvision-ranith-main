@@ -1,0 +1,1018 @@
+/* Ajman Mainland Page - Responsive Styles */
+
+/* Base styles */
+.ajman-hero-section {
+  position: relative;
+  min-height: 100vh;
+  padding: 0;
+  background: linear-gradient(120deg, #0f9d8f 0%, #0e3c5d 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.ajman-hero-bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 0;
+  opacity: 0.18;
+  pointer-events: none;
+}
+
+.ajman-hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: url(/images/hero-bg.jpg) center/cover no-repeat;
+  opacity: 0.25;
+  z-index: 1;
+}
+
+.ajman-hero-content-wrapper {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+.ajman-hero-content {
+  color: #fff;
+  text-align: left;
+  max-width: 900px;
+}
+
+.ajman-hero-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 2.5rem;
+}
+
+.ajman-hero-description {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 1.1rem;
+  color: #ffffff;
+  margin-bottom: 0;
+  font-weight: 400;
+  line-height: 1.7;
+  opacity: 0.95;
+}
+
+/* Overview Section */
+.ajman-overview-section {
+  background: #f8f9fa;
+  padding: 3.5rem 0 2.25rem 0;
+}
+
+.ajman-overview-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.ajman-overview-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 0.625rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #222;
+}
+
+.ajman-overview-subtitle {
+  text-align: center;
+  color: #444;
+  margin-bottom: 2.25rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+
+.ajman-overview-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.ajman-overview-image {
+  width: 340px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 18px;
+  flex: 1 1 340px;
+  min-width: 260px;
+  max-width: 380px;
+  box-shadow: 0 2px 12px rgba(30,198,182,0.07);
+  margin-right: 0.75rem;
+}
+
+.ajman-overview-text {
+  flex: 2 1 340px;
+  min-width: 260px;
+  max-width: 520px;
+}
+
+.ajman-overview-text-title {
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-bottom: 0.625rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #222;
+}
+
+.ajman-overview-text-description {
+  color: #444;
+  font-size: 1rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin-bottom: 1.125rem;
+}
+
+.ajman-overview-stats {
+  display: flex;
+  gap: 1.125rem;
+  flex-wrap: wrap;
+}
+
+.ajman-overview-stat {
+  background: #fff;
+  border: 1.5px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.125rem 2rem;
+  min-width: 140px;
+  text-align: center;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 1.375rem;
+  color: #1ec6b6;
+  box-shadow: 0 2px 8px rgba(30,198,182,0.04);
+}
+
+.ajman-overview-stat-label {
+  font-weight: 400;
+  font-size: 0.9375rem;
+  color: #222;
+  margin-top: 0.25rem;
+}
+
+/* Why Ajman Mainland Section */
+.ajman-why-section {
+  background: #fff;
+  padding: 3.5rem 0 2.25rem 0;
+}
+
+.ajman-why-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.ajman-why-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #222;
+}
+
+.ajman-why-subtitle {
+  text-align: center;
+  color: #444;
+  margin-bottom: 2.5rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.0625rem;
+}
+
+.ajman-why-features {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-bottom: 2.25rem;
+  flex-wrap: wrap;
+}
+
+.ajman-why-feature {
+  flex: 1 1 220px;
+  min-width: 200px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.ajman-why-feature-icon {
+  font-size: 2.25rem;
+  margin-bottom: 0.625rem;
+}
+
+.ajman-why-feature-title {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #222;
+}
+
+.ajman-why-feature-description {
+  color: #444;
+  font-size: 0.9375rem;
+  margin-bottom: 0;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.ajman-why-cards {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ajman-why-card {
+  background: #fafbfc;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(30,198,182,0.04);
+  padding: 1.75rem 2rem;
+  min-width: 260px;
+  max-width: 380px;
+  flex: 1 1 320px;
+}
+
+.ajman-why-card-title {
+  font-weight: 700;
+  font-size: 1.0625rem;
+  margin-bottom: 0.75rem;
+  color: #222;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.ajman-why-card-list {
+  color: #1ec6b6;
+  font-size: 0.9375rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  padding-left: 1.25rem;
+  margin: 0;
+  list-style: none;
+}
+
+.ajman-why-card-list li {
+  margin-bottom: 0.5rem;
+}
+
+.ajman-why-card-list li:last-child {
+  margin-bottom: 0;
+}
+
+.ajman-why-check {
+  color: #1ec6b6;
+  margin-right: 0.375rem;
+}
+
+/* Steps Section */
+.ajman-steps-section {
+  background: #f8f9fa;
+  padding: 3.5rem 0 2.25rem 0;
+}
+
+.ajman-steps-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.ajman-steps-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #222;
+}
+
+.ajman-steps-subtitle {
+  text-align: center;
+  color: #444;
+  margin-bottom: 2.5rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.0625rem;
+}
+
+.ajman-step {
+  margin-bottom: 2.25rem;
+}
+
+.ajman-step:last-child {
+  margin-bottom: 0;
+}
+
+.ajman-step-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.125rem;
+}
+
+.ajman-step-number {
+  background: #1ec6b6;
+  color: #fff;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.125rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin-right: 0.75rem;
+}
+
+.ajman-step-title {
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: #222;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.ajman-step-content {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.ajman-step-card {
+  border: 1.5px solid #1ec6b6;
+  border-radius: 12px;
+  padding: 1.375rem 1.5rem;
+  min-width: 220px;
+  flex: 1 1 220px;
+  background: #fff;
+}
+
+.ajman-step-card-title {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 0.375rem;
+  color: #222;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.ajman-step-card-description {
+  color: #444;
+  font-size: 0.9375rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.ajman-step-icons {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.ajman-step-icon-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.375rem 1.5rem;
+  min-width: 180px;
+  flex: 1 1 180px;
+  text-align: center;
+  border: 1px solid #e5e7eb;
+}
+
+.ajman-step-icon {
+  font-size: 1.75rem;
+  margin-bottom: 0.375rem;
+}
+
+.ajman-step-icon-title {
+  font-weight: 700;
+  font-size: 0.9375rem;
+  color: #222;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.ajman-step-icon-description {
+  color: #444;
+  font-size: 0.875rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin-top: 0.25rem;
+}
+
+/* Client Success Stories Section */
+.ajman-testimonials-section {
+  background: #f6fafc;
+  padding: 3.5rem 0 2.25rem 0;
+}
+
+.ajman-testimonials-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.ajman-testimonials-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 2.25rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #222;
+}
+
+.ajman-testimonials-grid {
+  display: flex;
+  gap: 1.75rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.ajman-testimonial-card {
+  background: #fff;
+  border: 1.5px solid #1ec6b6;
+  border-radius: 14px;
+  padding: 1.75rem 1.5rem;
+  min-width: 260px;
+  max-width: 340px;
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ajman-testimonial-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.625rem;
+}
+
+.ajman-testimonial-avatar {
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 50%;
+  margin-right: 0.75rem;
+}
+
+.ajman-testimonial-name {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #222;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.ajman-testimonial-company {
+  color: #6b7a86;
+  font-size: 0.875rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.ajman-testimonial-rating {
+  color: #f7b500;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+.ajman-testimonial-quote {
+  color: #444;
+  font-size: 0.9375rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-style: italic;
+}
+
+/* FAQ Section */
+.ajman-faq-section {
+  background: #f6f8f9;
+  padding: 3.5rem 0 2.25rem 0;
+}
+
+.ajman-faq-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.ajman-faq-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 2.25rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #176d6b;
+}
+
+.ajman-faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.ajman-faq-item {
+  background: #fff;
+  border: 1.5px solid #1ec6b6;
+  border-radius: 10px;
+  padding: 1.375rem 1.75rem;
+}
+
+.ajman-faq-question {
+  font-weight: 700;
+  font-size: 1.0625rem;
+  color: #222;
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin-bottom: 0.375rem;
+}
+
+.ajman-faq-answer {
+  color: #444;
+  font-size: 0.9375rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+/* Footer */
+.ajman-footer {
+  background: #151b26;
+  color: #e5e7eb;
+  padding: 3.5rem 0 0 0;
+  font-size: 1rem;
+}
+
+.ajman-footer-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 2rem;
+}
+
+.ajman-footer-logo-section {
+  flex: 1 1 260px;
+  min-width: 220px;
+  margin-bottom: 2rem;
+}
+
+.ajman-footer-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.ajman-footer-logo img {
+  width: 180px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  background: transparent;
+}
+
+.ajman-footer-description {
+  color: #bfc6d1;
+  font-size: 0.98rem;
+  margin-bottom: 0.75rem;
+}
+
+.ajman-footer-section {
+  flex: 1 1 160px;
+  min-width: 160px;
+  margin-bottom: 2rem;
+}
+
+.ajman-footer-section-title {
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0.75rem;
+}
+
+.ajman-footer-section-item {
+  color: #e5e7eb;
+  margin-bottom: 0.375rem;
+}
+
+.ajman-footer-contact {
+  flex: 1 1 200px;
+  min-width: 200px;
+  margin-bottom: 2rem;
+}
+
+.ajman-footer-bottom {
+  max-width: 1100px;
+  margin: 2rem auto 0 auto;
+  border-top: 1px solid #232b39;
+  padding: 1.125rem 2rem 1.125rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: #bfc6d1;
+  font-size: 0.98rem;
+}
+
+.ajman-footer-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.ajman-footer-link {
+  cursor: pointer;
+}
+
+/* Responsive Breakpoints */
+
+/* 4K Screens (2560px and above) */
+@media (min-width: 2560px) {
+  .ajman-hero-content-wrapper {
+    max-width: 1600px;
+    padding: 0 6%;
+  }
+  
+  .ajman-hero-title {
+    font-size: 4.5rem;
+  }
+  
+  .ajman-hero-description {
+    font-size: 1.4rem;
+    max-width: 1200px;
+  }
+  
+  .ajman-overview-container,
+  .ajman-why-container,
+  .ajman-steps-container,
+  .ajman-testimonials-container {
+    max-width: 1400px;
+    padding: 0 3rem;
+  }
+  
+  .ajman-faq-container {
+    max-width: 1200px;
+    padding: 0 3rem;
+  }
+  
+  .ajman-footer-content,
+  .ajman-footer-bottom {
+    max-width: 1400px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+/* Large Desktop (1920px - 2559px) */
+@media (min-width: 1920px) and (max-width: 2559px) {
+  .ajman-hero-content-wrapper {
+    max-width: 1400px;
+    padding: 0 5%;
+  }
+  
+  .ajman-hero-title {
+    font-size: 4rem;
+  }
+  
+  .ajman-hero-description {
+    font-size: 1.3rem;
+  }
+  
+  .ajman-overview-container,
+  .ajman-why-container,
+  .ajman-steps-container,
+  .ajman-testimonials-container {
+    max-width: 1300px;
+  }
+  
+  .ajman-faq-container {
+    max-width: 1000px;
+  }
+  
+  .ajman-footer-content,
+  .ajman-footer-bottom {
+    max-width: 1300px;
+  }
+}
+
+/* Desktop (1280px - 1919px) */
+@media (min-width: 1280px) and (max-width: 1919px) {
+  .ajman-hero-title {
+    font-size: 3.5rem;
+  }
+  
+  .ajman-hero-description {
+    font-size: 1.2rem;
+  }
+}
+
+/* Tablet (600px - 1024px) */
+@media (max-width: 1024px) {
+  .ajman-hero-content-wrapper {
+    flex-direction: column;
+    text-align: center;
+    padding: 4rem 3%;
+    gap: 2rem;
+  }
+  
+  .ajman-hero-title {
+    font-size: 2.8rem;
+  }
+  
+  .ajman-hero-description {
+    font-size: 1.1rem;
+  }
+  
+  .ajman-overview-content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .ajman-overview-image {
+    width: 100%;
+    max-width: 500px;
+    margin-right: 0;
+  }
+  
+  .ajman-overview-text {
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  .ajman-overview-stats {
+    justify-content: center;
+  }
+  
+  .ajman-why-features {
+    gap: 2rem;
+  }
+  
+  .ajman-why-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .ajman-why-card {
+    max-width: 100%;
+  }
+  
+  .ajman-step-content,
+  .ajman-step-icons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .ajman-step-card,
+  .ajman-step-icon-card {
+    min-width: 100%;
+  }
+  
+  .ajman-testimonials-grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .ajman-testimonial-card {
+    max-width: 100%;
+  }
+  
+  .ajman-footer-content {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .ajman-footer-bottom {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+}
+
+/* Mobile (600px and below) */
+@media (max-width: 600px) {
+  .ajman-hero-section {
+    min-height: 90vh;
+    padding-bottom: 2rem;
+  }
+  
+  .ajman-hero-content-wrapper {
+    padding: 2rem 5%;
+    gap: 1.5rem;
+  }
+  
+  .ajman-hero-title {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .ajman-hero-description {
+    font-size: 1rem;
+  }
+  
+  .ajman-overview-section,
+  .ajman-why-section,
+  .ajman-steps-section,
+  .ajman-testimonials-section,
+  .ajman-faq-section {
+    padding: 2.5rem 0 1.5rem 0;
+  }
+  
+  .ajman-overview-container,
+  .ajman-why-container,
+  .ajman-steps-container,
+  .ajman-testimonials-container,
+  .ajman-faq-container {
+    padding: 0 1rem;
+  }
+  
+  .ajman-overview-title,
+  .ajman-why-title,
+  .ajman-steps-title,
+  .ajman-testimonials-title,
+  .ajman-faq-title {
+    font-size: 1.75rem;
+  }
+  
+  .ajman-overview-subtitle,
+  .ajman-why-subtitle,
+  .ajman-steps-subtitle {
+    font-size: 1rem;
+  }
+  
+  .ajman-overview-image {
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+  }
+  
+  .ajman-overview-stats {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .ajman-overview-stat {
+    min-width: 200px;
+    padding: 1rem 1.5rem;
+  }
+  
+  .ajman-why-features {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .ajman-why-feature {
+    min-width: 100%;
+  }
+  
+  .ajman-step-header {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 0.5rem;
+  }
+  
+  .ajman-step-number {
+    margin-right: 0;
+  }
+  
+  .ajman-testimonials-grid {
+    gap: 1rem;
+  }
+  
+  .ajman-testimonial-card {
+    min-width: 100%;
+    padding: 1.5rem 1rem;
+  }
+  
+  .ajman-faq-item {
+    padding: 1rem 1.25rem;
+  }
+  
+  .ajman-footer {
+    padding: 2.5rem 0 0 0;
+  }
+  
+  .ajman-footer-content {
+    padding: 0 1rem;
+  }
+  
+  .ajman-footer-logo-section,
+  .ajman-footer-section,
+  .ajman-footer-contact {
+    flex: 1 1 100%;
+    min-width: 100%;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .ajman-footer-bottom {
+    padding: 1rem;
+  }
+  
+  .ajman-footer-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+/* Small Mobile (320px - 479px) */
+@media (max-width: 479px) {
+  .ajman-hero-content-wrapper {
+    padding: 1.5rem 4%;
+  }
+  
+  .ajman-hero-title {
+    font-size: 1.9rem;
+    line-height: 1.1;
+  }
+  
+  .ajman-hero-description {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+  
+  .ajman-overview-container,
+  .ajman-why-container,
+  .ajman-steps-container,
+  .ajman-testimonials-container,
+  .ajman-faq-container {
+    padding: 0 0.75rem;
+  }
+  
+  .ajman-overview-title,
+  .ajman-why-title,
+  .ajman-steps-title,
+  .ajman-testimonials-title,
+  .ajman-faq-title {
+    font-size: 1.5rem;
+  }
+  
+  .ajman-overview-stat {
+    min-width: 180px;
+    padding: 0.875rem 1.25rem;
+    font-size: 1.25rem;
+  }
+  
+  .ajman-overview-stat-label {
+    font-size: 0.875rem;
+  }
+  
+  .ajman-why-card {
+    padding: 1.25rem 1.5rem;
+  }
+  
+  .ajman-step-card,
+  .ajman-step-icon-card {
+    padding: 1rem 1.25rem;
+  }
+  
+  .ajman-testimonial-card {
+    padding: 1.25rem 0.875rem;
+  }
+  
+  .ajman-faq-item {
+    padding: 0.875rem 1rem;
+  }
+  
+  .ajman-footer-content,
+  .ajman-footer-bottom {
+    padding: 0 0.75rem;
+  }
+}
+
+/* Prevent horizontal scroll */
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hide horizontal scrollbar */
+body {
+  overflow-x: hidden;
+}
+
+/* Smooth transitions for responsive changes */
+.ajman-hero-content-wrapper,
+.ajman-overview-content,
+.ajman-why-features,
+.ajman-why-cards,
+.ajman-step-content,
+.ajman-step-icons,
+.ajman-testimonials-grid,
+.ajman-footer-content {
+  transition: all 0.3s ease;
+} 

@@ -1,0 +1,372 @@
+/* UAQ Freezone Page Mobile Responsive Styles - Screens ≤768px */
+
+/* Prevent horizontal scrolling */
+body {
+  overflow-x: hidden;
+}
+
+/* Mobile-specific styles for screens 768px and below */
+@media (max-width: 768px) {
+  
+  /* Hero Section Mobile Fixes */
+  .hero-section {
+    min-height: 70vh !important;
+    padding: 80px 0 40px 0 !important;
+  }
+  
+  .hero-section > div:nth-child(3) {
+    padding: 0 20px !important;
+    max-width: 100% !important;
+    justify-content: center !important;
+    align-items: flex-start !important;
+    margin-top: 40px !important;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.2rem !important;
+    line-height: 1.3 !important;
+    margin-bottom: 24px !important;
+    text-align: center !important;
+  }
+  
+  .hero-section p {
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+    text-align: center !important;
+    max-width: 100% !important;
+  }
+  
+  .hero-section > div:first-child {
+    max-width: 100% !important;
+    text-align: center !important;
+  }
+
+  /* Section Containers - Make Full Width */
+  section > div {
+    max-width: 100% !important;
+    padding: 0 16px !important;
+    margin: 0 auto !important;
+  }
+
+  /* Section Headings Mobile */
+  section h2 {
+    font-size: 1.6rem !important;
+    margin-bottom: 16px !important;
+    line-height: 1.3 !important;
+  }
+  
+  section p {
+    font-size: 1rem !important;
+    margin-bottom: 28px !important;
+    max-width: 100% !important;
+  }
+
+  /* Overview Section - Text and Image Stack */
+  section div[style*="display: flex"][style*="flexWrap: 'wrap'"] {
+    flex-direction: column !important;
+    gap: 24px !important;
+  }
+  
+  section div[style*="flex: '2 1 340px'"],
+  section div[style*="flex: '1 1 340px'"] {
+    flex: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 100% !important;
+  }
+
+  /* Flex Containers with Wrap - Convert to Column */
+  div[style*="display: flex"][style*="flexWrap: 'wrap'"][style*="justifyContent: 'center'"] {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 16px !important;
+  }
+
+  /* Card Adjustments - Why Choose, License Types, etc. */
+  div[style*="flex: '1 1 280px'"],
+  div[style*="flex: '1 1 220px'"] {
+    flex: none !important;
+    width: 100% !important;
+    max-width: 350px !important;
+    min-width: 100% !important;
+    margin-bottom: 16px !important;
+  }
+
+  /* Cards with specific styling */
+  div[style*="borderRadius: 14"] {
+    padding: 20px 24px !important;
+    margin-bottom: 16px !important;
+    width: 100% !important;
+    max-width: 350px !important;
+    box-sizing: border-box !important;
+  }
+  
+  div[style*="borderRadius: 10"] {
+    padding: 18px 20px !important;
+    margin-bottom: 12px !important;
+    width: 100% !important;
+    max-width: 350px !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Best Facilities Box - Special handling */
+  div[style*="background: '#eaf3fc'"] {
+    padding: 24px 20px !important;
+    max-width: 100% !important;
+    margin: 0 auto 32px auto !important;
+  }
+  
+  div[style*="gridTemplateColumns: '1fr 1fr'"] {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 12px !important;
+  }
+
+  /* FAQ Section */
+  div[style*="display: flex"][style*="flexDirection: 'column'"] {
+    gap: 16px !important;
+  }
+  
+  div[style*="border: '1.5px solid #e0e0e0'"] {
+    padding: 18px 20px !important;
+    margin-bottom: 12px !important;
+  }
+
+  /* Why Choose Global Vision Cards */
+  div[style*="display: flex"][style*="flexDirection: 'column'"][style*="alignItems: 'center'"] {
+    padding: 24px 20px !important;
+    max-width: 300px !important;
+    margin: 0 auto 16px auto !important;
+  }
+
+  /* UAE Free Zone Location Pills */
+  div[style*="borderRadius: 30"] {
+    width: 100% !important;
+    max-width: 280px !important;
+    margin: 0 auto 8px auto !important;
+    padding: 12px 24px !important;
+    text-align: center !important;
+    justify-content: center !important;
+  }
+
+  /* Image Responsive */
+  img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    object-fit: contain !important;
+  }
+
+  /* Overview section images specific */
+  img[style*="maxWidth: 380"] {
+    max-width: 320px !important;
+    height: auto !important;
+    margin: 0 auto !important;
+    display: block !important;
+  }
+  
+  img[style*="maxWidth: 480"] {
+    max-width: 350px !important;
+    height: auto !important;
+    margin: 0 auto !important;
+    display: block !important;
+  }
+
+  /* Footer Responsive */
+  footer > div:first-child {
+    flex-direction: column !important;
+    gap: 24px !important;
+    text-align: center !important;
+    padding: 0 16px !important;
+  }
+  
+  footer div[style*="flex: '1 1 260px'"],
+  footer div[style*="flex: '1 1 160px'"],
+  footer div[style*="flex: '1 1 200px'"] {
+    flex: none !important;
+    min-width: 100% !important;
+    text-align: center !important;
+    margin-bottom: 24px !important;
+  }
+  
+  footer div[style*="display: flex"][style*="justifyContent: 'space-between'"] {
+    flex-direction: column !important;
+    gap: 16px !important;
+    text-align: center !important;
+  }
+  
+  footer img {
+    max-width: 150px !important;
+    margin: 0 auto !important;
+  }
+
+  /* Text Size Adjustments */
+  div[style*="fontSize: 18"] {
+    font-size: 16px !important;
+  }
+  
+  div[style*="fontSize: 17"] {
+    font-size: 15px !important;
+  }
+  
+  div[style*="fontSize: 16"] {
+    font-size: 15px !important;
+  }
+  
+  div[style*="fontSize: 15"] {
+    font-size: 14px !important;
+  }
+
+  /* Padding Adjustments for Sections */
+  section {
+    padding: 40px 0 !important;
+  }
+  
+  section[style*="padding: '72px 0 72px 0'"] {
+    padding: 48px 0 !important;
+  }
+  
+  section[style*="padding: '56px 0 36px 0'"] {
+    padding: 40px 0 32px 0 !important;
+  }
+
+  /* Contact Section Adjustments */
+  div[style*="maxWidth: 1200"] {
+    max-width: 100% !important;
+    padding: 0 16px !important;
+  }
+  
+  div[style*="maxWidth: 1100"] {
+    max-width: 100% !important;
+    padding: 0 16px !important;
+  }
+  
+  div[style*="maxWidth: 900"] {
+    max-width: 100% !important;
+    padding: 0 16px !important;
+  }
+
+  /* List items in benefits section */
+  ul {
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+    padding-left: 16px !important;
+  }
+  
+  li {
+    margin-bottom: 6px !important;
+  }
+
+  /* Icon and emoji sizing */
+  span[style*="fontSize: 22"],
+  span[style*="fontSize: 28"],
+  span[style*="fontSize: 32"] {
+    font-size: 20px !important;
+  }
+
+  /* Remove fixed minimum widths */
+  div[style*="minWidth: 220"],
+  div[style*="minWidth: 240"],
+  div[style*="minWidth: 260"],
+  div[style*="minWidth: 280"] {
+    min-width: 100% !important;
+    max-width: 350px !important;
+  }
+
+  /* Max width containers */
+  div[style*="maxWidth: 320"],
+  div[style*="maxWidth: 420"],
+  div[style*="maxWidth: 520"] {
+    max-width: 100% !important;
+  }
+
+  /* Special handling for gap adjustments */
+  div[style*="gap: 48"] {
+    gap: 24px !important;
+  }
+  
+  div[style*="gap: 32"] {
+    gap: 16px !important;
+  }
+  
+  div[style*="gap: 28"] {
+    gap: 16px !important;
+  }
+  
+  div[style*="gap: 24"] {
+    gap: 16px !important;
+  }
+
+  /* Free zone locations container */
+  section:nth-last-of-type(2) div[style*="display: flex"][style*="flexWrap: 'wrap'"] {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 8px !important;
+  }
+
+  /* FAQ Section adjustments */
+  section div[style*="maxWidth: 900"] {
+    max-width: 100% !important;
+    padding: 0 16px !important;
+  }
+
+  /* Prevent overflow on any containers */
+  * {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+  
+  /* Exception for width: 100% elements */
+  div[style*="width: '100%'"],
+  img[style*="width: '100%'"] {
+    max-width: none !important;
+  }
+
+  /* Background positioning for mobile */
+  div[style*="background: 'url(/images/Background-services.jpg)'"],
+  div[style*="background: 'url(/images/hero-bg.jpg)'"] {
+    background-size: cover !important;
+    background-position: center !important;
+  }
+
+  /* Flex containers should wrap properly */
+  div[style*="display: flex"] {
+    flex-wrap: wrap !important;
+  }
+
+  /* Ensure centered content in cards */
+  div[style*="textAlign: 'center'"] {
+    text-align: center !important;
+  }
+
+  /* Handle specific why choose section */
+  section[style*="linear-gradient"] div[style*="display: flex"] {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  /* Special margin adjustments for cards */
+  div[style*="marginBottom: 18"] {
+    margin-bottom: 16px !important;
+  }
+
+  /* Adjust spacing for different sections */
+  div[style*="marginBottom: 40"] {
+    margin-bottom: 28px !important;
+  }
+  
+  div[style*="marginBottom: 48"] {
+    margin-bottom: 32px !important;
+  }
+
+  div[style*="marginBottom: 36"] {
+    margin-bottom: 24px !important;
+  }
+
+  /* Justify content center for facilities section */
+  div[style*="justifyContent: 'center'"] {
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+} 

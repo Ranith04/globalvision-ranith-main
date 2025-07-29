@@ -1,0 +1,1118 @@
+/* Coworking Spaces Page - Responsive Styles */
+
+/* Base styles */
+.coworking-hero-section {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(120deg, #0f9d8f 0%, #0e3c5d 100%);
+  position: relative;
+  padding: 0;
+}
+
+.coworking-hero-bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(/images/backgroundimg.png) center/cover no-repeat;
+  opacity: 0.18;
+  z-index: 1;
+}
+
+.coworking-hero-content-wrapper {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 60px;
+}
+
+.coworking-hero-content {
+  color: #fff;
+  text-align: left;
+  max-width: 900px;
+}
+
+.coworking-hero-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+
+.coworking-hero-description {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 1.1rem;
+  color: #ffffff;
+  margin-bottom: 0;
+  font-weight: 400;
+  line-height: 1.7;
+  opacity: 0.95;
+}
+
+/* Section 2 - Top-Tier Coworking */
+.coworking-intro-section {
+  background: #eafcf8;
+  padding: 56px 0;
+}
+
+.coworking-intro-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.coworking-intro-content {
+  flex: 1;
+  min-width: 320px;
+  max-width: 540px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.coworking-intro-title {
+  font-weight: 800;
+  font-size: 2.1rem;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #151b26;
+  line-height: 1.13;
+  text-align: left;
+}
+
+.coworking-intro-highlight {
+  color: #19c39c;
+  font-weight: 800;
+}
+
+.coworking-intro-buttons {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 22px;
+}
+
+.coworking-intro-btn-primary {
+  background: #19c39c;
+  color: #fff;
+  padding: 11px 28px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  box-shadow: 0 2px 8px rgba(16,185,129,0.10);
+}
+
+.coworking-intro-btn-secondary {
+  background: #fff;
+  color: #19c39c;
+  border: 2px solid #19c39c;
+  padding: 11px 28px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.coworking-intro-image-wrapper {
+  flex: 1;
+  min-width: 320px;
+  max-width: 520px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coworking-intro-image-container {
+  position: relative;
+  width: 390px;
+  max-width: 100%;
+  height: 210px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coworking-intro-image-accent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 16px;
+  background: #19c39c;
+  border-radius: 8px 0 8px 0;
+  z-index: 2;
+}
+
+.coworking-intro-image {
+  width: 390px;
+  height: 210px;
+  border-radius: 18px;
+  object-fit: cover;
+  border: 6px solid #fff;
+  box-shadow: 0 8px 32px rgba(16,185,129,0.13);
+  transform: rotate(-2.5deg);
+  position: relative;
+  z-index: 1;
+}
+
+/* Section 3 - What is a Coworking Space */
+.coworking-what-section {
+  background: #f8f9fa;
+  padding: 48px 0 36px 0;
+}
+
+.coworking-what-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  gap: 38px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.coworking-what-content {
+  flex: 1;
+  min-width: 320px;
+  max-width: 540px;
+}
+
+.coworking-what-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #151b26;
+}
+
+.coworking-what-description {
+  color: #444;
+  font-size: 15px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin-bottom: 0;
+}
+
+.coworking-what-image-wrapper {
+  flex: 1;
+  min-width: 320px;
+  max-width: 420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coworking-what-image-container {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(30,198,182,0.10);
+  padding: 0;
+  width: 340px;
+  max-width: 100%;
+}
+
+.coworking-what-image {
+  width: 440px;
+  height: 220px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+/* Section 4 - Why Coworking Spaces */
+.coworking-why-section {
+  background: #f1f5f9;
+  padding: 48px 0 36px 0;
+}
+
+.coworking-why-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.coworking-why-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #151b26;
+}
+
+.coworking-why-subtitle {
+  text-align: center;
+  color: #444;
+  margin-bottom: 38px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.coworking-why-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.coworking-why-card {
+  background: #f8fafc;
+  border-radius: 14px;
+  padding: 32px 18px;
+  text-align: center;
+  box-shadow: 0 2px 12px rgba(30,198,182,0.04);
+  border: 1.5px solid #e5e7eb;
+}
+
+.coworking-why-card-title {
+  font-weight: 700;
+  font-size: 17px;
+  color: #151b26;
+  margin-bottom: 8px;
+}
+
+.coworking-why-card-description {
+  color: #6b7a86;
+  font-size: 15px;
+}
+
+/* Section 5 - Best Coworking Space */
+.coworking-best-section {
+  background: #f8f9fa;
+  padding: 60px 0;
+}
+
+.coworking-best-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.coworking-best-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.coworking-best-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.coworking-best-description {
+  font-size: 1.1rem;
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.coworking-best-content {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  flex-wrap: wrap;
+}
+
+.coworking-best-features {
+  flex: 1;
+  min-width: 400px;
+}
+
+.coworking-best-feature {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 32px;
+}
+
+.coworking-best-feature-icon {
+  width: 50px;
+  height: 50px;
+  background: #1ec6b6;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+  flex-shrink: 0;
+}
+
+.coworking-best-feature-content {
+  flex: 1;
+}
+
+.coworking-best-feature-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.coworking-best-feature-description {
+  font-size: 1rem;
+  color: #666;
+  margin: 0;
+  line-height: 1.5;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.coworking-best-image-wrapper {
+  flex: 1;
+  min-width: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.coworking-best-image-container {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+  max-width: 500px;
+}
+
+.coworking-best-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Section 6 - Benefits */
+.coworking-benefits-section {
+  background: #ecfdf5;
+  padding: 32px 0;
+}
+
+.coworking-benefits-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.coworking-benefits-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 32px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #151b26;
+}
+
+.coworking-benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 18px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.coworking-benefits-item {
+  background: #f8fafc;
+  border-radius: 12px;
+  padding: 18px 8px;
+  text-align: center;
+  color: #151b26;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 0;
+  font-family: 'Montserrat', Arial, sans-serif;
+  border: 1.5px solid #e5e7eb;
+}
+
+/* Section 7 - Affordable Coworking */
+.coworking-affordable-section {
+  background: linear-gradient(135deg, #1ec6b6 0%, #179e9e 100%);
+  padding: 60px 0;
+}
+
+.coworking-affordable-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px;
+  text-align: center;
+}
+
+.coworking-affordable-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 40px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.coworking-affordable-card {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  padding: 40px 32px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.coworking-affordable-features {
+  margin-bottom: 32px;
+}
+
+.coworking-affordable-feature {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  color: white;
+  font-size: 1rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.coworking-affordable-check-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.coworking-affordable-btn {
+  background: white;
+  color: #1ec6b6;
+  border: none;
+  padding: 14px 32px;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  font-family: 'Montserrat', Arial, sans-serif;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+/* Section 8 - Additional Benefits */
+.coworking-additional-section {
+  background: #fefce8;
+  padding: 48px 0 36px 0;
+}
+
+.coworking-additional-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.coworking-additional-grid {
+  display: flex;
+  justify-content: center;
+  gap: 38px;
+  flex-wrap: wrap;
+}
+
+.coworking-additional-item {
+  text-align: center;
+  min-width: 120px;
+}
+
+.coworking-additional-icon {
+  font-size: 32px;
+  color: #19c39c;
+  margin-bottom: 10px;
+}
+
+.coworking-additional-title {
+  font-weight: 600;
+  color: #151b26;
+  font-size: 15px;
+}
+
+.coworking-additional-description {
+  color: #6b7a86;
+  font-size: 13px;
+}
+
+/* Section 9 - FAQ */
+.coworking-faq-section {
+  background: #f3f4f6;
+  padding: 32px 0;
+}
+
+.coworking-faq-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.coworking-faq-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 32px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #151b26;
+}
+
+.coworking-faq-item {
+  background: #f8fafc;
+  border-radius: 10px;
+  padding: 22px 28px;
+  margin-bottom: 18px;
+  border: 1.5px solid #e5e7eb;
+}
+
+.coworking-faq-question {
+  font-weight: 700;
+  font-size: 16px;
+  color: #222;
+  margin-bottom: 6px;
+}
+
+.coworking-faq-answer {
+  color: #444;
+  font-size: 15px;
+}
+
+/* Section 10 - CTA */
+.coworking-cta-section {
+  background: #13777c;
+  padding: 56px 0;
+}
+
+.coworking-cta-container {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 32px;
+}
+
+.coworking-cta-title {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.coworking-cta-description {
+  color: #e6f2ef;
+  font-size: 1.08rem;
+  margin-bottom: 24px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.coworking-cta-contact {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  align-items: center;
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 28px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.coworking-cta-separator {
+  font-size: 18px;
+  color: #fff;
+}
+
+.coworking-cta-btn {
+  background: #fff;
+  color: #19c39c;
+  padding: 13px 32px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 1.08rem;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 2px 8px rgba(30,198,182,0.10);
+}
+
+/* Footer */
+.coworking-footer {
+  background: #151b26;
+  color: #e5e7eb;
+  padding: 56px 0 0 0;
+  font-size: 1rem;
+}
+
+.coworking-footer-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 32px;
+}
+
+.coworking-footer-logo-section {
+  flex: 1 1 260px;
+  min-width: 220px;
+  margin-bottom: 32px;
+}
+
+.coworking-footer-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.coworking-footer-logo img {
+  width: 180px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  background: transparent;
+}
+
+.coworking-footer-description {
+  color: #bfc6d1;
+  font-size: 0.98rem;
+  margin-bottom: 12px;
+}
+
+.coworking-footer-section {
+  flex: 1 1 160px;
+  min-width: 160px;
+  margin-bottom: 32px;
+}
+
+.coworking-footer-section-title {
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.coworking-footer-section-item {
+  color: #e5e7eb;
+  margin-bottom: 6px;
+}
+
+.coworking-footer-contact {
+  flex: 1 1 200px;
+  min-width: 200px;
+  margin-bottom: 32px;
+}
+
+.coworking-footer-bottom {
+  max-width: 1100px;
+  margin: 32px auto 0 auto;
+  border-top: 1px solid #232b39;
+  padding: 18px 32px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: #bfc6d1;
+  font-size: 0.98rem;
+}
+
+.coworking-footer-links {
+  display: flex;
+  gap: 24px;
+}
+
+.coworking-footer-link {
+  cursor: pointer;
+}
+
+/* Responsive Breakpoints */
+
+/* 4K Screens (2560px and above) */
+@media (min-width: 2560px) {
+  .coworking-hero-content-wrapper {
+    max-width: 1600px;
+    padding: 0 6%;
+  }
+  
+  .coworking-hero-title {
+    font-size: 4.5rem;
+  }
+  
+  .coworking-hero-description {
+    font-size: 1.4rem;
+    max-width: 1200px;
+  }
+  
+  .coworking-intro-container,
+  .coworking-what-container,
+  .coworking-why-container,
+  .coworking-best-container,
+  .coworking-benefits-container,
+  .coworking-affordable-container,
+  .coworking-additional-container {
+    max-width: 1400px;
+    padding: 0 3rem;
+  }
+  
+  .coworking-faq-container,
+  .coworking-cta-container {
+    max-width: 1200px;
+    padding: 0 3rem;
+  }
+  
+  .coworking-footer-content,
+  .coworking-footer-bottom {
+    max-width: 1400px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+/* Large Desktop (1920px - 2559px) */
+@media (min-width: 1920px) and (max-width: 2559px) {
+  .coworking-hero-content-wrapper {
+    max-width: 1400px;
+    padding: 0 5%;
+  }
+  
+  .coworking-hero-title {
+    font-size: 4rem;
+  }
+  
+  .coworking-hero-description {
+    font-size: 1.3rem;
+  }
+  
+  .coworking-intro-container,
+  .coworking-what-container,
+  .coworking-why-container,
+  .coworking-best-container,
+  .coworking-benefits-container,
+  .coworking-affordable-container,
+  .coworking-additional-container {
+    max-width: 1300px;
+  }
+  
+  .coworking-faq-container,
+  .coworking-cta-container {
+    max-width: 1000px;
+  }
+  
+  .coworking-footer-content,
+  .coworking-footer-bottom {
+    max-width: 1300px;
+  }
+}
+
+/* Desktop (1280px - 1919px) */
+@media (min-width: 1280px) and (max-width: 1919px) {
+  .coworking-hero-title {
+    font-size: 3.5rem;
+  }
+  
+  .coworking-hero-description {
+    font-size: 1.2rem;
+  }
+}
+
+/* Tablet (600px - 1024px) */
+@media (max-width: 1024px) {
+  .coworking-hero-content-wrapper {
+    flex-direction: column;
+    text-align: center;
+    padding: 4rem 3%;
+    gap: 2rem;
+  }
+  
+  .coworking-hero-title {
+    font-size: 2.8rem;
+  }
+  
+  .coworking-hero-description {
+    font-size: 1.1rem;
+  }
+  
+  .coworking-intro-container,
+  .coworking-what-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .coworking-intro-content,
+  .coworking-what-content {
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  .coworking-intro-image-wrapper,
+  .coworking-what-image-wrapper {
+    max-width: 100%;
+  }
+  
+  .coworking-why-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .coworking-best-content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .coworking-best-features,
+  .coworking-best-image-wrapper {
+    min-width: 100%;
+  }
+  
+  .coworking-benefits-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+  
+  .coworking-additional-grid {
+    gap: 2rem;
+  }
+  
+  .coworking-footer-content {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .coworking-footer-bottom {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+}
+
+/* Mobile (600px and below) */
+@media (max-width: 600px) {
+  .coworking-hero-section {
+    min-height: 90vh;
+    padding-bottom: 2rem;
+  }
+  
+  .coworking-hero-content-wrapper {
+    padding: 2rem 5%;
+    gap: 1.5rem;
+  }
+  
+  .coworking-hero-title {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .coworking-hero-description {
+    font-size: 1rem;
+  }
+  
+  .coworking-intro-section,
+  .coworking-what-section,
+  .coworking-why-section,
+  .coworking-best-section,
+  .coworking-benefits-section,
+  .coworking-affordable-section,
+  .coworking-additional-section,
+  .coworking-faq-section,
+  .coworking-cta-section {
+    padding: 2.5rem 0 1.5rem 0;
+  }
+  
+  .coworking-intro-container,
+  .coworking-what-container,
+  .coworking-why-container,
+  .coworking-best-container,
+  .coworking-benefits-container,
+  .coworking-affordable-container,
+  .coworking-additional-container,
+  .coworking-faq-container,
+  .coworking-cta-container {
+    padding: 0 1rem;
+  }
+  
+  .coworking-intro-title,
+  .coworking-what-title,
+  .coworking-why-title,
+  .coworking-best-title,
+  .coworking-benefits-title,
+  .coworking-affordable-title,
+  .coworking-faq-title,
+  .coworking-cta-title {
+    font-size: 1.75rem;
+  }
+  
+  .coworking-intro-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .coworking-intro-btn-primary,
+  .coworking-intro-btn-secondary {
+    text-align: center;
+    padding: 12px 20px;
+  }
+  
+  .coworking-intro-image,
+  .coworking-what-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .coworking-why-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  .coworking-best-features {
+    min-width: 100%;
+  }
+  
+  .coworking-best-feature {
+    margin-bottom: 20px;
+  }
+  
+  .coworking-benefits-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  
+  .coworking-benefits-item {
+    padding: 15px 8px;
+    font-size: 13px;
+  }
+  
+  .coworking-additional-grid {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .coworking-cta-contact {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .coworking-footer {
+    padding: 2.5rem 0 0 0;
+  }
+  
+  .coworking-footer-content {
+    padding: 0 1rem;
+  }
+  
+  .coworking-footer-logo-section,
+  .coworking-footer-section,
+  .coworking-footer-contact {
+    flex: 1 1 100%;
+    min-width: 100%;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .coworking-footer-bottom {
+    padding: 1rem;
+  }
+  
+  .coworking-footer-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+/* Small Mobile (320px - 479px) */
+@media (max-width: 479px) {
+  .coworking-hero-content-wrapper {
+    padding: 1.5rem 4%;
+  }
+  
+  .coworking-hero-title {
+    font-size: 1.9rem;
+    line-height: 1.1;
+  }
+  
+  .coworking-hero-description {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+  
+  .coworking-intro-container,
+  .coworking-what-container,
+  .coworking-why-container,
+  .coworking-best-container,
+  .coworking-benefits-container,
+  .coworking-affordable-container,
+  .coworking-additional-container,
+  .coworking-faq-container,
+  .coworking-cta-container {
+    padding: 0 0.75rem;
+  }
+  
+  .coworking-intro-title,
+  .coworking-what-title,
+  .coworking-why-title,
+  .coworking-best-title,
+  .coworking-benefits-title,
+  .coworking-affordable-title,
+  .coworking-faq-title,
+  .coworking-cta-title {
+    font-size: 1.5rem;
+  }
+  
+  .coworking-benefits-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  
+  .coworking-benefits-item {
+    padding: 12px 6px;
+    font-size: 12px;
+  }
+  
+  .coworking-footer-content,
+  .coworking-footer-bottom {
+    padding: 0 0.75rem;
+  }
+}
+
+/* Prevent horizontal scroll */
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hide horizontal scrollbar */
+body {
+  overflow-x: hidden;
+}
+
+/* Smooth transitions for responsive changes */
+.coworking-hero-content-wrapper,
+.coworking-intro-container,
+.coworking-what-container,
+.coworking-why-grid,
+.coworking-best-content,
+.coworking-benefits-grid,
+.coworking-additional-grid,
+.coworking-footer-content {
+  transition: all 0.3s ease;
+} 

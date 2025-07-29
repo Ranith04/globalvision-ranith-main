@@ -1,0 +1,942 @@
+/* BVI Offshore Page - Responsive Styles */
+
+/* Base styles */
+.bvi-hero-section {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(120deg, #0f9d8f 0%, #0e3c5d 100%);
+  position: relative;
+  padding: 0;
+}
+
+.bvi-hero-bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(/images/backgroundimg.png) center/cover no-repeat;
+  opacity: 0.18;
+  z-index: 1;
+}
+
+.bvi-hero-content-wrapper {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 60px 0 60px;
+}
+
+.bvi-hero-content {
+  color: #fff;
+  text-align: left;
+  max-width: 900px;
+}
+
+.bvi-hero-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+
+.bvi-hero-description {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 1.1rem;
+  color: #ffffff;
+  margin-bottom: 0;
+  font-weight: 400;
+  line-height: 1.7;
+  opacity: 0.95;
+}
+
+/* Section 2 - BVI Company Formation */
+.bvi-intro-section {
+  background: #e6fcfa;
+  padding: 80px 0;
+}
+
+.bvi-intro-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  min-height: 340px;
+}
+
+.bvi-intro-content {
+  flex: 1;
+  min-width: 320px;
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.bvi-intro-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 2.3rem;
+  color: #23272e;
+  margin-bottom: 10px;
+  line-height: 1.15;
+}
+
+.bvi-intro-highlight {
+  color: #19c39c;
+}
+
+.bvi-intro-features {
+  display: flex;
+  gap: 14px;
+  margin: 18px 0 0 0;
+  flex-wrap: wrap;
+}
+
+.bvi-intro-feature {
+  display: flex;
+  align-items: center;
+  background: #f6fafd;
+  color: #19c39c;
+  border-radius: 30px;
+  padding: 8px 22px;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin-right: 6px;
+}
+
+.bvi-intro-feature-icon {
+  font-size: 18px;
+  margin-right: 7px;
+}
+
+.bvi-intro-buttons {
+  display: flex;
+  gap: 18px;
+  margin: 32px 0 0 0;
+}
+
+.bvi-intro-btn-primary {
+  background: #19c39c;
+  color: #fff;
+  padding: 13px 32px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 1.08rem;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 2px 8px rgba(30,198,182,0.10);
+}
+
+.bvi-intro-btn-secondary {
+  border: 2px solid #19c39c;
+  color: #19c39c;
+  padding: 13px 32px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 1.08rem;
+  text-decoration: none;
+  display: inline-block;
+  background: #fff;
+}
+
+.bvi-intro-image-wrapper {
+  flex: 1;
+  min-width: 320px;
+  max-width: 520px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.bvi-intro-image {
+  width: 420px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 18px;
+  box-shadow: 0 2px 12px rgba(30,198,182,0.13);
+}
+
+/* Section 3 - About British Virgin Islands */
+.bvi-about-section {
+  background: #fff;
+  padding: 64px 0 48px 0;
+}
+
+.bvi-about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.bvi-about-content {
+  flex: 1;
+  min-width: 320px;
+  max-width: 540px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.bvi-about-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #23272e;
+  margin-bottom: 16px;
+}
+
+.bvi-about-description {
+  color: #444;
+  font-size: 16px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin-bottom: 12px;
+}
+
+.bvi-about-features {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 0;
+  flex-wrap: wrap;
+}
+
+.bvi-about-feature {
+  display: flex;
+  align-items: center;
+  background: #f6fafd;
+  color: #19c39c;
+  border-radius: 30px;
+  padding: 12px 32px;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin-right: 6px;
+}
+
+.bvi-about-feature-icon {
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.bvi-about-image-wrapper {
+  flex: 1;
+  min-width: 320px;
+  max-width: 420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.bvi-about-image {
+  width: 480px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 18px;
+  box-shadow: 0 2px 12px rgba(30,198,182,0.13);
+}
+
+/* Section 4 - Why Choose BVI */
+.bvi-why-section {
+  background: #f8f9fa;
+  padding: 64px 0 48px 0;
+}
+
+.bvi-why-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.bvi-why-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+  color: #23272e;
+}
+
+.bvi-why-subtitle {
+  text-align: center;
+  color: #444;
+  margin-bottom: 36px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.bvi-why-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.bvi-why-item {
+  background: #fff;
+  border-radius: 12px;
+  padding: 18px 22px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 15px;
+  color: #19c39c;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(30,198,182,0.04);
+}
+
+.bvi-why-item-icon {
+  font-size: 20px;
+}
+
+/* Section 5 - Setup Process */
+.bvi-setup-section {
+  background: linear-gradient(120deg, #0f9d8f 0%, #19c39c 100%);
+  padding: 64px 0 48px 0;
+}
+
+.bvi-setup-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.bvi-setup-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #fff;
+}
+
+.bvi-setup-subtitle {
+  text-align: center;
+  color: #e6f2ef;
+  margin-bottom: 36px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.bvi-setup-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.bvi-setup-step {
+  background: rgba(255,255,255,0.10);
+  border-radius: 14px;
+  padding: 32px 18px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(30,198,182,0.07);
+  grid-column: span 1;
+}
+
+.bvi-setup-step-number {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.bvi-setup-step-title {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.bvi-setup-step-description {
+  font-weight: 400;
+  font-size: 15px;
+  color: #e6f2ef;
+}
+
+/* Section 6 - Legal Framework */
+.bvi-legal-section {
+  background: #fff;
+  padding: 64px 0 48px 0;
+}
+
+.bvi-legal-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.bvi-legal-image-wrapper {
+  flex: 1;
+  min-width: 320px;
+  max-width: 420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.bvi-legal-image {
+  width: 380px;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 18px;
+  box-shadow: 0 2px 12px rgba(30,198,182,0.13);
+}
+
+.bvi-legal-content {
+  flex: 2;
+  min-width: 320px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.bvi-legal-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #23272e;
+  margin-bottom: 16px;
+}
+
+.bvi-legal-description {
+  color: #444;
+  font-size: 16px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin-bottom: 24px;
+}
+
+.bvi-legal-features {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.bvi-legal-feature {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #19c39c;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.bvi-legal-feature-icon {
+  font-size: 20px;
+}
+
+.bvi-legal-feature-text {
+  color: #444;
+  font-weight: 400;
+  font-size: 15px;
+  margin-left: 8px;
+}
+
+/* Section 7 - Expert Services */
+.bvi-expert-section {
+  background: #fff;
+  padding: 56px 0 36px 0;
+}
+
+.bvi-expert-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.bvi-expert-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #23272e;
+}
+
+.bvi-expert-subtitle {
+  text-align: center;
+  color: #444;
+  margin-bottom: 36px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.bvi-expert-grid {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.bvi-expert-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 32px 28px;
+  min-width: 280px;
+  max-width: 340px;
+  flex: 1 1 280px;
+  border: 2px solid #19c39c;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.bvi-expert-card-icon {
+  font-size: 32px;
+  color: #19c39c;
+  margin-bottom: 12px;
+}
+
+.bvi-expert-card-title {
+  color: #23272e;
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 6px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.bvi-expert-card-description {
+  color: #444;
+  font-size: 15px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+/* Section 8 - CTA */
+.bvi-cta-section {
+  background: #13777c;
+  padding: 56px 0;
+}
+
+.bvi-cta-container {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 32px;
+}
+
+.bvi-cta-title {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.bvi-cta-description {
+  color: #e6f2ef;
+  font-size: 1.08rem;
+  margin-bottom: 24px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.bvi-cta-contact {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  align-items: center;
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 28px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.bvi-cta-separator {
+  font-size: 18px;
+  color: #fff;
+}
+
+.bvi-cta-btn {
+  background: #fff;
+  color: #19c39c;
+  padding: 13px 32px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 1.08rem;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 2px 8px rgba(30,198,182,0.10);
+}
+
+/* Footer */
+.bvi-footer {
+  background: #151b26;
+  color: #e5e7eb;
+  padding: 56px 0 0 0;
+  font-size: 1rem;
+}
+
+.bvi-footer-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 32px;
+}
+
+.bvi-footer-logo-section {
+  flex: 1 1 260px;
+  min-width: 220px;
+  margin-bottom: 32px;
+}
+
+.bvi-footer-logo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.bvi-footer-logo {
+  width: 180px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  background: transparent;
+}
+
+.bvi-footer-description {
+  color: #bfc6d1;
+  font-size: 0.98rem;
+  margin-bottom: 12px;
+}
+
+.bvi-footer-section {
+  flex: 1 1 160px;
+  min-width: 160px;
+  margin-bottom: 32px;
+}
+
+.bvi-footer-section-title {
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.bvi-footer-section-item {
+  color: #e5e7eb;
+  margin-bottom: 6px;
+}
+
+.bvi-footer-contact {
+  flex: 1 1 200px;
+  min-width: 200px;
+  margin-bottom: 32px;
+}
+
+.bvi-footer-bottom {
+  max-width: 1100px;
+  margin: 32px auto 0 auto;
+  border-top: 1px solid #232b39;
+  padding: 18px 32px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: #bfc6d1;
+  font-size: 0.98rem;
+}
+
+.bvi-footer-links {
+  display: flex;
+  gap: 24px;
+}
+
+.bvi-footer-link {
+  cursor: pointer;
+}
+
+/* Responsive Breakpoints */
+
+/* Large Desktop (1920px and above) */
+@media (min-width: 1920px) {
+  .bvi-hero-content-wrapper {
+    max-width: 1400px;
+  }
+  
+  .bvi-hero-title {
+    font-size: 4rem;
+  }
+  
+  .bvi-hero-description {
+    font-size: 1.3rem;
+  }
+  
+  .bvi-intro-container,
+  .bvi-about-container,
+  .bvi-why-container,
+  .bvi-legal-container,
+  .bvi-expert-container {
+    max-width: 1400px;
+  }
+}
+
+/* Desktop (1280px - 1919px) */
+@media (min-width: 1280px) and (max-width: 1919px) {
+  .bvi-hero-title {
+    font-size: 3.5rem;
+  }
+  
+  .bvi-hero-description {
+    font-size: 1.2rem;
+  }
+}
+
+/* Tablet (600px - 1024px) */
+@media (max-width: 1024px) {
+  .bvi-hero-content-wrapper {
+    flex-direction: column;
+    text-align: center;
+    padding: 4rem 3%;
+  }
+  
+  .bvi-hero-title {
+    font-size: 2.8rem;
+  }
+  
+  .bvi-intro-container,
+  .bvi-about-container,
+  .bvi-legal-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .bvi-intro-content,
+  .bvi-about-content,
+  .bvi-legal-content {
+    text-align: center;
+  }
+  
+  .bvi-why-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .bvi-setup-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .bvi-expert-grid {
+    gap: 2rem;
+  }
+  
+  .bvi-footer-content {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .bvi-footer-bottom {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+}
+
+/* Mobile (600px and below) */
+@media (max-width: 600px) {
+  .bvi-hero-section {
+    min-height: 90vh;
+  }
+  
+  .bvi-hero-content-wrapper {
+    padding: 2rem 5%;
+  }
+  
+  .bvi-hero-title {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .bvi-hero-description {
+    font-size: 1rem;
+  }
+  
+  .bvi-intro-section,
+  .bvi-about-section,
+  .bvi-why-section,
+  .bvi-setup-section,
+  .bvi-legal-section,
+  .bvi-expert-section,
+  .bvi-cta-section {
+    padding: 2.5rem 0 1.5rem 0;
+  }
+  
+  .bvi-intro-container,
+  .bvi-about-container,
+  .bvi-why-container,
+  .bvi-setup-container,
+  .bvi-legal-container,
+  .bvi-expert-container,
+  .bvi-cta-container {
+    padding: 0 1rem;
+  }
+  
+  .bvi-intro-title,
+  .bvi-about-title,
+  .bvi-why-title,
+  .bvi-setup-title,
+  .bvi-legal-title,
+  .bvi-expert-title,
+  .bvi-cta-title {
+    font-size: 1.75rem;
+  }
+  
+  .bvi-intro-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .bvi-intro-btn-primary,
+  .bvi-intro-btn-secondary {
+    text-align: center;
+  }
+  
+  .bvi-intro-image,
+  .bvi-about-image,
+  .bvi-legal-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .bvi-setup-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .bvi-expert-grid {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .bvi-cta-contact {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .bvi-footer {
+    padding: 2.5rem 0 0 0;
+  }
+  
+  .bvi-footer-content {
+    padding: 0 1rem;
+  }
+  
+  .bvi-footer-logo-section,
+  .bvi-footer-section,
+  .bvi-footer-contact {
+    flex: 1 1 100%;
+    min-width: 100%;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .bvi-footer-bottom {
+    padding: 1rem;
+  }
+  
+  .bvi-footer-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+/* Small Mobile (320px - 479px) */
+@media (max-width: 479px) {
+  .bvi-hero-content-wrapper {
+    padding: 1.5rem 4%;
+  }
+  
+  .bvi-hero-title {
+    font-size: 1.9rem;
+  }
+  
+  .bvi-hero-description {
+    font-size: 0.95rem;
+  }
+  
+  .bvi-intro-container,
+  .bvi-about-container,
+  .bvi-why-container,
+  .bvi-setup-container,
+  .bvi-legal-container,
+  .bvi-expert-container,
+  .bvi-cta-container {
+    padding: 0 0.75rem;
+  }
+  
+  .bvi-intro-title,
+  .bvi-about-title,
+  .bvi-why-title,
+  .bvi-setup-title,
+  .bvi-legal-title,
+  .bvi-expert-title,
+  .bvi-cta-title {
+    font-size: 1.5rem;
+  }
+  
+  .bvi-footer-content,
+  .bvi-footer-bottom {
+    padding: 0 0.75rem;
+  }
+}
+
+/* Prevent horizontal scroll */
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hide horizontal scrollbar */
+body {
+  overflow-x: hidden;
+}
+
+/* Smooth transitions for responsive changes */
+.bvi-hero-content-wrapper,
+.bvi-intro-container,
+.bvi-about-container,
+.bvi-why-grid,
+.bvi-setup-grid,
+.bvi-legal-container,
+.bvi-expert-grid,
+.bvi-footer-content {
+  transition: all 0.3s ease;
+} 

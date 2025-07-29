@@ -1,0 +1,1069 @@
+/* UAQ Mainland Page - Responsive Styles */
+
+/* Base styles */
+.uaq-hero-section {
+  position: relative;
+  min-height: 100vh;
+  padding: 0;
+  background: linear-gradient(120deg, #0f9d8f 0%, #0e3c5d 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.uaq-hero-bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 0;
+  opacity: 0.18;
+  pointer-events: none;
+}
+
+.uaq-hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: url(/images/hero-bg.jpg) center/cover no-repeat;
+  opacity: 0.25;
+  z-index: 1;
+}
+
+.uaq-hero-content-wrapper {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+.uaq-hero-content {
+  color: #fff;
+  text-align: left;
+  max-width: 900px;
+}
+
+.uaq-hero-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 2.5rem;
+}
+
+.uaq-hero-description {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 1.1rem;
+  color: #ffffff;
+  margin-bottom: 0;
+  font-weight: 400;
+  line-height: 1.7;
+  opacity: 0.95;
+}
+
+/* Overview Section */
+.uaq-overview-section {
+  background: #f8f9fa;
+  padding: 3.5rem 0 2.25rem 0;
+}
+
+.uaq-overview-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.uaq-overview-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 0.625rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #222;
+}
+
+.uaq-overview-subtitle {
+  text-align: center;
+  color: #444;
+  margin-bottom: 2.25rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+
+.uaq-overview-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.uaq-overview-image {
+  width: 340px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 18px;
+  flex: 1 1 340px;
+  min-width: 260px;
+  max-width: 380px;
+  box-shadow: 0 2px 12px rgba(30,198,182,0.07);
+  margin-right: 0.75rem;
+}
+
+.uaq-overview-text {
+  flex: 2 1 340px;
+  min-width: 260px;
+  max-width: 520px;
+}
+
+.uaq-overview-text-title {
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-bottom: 0.625rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #222;
+}
+
+.uaq-overview-text-description {
+  color: #444;
+  font-size: 1rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin-bottom: 1.125rem;
+}
+
+.uaq-overview-stats {
+  display: flex;
+  gap: 1.125rem;
+  flex-wrap: wrap;
+}
+
+.uaq-overview-stat {
+  background: #fff;
+  border: 1.5px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.125rem 2rem;
+  min-width: 140px;
+  text-align: center;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 1.375rem;
+  color: #1ec6b6;
+  box-shadow: 0 2px 8px rgba(30,198,182,0.04);
+}
+
+.uaq-overview-stat-label {
+  font-weight: 400;
+  font-size: 0.9375rem;
+  color: #222;
+  margin-top: 0.25rem;
+}
+
+/* Why UAQ Mainland Section */
+.uaq-why-section {
+  background: #fff;
+  padding: 3.5rem 0 2.25rem 0;
+}
+
+.uaq-why-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.uaq-why-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #222;
+}
+
+.uaq-why-subtitle {
+  text-align: center;
+  color: #444;
+  margin-bottom: 2.5rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.0625rem;
+}
+
+.uaq-why-features {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-bottom: 2.25rem;
+  flex-wrap: wrap;
+}
+
+.uaq-why-feature {
+  flex: 1 1 220px;
+  min-width: 200px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.uaq-why-feature-icon {
+  font-size: 2.25rem;
+  margin-bottom: 0.625rem;
+}
+
+.uaq-why-feature-title {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #222;
+}
+
+.uaq-why-feature-description {
+  color: #444;
+  font-size: 0.9375rem;
+  margin-bottom: 0;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.uaq-why-cards {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.uaq-why-card {
+  background: #fafbfc;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(30,198,182,0.04);
+  padding: 1.75rem 2rem;
+  min-width: 260px;
+  max-width: 380px;
+  flex: 1 1 320px;
+}
+
+.uaq-why-card-title {
+  font-weight: 700;
+  font-size: 1.0625rem;
+  margin-bottom: 0.75rem;
+  color: #222;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.uaq-why-card-list {
+  color: #1ec6b6;
+  font-size: 0.9375rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  padding-left: 1.25rem;
+  margin: 0;
+  list-style: none;
+}
+
+.uaq-why-card-list li {
+  margin-bottom: 0.5rem;
+}
+
+.uaq-why-card-list li:last-child {
+  margin-bottom: 0;
+}
+
+.uaq-why-check {
+  color: #1ec6b6;
+  margin-right: 0.375rem;
+}
+
+/* Steps Section */
+.uaq-steps-section {
+  background: #f8f9fa;
+  padding: 3.5rem 0 2.25rem 0;
+}
+
+.uaq-steps-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.uaq-steps-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #222;
+}
+
+.uaq-steps-subtitle {
+  text-align: center;
+  color: #444;
+  margin-bottom: 2.5rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.0625rem;
+}
+
+.uaq-step {
+  margin-bottom: 2.25rem;
+}
+
+.uaq-step:last-child {
+  margin-bottom: 0;
+}
+
+.uaq-step-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.125rem;
+}
+
+.uaq-step-number {
+  background: #1ec6b6;
+  color: #fff;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.125rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin-right: 0.75rem;
+}
+
+.uaq-step-title {
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: #222;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.uaq-step-content {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.uaq-step-card {
+  border: 1.5px solid #1ec6b6;
+  border-radius: 12px;
+  padding: 1.375rem 1.5rem;
+  min-width: 220px;
+  flex: 1 1 220px;
+  background: #fff;
+}
+
+.uaq-step-card-title {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 0.375rem;
+  color: #222;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.uaq-step-card-description {
+  color: #444;
+  font-size: 0.9375rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.uaq-step-icons {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.uaq-step-icon-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.375rem 1.5rem;
+  min-width: 180px;
+  flex: 1 1 180px;
+  text-align: center;
+  border: 1px solid #e5e7eb;
+}
+
+.uaq-step-icon {
+  font-size: 1.75rem;
+  margin-bottom: 0.375rem;
+}
+
+.uaq-step-icon-title {
+  font-weight: 700;
+  font-size: 0.9375rem;
+  color: #222;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.uaq-step-icon-description {
+  color: #444;
+  font-size: 0.875rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin-top: 0.25rem;
+}
+
+/* Client Success Stories Section */
+.uaq-testimonials-section {
+  background: #f6fafc;
+  padding: 3.5rem 0 2.25rem 0;
+}
+
+.uaq-testimonials-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.uaq-testimonials-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 2.25rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #222;
+}
+
+.uaq-testimonials-grid {
+  display: flex;
+  gap: 1.75rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.uaq-testimonial-card {
+  background: #fff;
+  border: 1.5px solid #1ec6b6;
+  border-radius: 14px;
+  padding: 1.75rem 1.5rem;
+  min-width: 260px;
+  max-width: 340px;
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.uaq-testimonial-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.625rem;
+}
+
+.uaq-testimonial-avatar {
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 50%;
+  margin-right: 0.75rem;
+}
+
+.uaq-testimonial-name {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #222;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.uaq-testimonial-company {
+  color: #6b7a86;
+  font-size: 0.875rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.uaq-testimonial-rating {
+  color: #f7b500;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+.uaq-testimonial-quote {
+  color: #444;
+  font-size: 0.9375rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-style: italic;
+}
+
+/* FAQ Section */
+.uaq-faq-section {
+  background: #f6f8f9;
+  padding: 3.5rem 0 2.25rem 0;
+}
+
+.uaq-faq-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.uaq-faq-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 2.25rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #176d6b;
+}
+
+.uaq-faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.uaq-faq-item {
+  background: #fff;
+  border: 1.5px solid #1ec6b6;
+  border-radius: 10px;
+  padding: 1.375rem 1.75rem;
+}
+
+.uaq-faq-question {
+  font-weight: 700;
+  font-size: 1.0625rem;
+  color: #222;
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin-bottom: 0.375rem;
+}
+
+.uaq-faq-answer {
+  color: #444;
+  font-size: 0.9375rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+/* Footer */
+.uaq-footer {
+  background: #151b26;
+  color: #e5e7eb;
+  padding: 3.5rem 0 0 0;
+  font-size: 1rem;
+}
+
+.uaq-footer-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 2rem;
+}
+
+.uaq-footer-logo-section {
+  flex: 1 1 260px;
+  min-width: 220px;
+  margin-bottom: 2rem;
+}
+
+.uaq-footer-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.uaq-footer-logo img {
+  width: 180px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  background: transparent;
+}
+
+.uaq-footer-description {
+  color: #bfc6d1;
+  font-size: 0.98rem;
+  margin-bottom: 0.75rem;
+}
+
+.uaq-footer-section {
+  flex: 1 1 160px;
+  min-width: 160px;
+  margin-bottom: 2rem;
+}
+
+.uaq-footer-section-title {
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0.75rem;
+}
+
+.uaq-footer-section-item {
+  color: #e5e7eb;
+  margin-bottom: 0.375rem;
+}
+
+.uaq-footer-contact {
+  flex: 1 1 200px;
+  min-width: 200px;
+  margin-bottom: 2rem;
+}
+
+.uaq-footer-bottom {
+  max-width: 1100px;
+  margin: 2rem auto 0 auto;
+  border-top: 1px solid #232b39;
+  padding: 1.125rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: #bfc6d1;
+  font-size: 0.98rem;
+}
+
+.uaq-footer-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.uaq-footer-link {
+  cursor: pointer;
+}
+
+/* Responsive Breakpoints */
+
+/* 4K Screens (2560px and above) */
+@media (min-width: 2560px) {
+  .uaq-hero-content-wrapper {
+    max-width: 1600px;
+    padding: 0 6%;
+  }
+  
+  .uaq-hero-title {
+    font-size: 4.5rem;
+  }
+  
+  .uaq-hero-description {
+    font-size: 1.4rem;
+    max-width: 1200px;
+  }
+  
+  .uaq-overview-container,
+  .uaq-why-container,
+  .uaq-steps-container,
+  .uaq-testimonials-container {
+    max-width: 1400px;
+    padding: 0 3rem;
+  }
+  
+  .uaq-faq-container {
+    max-width: 1200px;
+    padding: 0 3rem;
+  }
+  
+  .uaq-footer-content,
+  .uaq-footer-bottom {
+    max-width: 1400px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+/* Large Desktop (1920px - 2559px) */
+@media (min-width: 1920px) and (max-width: 2559px) {
+  .uaq-hero-content-wrapper {
+    max-width: 1400px;
+    padding: 0 5%;
+  }
+  
+  .uaq-hero-title {
+    font-size: 4rem;
+  }
+  
+  .uaq-hero-description {
+    font-size: 1.3rem;
+  }
+  
+  .uaq-overview-container,
+  .uaq-why-container,
+  .uaq-steps-container,
+  .uaq-testimonials-container {
+    max-width: 1300px;
+  }
+  
+  .uaq-faq-container {
+    max-width: 1000px;
+  }
+  
+  .uaq-footer-content,
+  .uaq-footer-bottom {
+    max-width: 1300px;
+  }
+}
+
+/* Desktop (1280px - 1919px) */
+@media (min-width: 1280px) and (max-width: 1919px) {
+  .uaq-hero-title {
+    font-size: 3.5rem;
+  }
+  
+  .uaq-hero-description {
+    font-size: 1.2rem;
+  }
+}
+
+/* Tablet (600px - 1024px) */
+@media (max-width: 1024px) {
+  .uaq-hero-content-wrapper {
+    flex-direction: column;
+    text-align: center;
+    padding: 4rem 3%;
+    gap: 2rem;
+  }
+  
+  .uaq-hero-title {
+    font-size: 2.8rem;
+  }
+  
+  .uaq-hero-description {
+    font-size: 1.1rem;
+  }
+  
+  .uaq-overview-content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .uaq-overview-image {
+    width: 100%;
+    max-width: 500px;
+    margin-right: 0;
+  }
+  
+  .uaq-overview-text {
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  .uaq-overview-stats {
+    justify-content: center;
+  }
+  
+  .uaq-why-features {
+    gap: 2rem;
+  }
+  
+  .uaq-why-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .uaq-why-card {
+    max-width: 100%;
+  }
+  
+  .uaq-step-content,
+  .uaq-step-icons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .uaq-step-card,
+  .uaq-step-icon-card {
+    min-width: 100%;
+  }
+  
+  .uaq-testimonials-grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .uaq-testimonial-card {
+    max-width: 100%;
+  }
+  
+  .uaq-footer-content {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .uaq-footer-bottom {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+}
+
+/* Mobile (600px and below) */
+@media (max-width: 600px) {
+  .uaq-hero-section {
+    min-height: 90vh;
+    padding-bottom: 2rem;
+  }
+  
+  .uaq-hero-content-wrapper {
+    padding: 2rem 5%;
+    gap: 1.5rem;
+  }
+  
+  .uaq-hero-title {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .uaq-hero-description {
+    font-size: 1rem;
+  }
+  
+  .uaq-overview-section,
+  .uaq-why-section,
+  .uaq-steps-section,
+  .uaq-testimonials-section,
+  .uaq-faq-section {
+    padding: 2.5rem 0 1.5rem 0;
+  }
+  
+  .uaq-overview-container,
+  .uaq-why-container,
+  .uaq-steps-container,
+  .uaq-testimonials-container,
+  .uaq-faq-container {
+    padding: 0 1rem;
+  }
+  
+  .uaq-overview-title,
+  .uaq-why-title,
+  .uaq-steps-title,
+  .uaq-testimonials-title,
+  .uaq-faq-title {
+    font-size: 1.75rem;
+  }
+  
+  .uaq-overview-subtitle,
+  .uaq-why-subtitle,
+  .uaq-steps-subtitle {
+    font-size: 1rem;
+  }
+  
+  .uaq-overview-image {
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+  }
+  
+  .uaq-overview-stats {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .uaq-overview-stat {
+    min-width: 200px;
+    padding: 1rem 1.5rem;
+  }
+  
+  .uaq-why-features {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .uaq-why-feature {
+    min-width: 100%;
+  }
+  
+  .uaq-step-header {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 0.5rem;
+  }
+  
+  .uaq-step-number {
+    margin-right: 0;
+  }
+  
+  .uaq-testimonials-grid {
+    gap: 1rem;
+  }
+  
+  .uaq-testimonial-card {
+    min-width: 100%;
+    padding: 1.5rem 1rem;
+  }
+  
+  .uaq-faq-item {
+    padding: 1rem 1.25rem;
+  }
+  
+  .uaq-footer {
+    padding: 2.5rem 0 0 0;
+  }
+  
+  .uaq-footer-content {
+    padding: 0 1rem;
+  }
+  
+  .uaq-footer-logo-section,
+  .uaq-footer-section,
+  .uaq-footer-contact {
+    flex: 1 1 100%;
+    min-width: 100%;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .uaq-footer-bottom {
+    padding: 1rem;
+  }
+  
+  .uaq-footer-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+/* Small Mobile (320px - 479px) */
+@media (max-width: 479px) {
+  .uaq-hero-content-wrapper {
+    padding: 1.5rem 4%;
+  }
+  
+  .uaq-hero-title {
+    font-size: 1.9rem;
+    line-height: 1.1;
+  }
+  
+  .uaq-hero-description {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+  
+  .uaq-overview-container,
+  .uaq-why-container,
+  .uaq-steps-container,
+  .uaq-testimonials-container,
+  .uaq-faq-container {
+    padding: 0 0.75rem;
+  }
+  
+  .uaq-overview-title,
+  .uaq-why-title,
+  .uaq-steps-title,
+  .uaq-testimonials-title,
+  .uaq-faq-title {
+    font-size: 1.5rem;
+  }
+  
+  .uaq-overview-stat {
+    min-width: 180px;
+    padding: 0.875rem 1.25rem;
+    font-size: 1.25rem;
+  }
+  
+  .uaq-overview-stat-label {
+    font-size: 0.875rem;
+  }
+  
+  .uaq-why-card {
+    padding: 1.25rem 1.5rem;
+  }
+  
+  .uaq-step-card,
+  .uaq-step-icon-card {
+    padding: 1rem 1.25rem;
+  }
+  
+  .uaq-testimonial-card {
+    padding: 1.25rem 0.875rem;
+  }
+  
+  .uaq-faq-item {
+    padding: 0.875rem 1rem;
+  }
+  
+  .uaq-footer-content,
+  .uaq-footer-bottom {
+    padding: 0 0.75rem;
+  }
+}
+
+/* Prevent horizontal scroll */
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hide horizontal scrollbar */
+body {
+  overflow-x: hidden;
+}
+
+/* Smooth transitions for responsive changes */
+.uaq-hero-content-wrapper,
+.uaq-overview-content,
+.uaq-why-features,
+.uaq-why-cards,
+.uaq-step-content,
+.uaq-step-icons,
+.uaq-testimonials-grid,
+.uaq-footer-content {
+  transition: all 0.3s ease;
+}
+
+/* Mobile and Tablet - Client Success Stories fixes (≤768px) */
+@media (max-width: 768px) {
+  /* Ensure no horizontal overflow on body */
+  body {
+    overflow-x: hidden !important;
+  }
+  
+  /* Client Success Stories Section - Container setup */
+  section[style*="background: '#f6fafc'"] {
+    overflow: visible !important;
+  }
+  
+  section[style*="background: '#f6fafc'"] div[style*="maxWidth: 1100"] {
+    max-width: 100% !important;
+    padding: 0 16px !important;
+  }
+  
+  /* Testimonials container - VERTICAL STACKING like Dubai mainland */
+  section[style*="background: '#f6fafc'"] div[style*="display: flex"][style*="gap: 28"],
+  section[style*="background: '#f6fafc'"] div[style*="flexWrap: 'nowrap'"],
+  section[style*="background: '#f6fafc'"] div[style*="justifyContent: 'center'"][style*="alignItems: 'stretch'"] {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 1.5rem !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    width: 100% !important;
+    overflow: visible !important;
+  }
+  
+  /* Individual testimonial cards - FULL WIDTH like Dubai mainland */
+  section[style*="background: '#f6fafc'"] div[style*="background: '#fff'"][style*="border: '1.5px solid #1ec6b6'"],
+  section[style*="background: '#f6fafc'"] div[style*="minWidth: 260"][style*="maxWidth: 340"],
+  section[style*="background: '#f6fafc'"] div[style*="borderRadius: 14"][style*="padding: '28px 24px'"] {
+    max-width: 100% !important;
+    min-width: 100% !important;
+    flex: none !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    margin: 0 auto !important;
+  }
+  
+  /* Avatar images - keep same size */
+  section[style*="background: '#f6fafc'"] img[style*="width: 44"][style*="height: 44"] {
+    width: 44px !important;
+    height: 44px !important;
+    max-width: 100% !important;
+  }
+} 
