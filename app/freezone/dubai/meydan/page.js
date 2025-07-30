@@ -359,7 +359,7 @@ export default function MeydanFreezonePage() {
       <section style={{ background: '#f2f8fc', padding: '56px 0 64px 0', borderTop: '1px solid #e6ecf1' }}>
         <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 16px' }}>
           <h2 style={{ textAlign: 'center', fontFamily: 'Playfair Display, serif', fontWeight: 700, fontSize: '2rem', marginBottom: 10, color: '#222' }}>
-            Only Three Steps Away from Your Business
+            Only Few Steps Away from Your Business
           </h2>
           <p style={{ textAlign: 'center', color: '#4a5a6a', fontSize: '1.13rem', marginBottom: 44, fontFamily: 'Montserrat, Arial, sans-serif', maxWidth: 700, marginLeft: 'auto', marginRight: 'auto' }}>
             Meydan Free Zone offers an easy and transparent company formation process with innovative digital solutions for global investors.
@@ -370,7 +370,7 @@ export default function MeydanFreezonePage() {
               <div style={{ display: 'flex', alignItems: 'center', marginBottom: 12 }}>
                 <span style={{ background: '#1ec6b6', color: '#fff', borderRadius: '50%', width: 38, height: 38, display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, fontSize: 18, marginRight: 12 }}>01</span>
                 <span style={{ fontWeight: 700, fontSize: '1.08rem', color: '#0e3c5d', fontFamily: 'Playfair Display, serif', marginRight: 10 }}>Choose License Type</span>
-                <span style={{ color: '#1ec6b6', fontSize: 15, fontWeight: 600, background: '#e0f7f4', borderRadius: 8, padding: '4px 12px', marginLeft: 8 }}>1-2 Days</span>
+                <span style={{ color: '#1ec6b6', fontSize: 15, fontWeight: 600, background: '#e0f7f4', borderRadius: 8, padding: '4px 12px', marginLeft: 8 }}></span>
               </div>
               <div style={{ color: '#3a4a5a', fontSize: '1rem', fontFamily: 'Montserrat, Arial, sans-serif' }}>
                 Select from Consulting, Commercial, or Media license based on your business activities and requirements.

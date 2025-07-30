@@ -241,9 +241,9 @@ export default function DubaiMainlandPage() {
             {/* Testimonial 1 */}
             <div className="dubai-testimonial-card">
               <div className="dubai-testimonial-header">
-                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="John Smith" className="dubai-testimonial-avatar" />
+                <img src="/images/adam.png" alt="Adam Richad" className="dubai-testimonial-avatar" />
                 <div>
-                  <div className="dubai-testimonial-name">John Smith</div>
+                  <div className="dubai-testimonial-name">Adam Richad</div>
                   <div className="dubai-testimonial-company">TechSolutions Inc.</div>
                 </div>
               </div>
@@ -257,9 +257,9 @@ export default function DubaiMainlandPage() {
             {/* Testimonial 2 */}
             <div className="dubai-testimonial-card">
               <div className="dubai-testimonial-header">
-                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Johnson" className="dubai-testimonial-avatar" />
+                <img src="/images/luis.png" alt="Luis Johnson" className="dubai-testimonial-avatar" />
                 <div>
-                  <div className="dubai-testimonial-name">Sarah Johnson</div>
+                  <div className="dubai-testimonial-name">Luis Johnson</div>
                   <div className="dubai-testimonial-company">GlobalTrade Ltd.</div>
                 </div>
               </div>
@@ -273,7 +273,7 @@ export default function DubaiMainlandPage() {
             {/* Testimonial 3 */}
             <div className="dubai-testimonial-card">
               <div className="dubai-testimonial-header">
-                <img src="https://randomuser.me/api/portraits/men/54.jpg" alt="Michael Chen" className="dubai-testimonial-avatar" />
+                <img src="/images/michael.png" alt="Michael Chen" className="dubai-testimonial-avatar" />
                 <div>
                   <div className="dubai-testimonial-name">Michael Chen</div>
                   <div className="dubai-testimonial-company">InnoHub</div>

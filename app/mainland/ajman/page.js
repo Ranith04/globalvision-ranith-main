@@ -241,7 +241,7 @@ export default function AjmanMainlandPage() {
             {/* Testimonial 1 */}
             <div className="ajman-testimonial-card">
               <div className="ajman-testimonial-header">
-                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="John Smith" className="ajman-testimonial-avatar" />
+                <img src="/images/john.png" alt="John Smith" className="ajman-testimonial-avatar" />
                 <div>
                   <div className="ajman-testimonial-name">John Smith</div>
                   <div className="ajman-testimonial-company">TechSolutions Inc.</div>
@@ -257,7 +257,7 @@ export default function AjmanMainlandPage() {
             {/* Testimonial 2 */}
             <div className="ajman-testimonial-card">
               <div className="ajman-testimonial-header">
-                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Johnson" className="ajman-testimonial-avatar" />
+                <img src="/images/sarah.png" alt="Sarah Johnson" className="ajman-testimonial-avatar" />
                 <div>
                   <div className="ajman-testimonial-name">Sarah Johnson</div>
                   <div className="ajman-testimonial-company">GlobalTrade Ltd.</div>
@@ -273,9 +273,9 @@ export default function AjmanMainlandPage() {
             {/* Testimonial 3 */}
             <div className="ajman-testimonial-card">
               <div className="ajman-testimonial-header">
-                <img src="https://randomuser.me/api/portraits/men/54.jpg" alt="Michael Chen" className="ajman-testimonial-avatar" />
+                <img src="/images/jakob.png" alt="Jakob Wegner" className="ajman-testimonial-avatar" />
                 <div>
-                  <div className="ajman-testimonial-name">Michael Chen</div>
+                  <div className="ajman-testimonial-name">Jakob Wegner</div>
                   <div className="ajman-testimonial-company">InnoHub</div>
                 </div>
               </div>

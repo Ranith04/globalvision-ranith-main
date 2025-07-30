@@ -264,7 +264,7 @@ export default function RAKMainlandPage() {
             {/* Testimonial 1 */}
             <div style={{ background: '#fff', border: '1.5px solid #1ec6b6', borderRadius: 14, padding: '28px 24px', minWidth: 260, maxWidth: 340, flex: '1 1 300px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
               <div style={{ display: 'flex', alignItems: 'center', marginBottom: 10 }}>
-                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="John Smith" style={{ width: 44, height: 44, borderRadius: '50%', marginRight: 12 }} />
+                <img src="/images/john.png" alt="John Smith" style={{ width: 44, height: 44, borderRadius: '50%', marginRight: 12 }} />
                 <div>
                   <div style={{ fontWeight: 700, fontSize: 16, color: '#222', fontFamily: 'Montserrat, Arial, sans-serif' }}>John Smith</div>
                   <div style={{ color: '#6b7a86', fontSize: 14, fontFamily: 'Montserrat, Arial, sans-serif' }}>TechSolutions Inc.</div>
@@ -280,7 +280,7 @@ export default function RAKMainlandPage() {
             {/* Testimonial 2 */}
             <div style={{ background: '#fff', border: '1.5px solid #1ec6b6', borderRadius: 14, padding: '28px 24px', minWidth: 260, maxWidth: 340, flex: '1 1 300px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
               <div style={{ display: 'flex', alignItems: 'center', marginBottom: 10 }}>
-                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Johnson" style={{ width: 44, height: 44, borderRadius: '50%', marginRight: 12 }} />
+                <img src="/images/sarah.png" alt="Sarah Johnson" style={{ width: 44, height: 44, borderRadius: '50%', marginRight: 12 }} />
                 <div>
                   <div style={{ fontWeight: 700, fontSize: 16, color: '#222', fontFamily: 'Montserrat, Arial, sans-serif' }}>Sarah Johnson</div>
                   <div style={{ color: '#6b7a86', fontSize: 14, fontFamily: 'Montserrat, Arial, sans-serif' }}>GlobalTrade Ltd.</div>
@@ -296,9 +296,9 @@ export default function RAKMainlandPage() {
             {/* Testimonial 3 */}
             <div style={{ background: '#fff', border: '1.5px solid #1ec6b6', borderRadius: 14, padding: '28px 24px', minWidth: 260, maxWidth: 340, flex: '1 1 300px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
               <div style={{ display: 'flex', alignItems: 'center', marginBottom: 10 }}>
-                <img src="https://randomuser.me/api/portraits/men/54.jpg" alt="Michael Chen" style={{ width: 44, height: 44, borderRadius: '50%', marginRight: 12 }} />
+                <img src="/images/jakob.png" alt="Jakob Wegner" style={{ width: 44, height: 44, borderRadius: '50%', marginRight: 12 }} />
                 <div>
-                  <div style={{ fontWeight: 700, fontSize: 16, color: '#222', fontFamily: 'Montserrat, Arial, sans-serif' }}>Michael Chen</div>
+                  <div style={{ fontWeight: 700, fontSize: 16, color: '#222', fontFamily: 'Montserrat, Arial, sans-serif' }}>Jakob Wegner</div>
                   <div style={{ color: '#6b7a86', fontSize: 14, fontFamily: 'Montserrat, Arial, sans-serif' }}>InnoHub</div>
                 </div>
               </div>
