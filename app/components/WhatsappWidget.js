@@ -1,4 +1,3 @@
-// components/WhatsappWidget.js
 import React from 'react';
 
 const WhatsappWidget = () => {
@@ -7,24 +6,33 @@ const WhatsappWidget = () => {
       href="https://wa.me/971504193507"
       target="_blank"
       rel="noopener noreferrer"
-              style={{
-          position: 'fixed',
-          bottom: '95px',
-          right: '25px',
+      style={{
+        position: 'fixed',
+        bottom: '95px',
+        right: '28px',
         backgroundColor: '#25D366',
-        color: 'white',
         borderRadius: '50%',
         padding: '15px',
         boxShadow: '0 4px 8px rgba(0,0,0,0.3)',
         zIndex: 9999,
-        textAlign: 'center',
-        fontSize: '24px',
-        textDecoration: 'none',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        width: '60px',
+        height: '60px',
       }}
     >
-      💬
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="28"
+        height="28"
+        viewBox="0 0 32 32"
+        fill="white"
+      >
+        <path d="M16.002 3.002a13.004 13.004 0 00-11.196 19.42L3 29l6.744-1.76a13.001 13.001 0 006.258 1.587h.001a13.002 13.002 0 000-26zm7.69 18.57c-.32.893-1.886 1.647-2.577 1.756-.662.1-1.45.14-2.338-.146-.537-.17-1.23-.397-2.127-.783-3.736-1.608-6.172-5.39-6.361-5.639-.188-.25-1.518-2.017-1.518-3.846 0-1.83.96-2.734 1.302-3.105.343-.372.748-.465.998-.465.25 0 .5.002.718.013.231.01.54-.088.844.641.32.765 1.086 2.645 1.182 2.84.095.194.158.421.03.672-.127.25-.19.404-.376.62-.187.216-.396.483-.565.648-.187.187-.38.39-.163.767.217.377.965 1.593 2.075 2.578 1.422 1.272 2.622 1.667 3 .924.377-.742.84-1.113 1.138-1.41.296-.296.482-.25.81-.127.33.123 2.085.984 2.44 1.162.355.18.592.265.68.41.09.145.09.836-.23 1.73z"/>
+      </svg>
     </a>
   );
 };
 
-export default WhatsappWidget; 
+export default WhatsappWidget;

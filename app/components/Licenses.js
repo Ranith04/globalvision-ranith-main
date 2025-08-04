@@ -8,6 +8,9 @@ export default function Licenses() {
         'Unlimited Share Holders',
         'MOA',
         'Bank Account Assistance',
+        '5-10 Mix And Match Activities',
+        'Commercial Registry And',
+        'Lease Agreement',
          
       ],
     },

@@ -5,7 +5,7 @@ export default function TrackRecord() {
       <p>Delivering exceptional business setup and workspace solutions across Dubai and the UAE</p>
       <div className="track-record__grid">
         <div className="track-record__item">
-          <span className="track-record__icon">🏗️</span>
+          <span className="track-record__icon">🏢 </span>
           <span className="track-record__number">1000+</span>
           <span className="track-record__label">Projects</span>
         </div>

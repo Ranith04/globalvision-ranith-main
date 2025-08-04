@@ -263,49 +263,49 @@ export default function UAQMainlandPage() {
             {/* Testimonial 1 */}
             <div style={{ background: '#fff', border: '1.5px solid #1ec6b6', borderRadius: 14, padding: '28px 24px', minWidth: 260, maxWidth: 340, flex: '1 1 300px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
               <div style={{ display: 'flex', alignItems: 'center', marginBottom: 10 }}>
-                <img src="/images/john.png" alt="John Smith" style={{ width: 44, height: 44, borderRadius: '50%', marginRight: 12 }} />
+                <img src="/images/reddy.png" alt="John Smith" style={{ width: 44, height: 44, borderRadius: '50%', marginRight: 12 }} />
                 <div>
-                  <div style={{ fontWeight: 700, fontSize: 16, color: '#222', fontFamily: 'Montserrat, Arial, sans-serif' }}>John Smith</div>
-                  <div style={{ color: '#6b7a86', fontSize: 14, fontFamily: 'Montserrat, Arial, sans-serif' }}>TechSolutions Inc.</div>
+                  <div style={{ fontWeight: 700, fontSize: 16, color: '#222', fontFamily: 'Montserrat, Arial, sans-serif' }}>Karthik Reddy</div>
+                  <div style={{ color: '#6b7a86', fontSize: 14, fontFamily: 'Montserrat, Arial, sans-serif' }}>SunVista Enterprises</div>
                 </div>
               </div>
               <div style={{ color: '#f7b500', fontSize: 18, marginBottom: 8 }}>
                 {'★★★★★'}
               </div>
               <div style={{ color: '#444', fontSize: 15, fontFamily: 'Montserrat, Arial, sans-serif', fontStyle: 'italic' }}>
-                "Global Vision accelerated our UAQ license and gave us the market presence we needed."
+                "Highly efficient and professional team. Their attention to detail and quick turnaround made a big difference for us."
               </div>
             </div>
             {/* Testimonial 2 */}
             <div style={{ background: '#fff', border: '1.5px solid #1ec6b6', borderRadius: 14, padding: '28px 24px', minWidth: 260, maxWidth: 340, flex: '1 1 300px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
               <div style={{ display: 'flex', alignItems: 'center', marginBottom: 10 }}>
-                <img src="/images/sarah.png" alt="Sarah Johnson" style={{ width: 44, height: 44, borderRadius: '50%', marginRight: 12 }} />
+                <img src="/images/qasimi.png" alt="Sarah Johnson" style={{ width: 44, height: 44, borderRadius: '50%', marginRight: 12 }} />
                 <div>
-                  <div style={{ fontWeight: 700, fontSize: 16, color: '#222', fontFamily: 'Montserrat, Arial, sans-serif' }}>Sarah Johnson</div>
-                  <div style={{ color: '#6b7a86', fontSize: 14, fontFamily: 'Montserrat, Arial, sans-serif' }}>GlobalTrade Ltd.</div>
+                  <div style={{ fontWeight: 700, fontSize: 16, color: '#222', fontFamily: 'Montserrat, Arial, sans-serif' }}>Reem Al Qasimi</div>
+                  <div style={{ color: '#6b7a86', fontSize: 14, fontFamily: 'Montserrat, Arial, sans-serif' }}>Qasimi Ventures</div>
                 </div>
               </div>
               <div style={{ color: '#f7b500', fontSize: 18, marginBottom: 8 }}>
                 {'★★★★★'}
               </div>
               <div style={{ color: '#444', fontSize: 15, fontFamily: 'Montserrat, Arial, sans-serif', fontStyle: 'italic' }}>
-                "Visa support and guidance were critical—everything was smooth and fast."
+                "Their support helped us avoid costly mistakes during setup. Definitely a trustworthy partner for business formation."
               </div>
             </div>
             {/* Testimonial 3 */}
             <div style={{ background: '#fff', border: '1.5px solid #1ec6b6', borderRadius: 14, padding: '28px 24px', minWidth: 260, maxWidth: 340, flex: '1 1 300px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
               <div style={{ display: 'flex', alignItems: 'center', marginBottom: 10 }}>
-                <img src="/images/jakob.png" alt="Jakob Wegner" style={{ width: 44, height: 44, borderRadius: '50%', marginRight: 12 }} />
+                <img src="/images/desai.png" alt="Jakob Wegner" style={{ width: 44, height: 44, borderRadius: '50%', marginRight: 12 }} />
                 <div>
-                  <div style={{ fontWeight: 700, fontSize: 16, color: '#222', fontFamily: 'Montserrat, Arial, sans-serif' }}>Jakob Wegner</div>
-                  <div style={{ color: '#6b7a86', fontSize: 14, fontFamily: 'Montserrat, Arial, sans-serif' }}>InnoHub</div>
+                  <div style={{ fontWeight: 700, fontSize: 16, color: '#222', fontFamily: 'Montserrat, Arial, sans-serif' }}>Arjun Desai</div>
+                  <div style={{ color: '#6b7a86', fontSize: 14, fontFamily: 'Montserrat, Arial, sans-serif' }}>Desai Group India</div>
                 </div>
               </div>
               <div style={{ color: '#f7b500', fontSize: 18, marginBottom: 8 }}>
                 {'★★★★★'}
               </div>
               <div style={{ color: '#444', fontSize: 15, fontFamily: 'Montserrat, Arial, sans-serif', fontStyle: 'italic' }}>
-                "We appreciated the legal insights that helped us meet UAQ requirements."
+                "From the first consultation to final approval, everything was handled with care. Couldn’t have asked for a smoother experience."
               </div>
             </div>
           </div>

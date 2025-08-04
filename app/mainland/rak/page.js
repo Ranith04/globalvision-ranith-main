@@ -264,49 +264,49 @@ export default function RAKMainlandPage() {
             {/* Testimonial 1 */}
             <div style={{ background: '#fff', border: '1.5px solid #1ec6b6', borderRadius: 14, padding: '28px 24px', minWidth: 260, maxWidth: 340, flex: '1 1 300px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
               <div style={{ display: 'flex', alignItems: 'center', marginBottom: 10 }}>
-                <img src="/images/john.png" alt="John Smith" style={{ width: 44, height: 44, borderRadius: '50%', marginRight: 12 }} />
+                <img src="/images/na.png" alt="John Smith" style={{ width: 44, height: 44, borderRadius: '50%', marginRight: 12 }} />
                 <div>
-                  <div style={{ fontWeight: 700, fontSize: 16, color: '#222', fontFamily: 'Montserrat, Arial, sans-serif' }}>John Smith</div>
-                  <div style={{ color: '#6b7a86', fontSize: 14, fontFamily: 'Montserrat, Arial, sans-serif' }}>TechSolutions Inc.</div>
+                  <div style={{ fontWeight: 700, fontSize: 16, color: '#222', fontFamily: 'Montserrat, Arial, sans-serif' }}>Ahmed Raza</div>
+                  <div style={{ color: '#6b7a86', fontSize: 14, fontFamily: 'Montserrat, Arial, sans-serif' }}>Emiratech Solutions</div>
                 </div>
               </div>
               <div style={{ color: '#f7b500', fontSize: 18, marginBottom: 8 }}>
                 {'★★★★★'}
               </div>
               <div style={{ color: '#444', fontSize: 15, fontFamily: 'Montserrat, Arial, sans-serif', fontStyle: 'italic' }}>
-                "Global Vision accelerated our RAK license and gave us the market presence we needed."
+                "Global Vision guided us through the setup process with total clarity. Their team made the paperwork and approvals feel effortless."
               </div>
             </div>
             {/* Testimonial 2 */}
             <div style={{ background: '#fff', border: '1.5px solid #1ec6b6', borderRadius: 14, padding: '28px 24px', minWidth: 260, maxWidth: 340, flex: '1 1 300px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
               <div style={{ display: 'flex', alignItems: 'center', marginBottom: 10 }}>
-                <img src="/images/sarah.png" alt="Sarah Johnson" style={{ width: 44, height: 44, borderRadius: '50%', marginRight: 12 }} />
+                <img src="/images/ni.png" alt="Sarah Johnson" style={{ width: 44, height: 44, borderRadius: '50%', marginRight: 12 }} />
                 <div>
-                  <div style={{ fontWeight: 700, fontSize: 16, color: '#222', fontFamily: 'Montserrat, Arial, sans-serif' }}>Sarah Johnson</div>
-                  <div style={{ color: '#6b7a86', fontSize: 14, fontFamily: 'Montserrat, Arial, sans-serif' }}>GlobalTrade Ltd.</div>
+                  <div style={{ fontWeight: 700, fontSize: 16, color: '#222', fontFamily: 'Montserrat, Arial, sans-serif' }}>Meera Nair</div>
+                  <div style={{ color: '#6b7a86', fontSize: 14, fontFamily: 'Montserrat, Arial, sans-serif' }}>IndoGlobal Exports</div>
                 </div>
               </div>
               <div style={{ color: '#f7b500', fontSize: 18, marginBottom: 8 }}>
                 {'★★★★★'}
               </div>
               <div style={{ color: '#444', fontSize: 15, fontFamily: 'Montserrat, Arial, sans-serif', fontStyle: 'italic' }}>
-                "Visa support and guidance were critical—everything was smooth and fast."
+                "We got amazing support throughout our business registration. Everything was handled smoothly, and they kept us updated without needing to follow up."
               </div>
             </div>
             {/* Testimonial 3 */}
             <div style={{ background: '#fff', border: '1.5px solid #1ec6b6', borderRadius: 14, padding: '28px 24px', minWidth: 260, maxWidth: 340, flex: '1 1 300px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
               <div style={{ display: 'flex', alignItems: 'center', marginBottom: 10 }}>
-                <img src="/images/jakob.png" alt="Jakob Wegner" style={{ width: 44, height: 44, borderRadius: '50%', marginRight: 12 }} />
+                <img src="/images/yusuf.png" alt="Jakob Wegner" style={{ width: 44, height: 44, borderRadius: '50%', marginRight: 12 }} />
                 <div>
-                  <div style={{ fontWeight: 700, fontSize: 16, color: '#222', fontFamily: 'Montserrat, Arial, sans-serif' }}>Jakob Wegner</div>
-                  <div style={{ color: '#6b7a86', fontSize: 14, fontFamily: 'Montserrat, Arial, sans-serif' }}>InnoHub</div>
+                  <div style={{ fontWeight: 700, fontSize: 16, color: '#222', fontFamily: 'Montserrat, Arial, sans-serif' }}>Yusuf Al Mansoori</div>
+                  <div style={{ color: '#6b7a86', fontSize: 14, fontFamily: 'Montserrat, Arial, sans-serif' }}>Al Noor Holdings</div>
                 </div>
               </div>
               <div style={{ color: '#f7b500', fontSize: 18, marginBottom: 8 }}>
                 {'★★★★★'}
               </div>
               <div style={{ color: '#444', fontSize: 15, fontFamily: 'Montserrat, Arial, sans-serif', fontStyle: 'italic' }}>
-                "We appreciated the legal insights that helped us meet RAK requirements."
+                "The team had deep knowledge of the procedures and legal aspects. They made sure we stayed compliant without any delays."
               </div>
             </div>
           </div>

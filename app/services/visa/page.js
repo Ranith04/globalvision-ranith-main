@@ -58,7 +58,7 @@ export default function VisaPage() {
             <h2 style={{ fontSize: '2.8rem', fontWeight: 700, marginBottom: 18, color: '#179e9e' }}>Complete Visa Service</h2>
           </div>
           <div style={{ flex: 1, minWidth: 500, maxWidth: 500, padding: '12px' }}>
-            <img className="visa-image" src="/images/Background-Border-Shadow-3.png" alt="Dubai Skyline" style={{ borderRadius: 16, width: '100%', height: 'auto' }} />
+            <img className="visa-image" src="/images/passport.png" alt="Dubai Skyline" style={{ borderRadius: 16, width: '100%', height: 'auto' }} />
           </div>
         </div>
       </section>
