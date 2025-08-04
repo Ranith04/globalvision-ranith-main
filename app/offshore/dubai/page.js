@@ -33,8 +33,8 @@ export default function DubaiOffshorePage() {
               Dubai Offshore<br /><span className="dubai-offshore-intro-highlight">Company Formation</span>
             </h2>
             <div className="dubai-offshore-intro-buttons">
-              <a href="#" className="dubai-offshore-intro-btn-primary">Start Your Setup</a>
-              <a href="#" className="dubai-offshore-intro-btn-secondary">Free Consultation</a>
+              <a href="#contact" className="dubai-offshore-intro-btn-primary">Start Your Setup</a>
+              <a href="#contact" className="dubai-offshore-intro-btn-secondary">Free Consultation</a>
             </div>
           </div>
           {/* Right: Image */}
@@ -89,7 +89,7 @@ export default function DubaiOffshorePage() {
             <p className="dubai-offshore-strategic-description">
               An offshore company formation in Dubai is a legal business established to operate outside its registered jurisdiction. These companies offer unique advantages for international trading, asset protection, and tax optimization.<br /><br />With UAE's stable legal system, sophisticated infrastructure, and access to international markets, Dubai offshore companies provide the perfect gateway for global business growth.
             </p>
-            <a href="#" className="dubai-offshore-strategic-btn">Learn More About Benefits</a>
+            <a href="#contact" className="dubai-offshore-strategic-btn">Learn More About Benefits</a>
           </div>
         </div>
       </section>
@@ -193,7 +193,7 @@ export default function DubaiOffshorePage() {
             <span className="dubai-offshore-cta-separator">•</span>
             <span>info@globalvisionuae.com</span>
           </div>
-          <a href="#" className="dubai-offshore-cta-btn">Get Free Consultation</a>
+          <a href="#contact" className="dubai-offshore-cta-btn">Get Free Consultation</a>
         </div>
       </section>
 

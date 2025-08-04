@@ -91,9 +91,9 @@ export default function NotaryPage() {
               <li>✔ Contracts</li>
               <li>✔ Academic certificates</li>
             </ul>
-            <button className="notary-btn" style={{ background: '#fff', color: '#222', border: '1.5px solid #e3f6f4', borderRadius: 8, padding: '10px 28px', fontWeight: 600, fontSize: 15, cursor: 'pointer', marginTop: 'auto', display: 'flex', alignItems: 'center', gap: 8 }}>
+            <a href="#contact" className="notary-btn" style={{ background: '#fff', color: '#222', border: '1.5px solid #e3f6f4', borderRadius: 8, padding: '10px 28px', fontWeight: 600, fontSize: 15, cursor: 'pointer', marginTop: 'auto', display: 'flex', alignItems: 'center', gap: 8, textDecoration: 'none' }}>
               Learn More <span style={{ fontSize: 18, marginLeft: 2 }}>→</span>
-            </button>
+            </a>
           </div>
           {/* Document Authentication Card */}
           <div className="notary-service-card" style={{ background: '#fff', borderRadius: 22, boxShadow: '0 2px 12px rgba(30,198,182,0.07)', padding: '36px 28px', textAlign: 'left', minWidth: 0, maxWidth: 370, border: '1.5px solid #f0f3f7', display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
@@ -108,9 +108,9 @@ export default function NotaryPage() {
               <li>✔ Apostille services</li>
               <li>✔ Translation services</li>
             </ul>
-            <button className="notary-btn" style={{ background: '#fff', color: '#222', border: '1.5px solid #e3f6f4', borderRadius: 8, padding: '10px 28px', fontWeight: 600, fontSize: 15, cursor: 'pointer', marginTop: 'auto', display: 'flex', alignItems: 'center', gap: 8 }}>
+            <a href="#contact" className="notary-btn" style={{ background: '#fff', color: '#222', border: '1.5px solid #e3f6f4', borderRadius: 8, padding: '10px 28px', fontWeight: 600, fontSize: 15, cursor: 'pointer', marginTop: 'auto', display: 'flex', alignItems: 'center', gap: 8, textDecoration: 'none' }}>
               Learn More <span style={{ fontSize: 18, marginLeft: 2 }}>→</span>
-            </button>
+            </a>
           </div>
           {/* Legal Document Drafting Card */}
           <div className="notary-service-card" style={{ background: '#fff', borderRadius: 22, boxShadow: '0 2px 12px rgba(30,198,182,0.07)', padding: '36px 28px', textAlign: 'left', minWidth: 0, maxWidth: 370, border: '1.5px solid #f0f3f7', display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
@@ -125,9 +125,9 @@ export default function NotaryPage() {
               <li>✔ Wills</li>
               <li>✔ Property deeds</li>
             </ul>
-            <button className="notary-btn" style={{ background: '#fff', color: '#222', border: '1.5px solid #e3f6f4', borderRadius: 8, padding: '10px 28px', fontWeight: 600, fontSize: 15, cursor: 'pointer', marginTop: 'auto', display: 'flex', alignItems: 'center', gap: 8 }}>
+            <a href="#contact" className="notary-btn" style={{ background: '#fff', color: '#222', border: '1.5px solid #e3f6f4', borderRadius: 8, padding: '10px 28px', fontWeight: 600, fontSize: 15, cursor: 'pointer', marginTop: 'auto', display: 'flex', alignItems: 'center', gap: 8, textDecoration: 'none' }}>
               Learn More <span style={{ fontSize: 18, marginLeft: 2 }}>→</span>
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -162,9 +162,9 @@ export default function NotaryPage() {
               <li style={{ marginBottom: 8 }}><span style={{ color: '#19b893', fontWeight: 700, marginRight: 8 }}>✔</span> Medical Certificates</li>
             </ul>
           </div>
-          <button className="notary-btn" style={{ background: 'linear-gradient(90deg, #19b893 60%, #00796b 100%)', color: '#fff', border: 'none', borderRadius: 8, padding: '15px 38px', fontWeight: 700, fontSize: 18, cursor: 'pointer', marginTop: 0, display: 'flex', alignItems: 'center', gap: 10, boxShadow: '0 2px 8px rgba(30,198,182,0.10)' }}>
+          <a href="#contact" className="notary-btn" style={{ background: 'linear-gradient(90deg, #19b893 60%, #00796b 100%)', color: '#fff', border: 'none', borderRadius: 8, padding: '15px 38px', fontWeight: 700, fontSize: 18, cursor: 'pointer', marginTop: 0, display: 'flex', alignItems: 'center', gap: 10, boxShadow: '0 2px 8px rgba(30,198,182,0.10)', textDecoration: 'none' }}>
             View All Services <span style={{ fontSize: 22, marginLeft: 2 }}>→</span>
-          </button>
+          </a>
         </div>
         {/* Right Column: Image */}
         <div style={{ flex: 1, minWidth: 0, maxWidth: 600, display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: 24 }}>

@@ -44,8 +44,8 @@ export default function MauritiusPage() {
               </div>
             </div>
             <div className="mauritius-intro-buttons">
-              <a href="#" className="mauritius-intro-btn-primary">Start Formation</a>
-              <a href="#" className="mauritius-intro-btn-secondary">Free Consultation</a>
+              <a href="#contact" className="mauritius-intro-btn-primary">Start Formation</a>
+              <a href="#contact" className="mauritius-intro-btn-secondary">Free Consultation</a>
             </div>
           </div>
           {/* Right: Image Card - thick accent, shadow, slight rotation */}
@@ -266,7 +266,7 @@ export default function MauritiusPage() {
             <span className="mauritius-cta-separator">•</span>
             <span>info@globalvisionuae.com</span>
           </div>
-          <a href="#" className="mauritius-cta-btn">Get Free Consultation</a>
+          <a href="#contact" className="mauritius-cta-btn">Get Free Consultation</a>
         </div>
       </section>
 

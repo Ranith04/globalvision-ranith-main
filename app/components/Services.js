@@ -1,10 +1,10 @@
 import Image from 'next/image';
 
 const services = [
-  { img: '/images/Container.png', title: 'Want to start a company?', link: '#' },
-  { img: '/images/Container2.png', title: 'Already have a company?', link: '#' },
-  { img: '/images/Container3.png', title: "Can\'t be our partner?", link: '#' },
-  { img: '/images/Overlay.png', title: 'Need a business loan?', link: '#' }
+  { img: '/images/Container.png', title: 'Want to start a company?', link: '#contact' },
+  { img: '/images/Container2.png', title: 'Already have a company?', link: '#contact' },
+  { img: '/images/Container3.png', title: "Can\'t be our partner?", link: '#contact' },
+  { img: '/images/Overlay.png', title: 'Need a business loan?', link: '#contact' }
 ];
 
 export default function Services() {

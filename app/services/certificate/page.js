@@ -1,3 +1,4 @@
+'use client';
 import '../../../styles/certificate-responsive.css';
 import ContactLeadSection from '../../components/ContactLeadSection';
 import Navbar from '../../components/Navbar';
@@ -93,9 +94,7 @@ export default function CertificatePage() {
               <li>✔ Divorce Certificate</li>
               <li>✔ Death Certificate</li>
             </ul>
-            <div style={{ color: '#7b8a9c', fontSize: 15, marginBottom: 2 }}><b>Cost:</b> <span style={{ color: '#222' }}>AED 150 - 300</span></div>
-            <div style={{ color: '#7b8a9c', fontSize: 15, marginBottom: 18 }}><b>Timeline:</b> <span style={{ color: '#222' }}>3-5 days</span></div>
-            <button className="certificate-btn" style={{ background: '#fff', color: '#222', border: '1.5px solid #e3f6f4', borderRadius: 8, padding: '10px 28px', fontWeight: 600, fontSize: 15, cursor: 'pointer', marginTop: 'auto', display: 'flex', alignItems: 'center', gap: 8 }}>
+             <button className="certificate-btn" style={{ background: '#fff', color: '#222', border: '1.5px solid #e3f6f4', borderRadius: 8, padding: '10px 28px', fontWeight: 600, fontSize: 15, cursor: 'pointer', marginTop: 'auto', display: 'flex', alignItems: 'center', gap: 8 }} onClick={() => window.location.href = '#contact'}>
               Get Quote <span style={{ fontSize: 18, marginLeft: 2 }}>→</span>
             </button>
           </div>
@@ -112,9 +111,7 @@ export default function CertificatePage() {
               <li>✔ Diploma</li>
               <li>✔ School Certificates</li>
             </ul>
-            <div style={{ color: '#7b8a9c', fontSize: 15, marginBottom: 2 }}><b>Cost:</b> <span style={{ color: '#222' }}>AED 200 - 400</span></div>
-            <div style={{ color: '#7b8a9c', fontSize: 15, marginBottom: 18 }}><b>Timeline:</b> <span style={{ color: '#222' }}>5-7 days</span></div>
-            <button className="certificate-btn" style={{ background: '#fff', color: '#222', border: '1.5px solid #e3f6f4', borderRadius: 8, padding: '10px 28px', fontWeight: 600, fontSize: 15, cursor: 'pointer', marginTop: 'auto', display: 'flex', alignItems: 'center', gap: 8 }}>
+             <button className="certificate-btn" style={{ background: '#fff', color: '#222', border: '1.5px solid #e3f6f4', borderRadius: 8, padding: '10px 28px', fontWeight: 600, fontSize: 15, cursor: 'pointer', marginTop: 'auto', display: 'flex', alignItems: 'center', gap: 8 }} onClick={() => window.location.href = '#contact'}>
               Get Quote <span style={{ fontSize: 18, marginLeft: 2 }}>→</span>
             </button>
           </div>
@@ -131,9 +128,7 @@ export default function CertificatePage() {
               <li>✔ Commercial Invoices</li>
               <li>✔ Certificates of Origin</li>
             </ul>
-            <div style={{ color: '#7b8a9c', fontSize: 15, marginBottom: 2 }}><b>Cost:</b> <span style={{ color: '#222' }}>AED 250 - 500</span></div>
-            <div style={{ color: '#7b8a9c', fontSize: 15, marginBottom: 18 }}><b>Timeline:</b> <span style={{ color: '#222' }}>7-10 days</span></div>
-            <button className="certificate-btn" style={{ background: '#fff', color: '#222', border: '1.5px solid #e3f6f4', borderRadius: 8, padding: '10px 28px', fontWeight: 600, fontSize: 15, cursor: 'pointer', marginTop: 'auto', display: 'flex', alignItems: 'center', gap: 8 }}>
+             <button className="certificate-btn" style={{ background: '#fff', color: '#222', border: '1.5px solid #e3f6f4', borderRadius: 8, padding: '10px 28px', fontWeight: 600, fontSize: 15, cursor: 'pointer', marginTop: 'auto', display: 'flex', alignItems: 'center', gap: 8 }} onClick={() => window.location.href = '#contact'}>
               Get Quote <span style={{ fontSize: 18, marginLeft: 2 }}>→</span>
             </button>
           </div>
@@ -288,7 +283,7 @@ export default function CertificatePage() {
             </div>
           ))}
         </div>
-        <button className="certificate-btn" style={{ background: '#fff', color: '#222', border: '1.5px solid #e3f6f4', borderRadius: 8, padding: '12px 32px', fontWeight: 600, fontSize: 16, cursor: 'pointer', marginTop: 0, display: 'inline-flex', alignItems: 'center', gap: 10, boxShadow: '0 2px 8px rgba(30,198,182,0.10)' }}>
+        <button className="certificate-btn" style={{ background: '#fff', color: '#222', border: '1.5px solid #e3f6f4', borderRadius: 8, padding: '12px 32px', fontWeight: 600, fontSize: 16, cursor: 'pointer', marginTop: 0, display: 'inline-flex', alignItems: 'center', gap: 10, boxShadow: '0 2px 8px rgba(30,198,182,0.10)' }} onClick={() => window.location.href = '#contact'}>
           View All Countries <span style={{ fontSize: 20, marginLeft: 2 }}>🌐</span>
         </button>
       </section>

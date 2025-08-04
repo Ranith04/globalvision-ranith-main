@@ -44,8 +44,8 @@ export default function CaymanIslandsPage() {
               </span>
             </div>
             <div className="cayman-intro-buttons">
-              <a href="#" className="cayman-intro-btn-primary">Start Formation</a>
-              <a href="#" className="cayman-intro-btn-secondary">Free Consultation</a>
+              <a href="#contact" className="cayman-intro-btn-primary">Start Formation</a>
+              <a href="#contact" className="cayman-intro-btn-secondary">Free Consultation</a>
             </div>
           </div>
           {/* Right: Image */}
@@ -246,7 +246,7 @@ export default function CaymanIslandsPage() {
             <span className="cayman-cta-separator">•</span>
             <span>info@globalvisionuae.com</span>
           </div>
-          <a href="#" className="cayman-cta-btn">Get Free Consultation</a>
+          <a href="#contact" className="cayman-cta-btn">Get Free Consultation</a>
         </div>
       </section>
 

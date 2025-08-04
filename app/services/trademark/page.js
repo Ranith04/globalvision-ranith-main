@@ -267,7 +267,7 @@ export default function TrademarkPage() {
               <li><b>Legal Expertise:</b> 15+ years of UAE intellectual property law and regulations</li>
               <li><b>Cultural Understanding:</b> Local expertise to ensure your trademark works effectively in UAE market</li>
             </ul>
-            <a href="#" className="trademark-btn" style={{ background: '#1ec6b6', color: '#fff', padding: '12px 32px', borderRadius: 30, fontWeight: 600, fontSize: '1.1rem', textDecoration: 'none', display: 'inline-block' }}>Start Your Registration</a>
+            <a href="#contact" className="trademark-btn" style={{ background: '#1ec6b6', color: '#fff', padding: '12px 32px', borderRadius: 30, fontWeight: 600, fontSize: '1.1rem', textDecoration: 'none', display: 'inline-block' }}>Start Your Registration</a>
           </div>
         </div>
       </section>

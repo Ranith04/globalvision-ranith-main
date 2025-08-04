@@ -41,8 +41,8 @@ export default function BVIPage() {
               </span>
             </div>
             <div className="bvi-intro-buttons">
-              <a href="#" className="bvi-intro-btn-primary">Start BVI Setup</a>
-              <a href="#" className="bvi-intro-btn-secondary">Free Consultation</a>
+              <a href="#contact" className="bvi-intro-btn-primary">Start BVI Setup</a>
+              <a href="#contact" className="bvi-intro-btn-secondary">Free Consultation</a>
             </div>
           </div>
           {/* Right: Image */}
@@ -217,7 +217,7 @@ export default function BVIPage() {
             <span className="bvi-cta-separator">•</span>
             <span>info@globalvisionuae.com</span>
           </div>
-          <a href="#" className="bvi-cta-btn">Get Free Consultation</a>
+          <a href="#contact" className="bvi-cta-btn">Get Free Consultation</a>
         </div>
       </section>
 

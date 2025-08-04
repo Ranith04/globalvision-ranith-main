@@ -91,7 +91,7 @@ export default function LocalSponsorshipPage() {
               <li>Document attestation support</li>
               <li>Renewal & cancellation assistance</li>
             </ul>
-            <a href="#" style={{ color: '#1ec6b6', fontWeight: 600, textDecoration: 'underline', fontSize: 17 }}>Learn More</a>
+            <a href="#contact" style={{ color: '#1ec6b6', fontWeight: 600, textDecoration: 'underline', fontSize: 17 }}>Learn More</a>
           </div>
           {/* Card 2: Employee Sponsorship */}
           <div className="local-sponsorship-card" style={{ background: '#fff', borderRadius: 22, boxShadow: '0 4px 18px rgba(30,198,182,0.10)', padding: '54px 38px', textAlign: 'center', minWidth: 0, maxWidth: 400, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
@@ -105,7 +105,7 @@ export default function LocalSponsorshipPage() {
               <li>Medical & Emirates ID support</li>
               <li>PRO & government liaison</li>
             </ul>
-            <a href="#" style={{ color: '#1ec6b6', fontWeight: 600, textDecoration: 'underline', fontSize: 17 }}>Learn More</a>
+            <a href="#contact" style={{ color: '#1ec6b6', fontWeight: 600, textDecoration: 'underline', fontSize: 17 }}>Learn More</a>
           </div>
           {/* Card 3: Investment Sponsorship */}
           <div className="local-sponsorship-card" style={{ background: '#fff', borderRadius: 22, boxShadow: '0 4px 18px rgba(30,198,182,0.10)', padding: '54px 38px', textAlign: 'center', minWidth: 0, maxWidth: 400, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
@@ -119,7 +119,7 @@ export default function LocalSponsorshipPage() {
               <li>Legal & compliance assistance</li>
               <li>Renewal & exit services</li>
             </ul>
-            <a href="#" style={{ color: '#1ec6b6', fontWeight: 600, textDecoration: 'underline', fontSize: 17 }}>Learn More</a>
+            <a href="#contact" style={{ color: '#1ec6b6', fontWeight: 600, textDecoration: 'underline', fontSize: 17 }}>Learn More</a>
           </div>
         </div>
       </section>

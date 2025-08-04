@@ -33,8 +33,8 @@ export default function RAKICCOffshorePage() {
               RAK ICC<br /><span className="rakicc-intro-highlight">Offshore Formation</span>
             </h2>
             <div className="rakicc-intro-buttons">
-              <a href="#" className="rakicc-intro-btn-primary">Start Formation</a>
-              <a href="#" className="rakicc-intro-btn-secondary">Free Consultation</a>
+              <a href="#contact" className="rakicc-intro-btn-primary">Start Formation</a>
+              <a href="#contact" className="rakicc-intro-btn-secondary">Free Consultation</a>
             </div>
           </div>
           {/* Right: Image Card - thick accent, shadow, slight rotation */}
@@ -223,7 +223,7 @@ export default function RAKICCOffshorePage() {
             <span className="rakicc-cta-separator">•</span>
             <span>info@globalvisionuae.com</span>
           </div>
-          <a href="#" className="rakicc-cta-btn">Get Free Consultation</a>
+          <a href="#contact" className="rakicc-cta-btn">Get Free Consultation</a>
         </div>
       </section>
 

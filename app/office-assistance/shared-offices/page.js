@@ -33,8 +33,8 @@ export default function SharedOfficesPage() {
               Shared Office Space <span className="shared-intro-highlight">Dubai Sheikh Zayed Road</span>
             </h2>
             <div className="shared-intro-buttons">
-              <a href="#" className="shared-intro-btn-primary">Book Office Space</a>
-              <a href="#" className="shared-intro-btn-secondary">Get Free Quote</a>
+              <a href="#contact" className="shared-intro-btn-primary">Book Office Space</a>
+              <a href="#contact" className="shared-intro-btn-secondary">Get Free Quote</a>
             </div>
           </div>
           {/* Right: Image Card */}
@@ -167,7 +167,7 @@ export default function SharedOfficesPage() {
             <span className="shared-cta-contact-item">+971 50 419 3507</span>
             <span className="shared-cta-contact-item">info@globalvisionuae.com</span>
           </div>
-          <a href="#" className="shared-cta-btn">Request Free Quote</a>
+          <a href="#contact" className="shared-cta-btn">Request Free Quote</a>
         </div>
       </section>
 

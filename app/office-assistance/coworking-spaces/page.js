@@ -33,8 +33,8 @@ export default function CoworkingSpacesPage() {
               Top-Tier Coworking<br /><span className="coworking-intro-highlight">Space in Dubai</span>
             </h2>
             <div className="coworking-intro-buttons">
-              <a href="#" className="coworking-intro-btn-primary">Book Coworking Space</a>
-              <a href="#" className="coworking-intro-btn-secondary">Get 40% Discount</a>
+              <a href="#contact" className="coworking-intro-btn-primary">Book Coworking Space</a>
+              <a href="#contact" className="coworking-intro-btn-secondary">Get 40% Discount</a>
             </div>
           </div>
           {/* Right: Image Card */}
@@ -236,9 +236,9 @@ export default function CoworkingSpacesPage() {
               ))}
             </div>
             
-            <button className="coworking-affordable-btn">
+            <a href="#contact" className="coworking-affordable-btn">
               Book Now
-            </button>
+            </a>
           </div>
         </div>
       </section>
@@ -302,7 +302,7 @@ export default function CoworkingSpacesPage() {
             <span className="coworking-cta-separator">•</span>
             <span>info@globalvisionuae.com</span>
           </div>
-          <a href="#" className="coworking-cta-btn">Get Free Quote</a>
+          <a href="#contact" className="coworking-cta-btn">Get Free Quote</a>
         </div>
       </section>
       

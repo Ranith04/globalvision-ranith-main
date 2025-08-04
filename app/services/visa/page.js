@@ -1,3 +1,4 @@
+'use client';
 import '../../../styles/visa-responsive.css';
 import ContactLeadSection from '../../components/ContactLeadSection';
 import Navbar from '../../components/Navbar';
@@ -143,7 +144,7 @@ export default function VisaPage() {
                 alignItems: 'center',
                 gap: 8,
                 padding: 0
-              }}>
+              }} onClick={() => window.location.href = '#contact'}>
                 Apply Now 
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M9 18L15 12L9 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -217,7 +218,7 @@ export default function VisaPage() {
                 alignItems: 'center',
                 gap: 8,
                 padding: 0
-              }}>
+              }} onClick={() => window.location.href = '#contact'}>
                 Apply Now 
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M9 18L15 12L9 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -292,7 +293,7 @@ export default function VisaPage() {
                 alignItems: 'center',
                 gap: 8,
                 padding: 0
-              }}>
+              }} onClick={() => window.location.href = '#contact'}>
                 Apply Now 
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M9 18L15 12L9 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>

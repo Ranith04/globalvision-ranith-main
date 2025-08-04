@@ -33,8 +33,8 @@ export default function VirtualOfficesPage() {
               Virtual Offices<br /><span className="virtual-intro-highlight">Dubai Sheikh Zayed Road</span>
             </h2>
             <div className="virtual-intro-buttons">
-              <a href="#" className="virtual-intro-btn-primary">Book Virtual Office</a>
-              <a href="#" className="virtual-intro-btn-secondary">Free Consultation</a>
+              <a href="#contact" className="virtual-intro-btn-primary">Book Virtual Office</a>
+              <a href="#contact" className="virtual-intro-btn-secondary">Free Consultation</a>
             </div>
           </div>
           {/* Right: Image Card */}
@@ -193,7 +193,7 @@ export default function VirtualOfficesPage() {
             <span className="virtual-cta-separator">•</span>
             <span>info@globalvisionuae.com</span>
           </div>
-          <a href="#" className="virtual-cta-btn">Get Free Quote</a>
+          <a href="#contact" className="virtual-cta-btn">Get Free Quote</a>
         </div>
       </section>
 

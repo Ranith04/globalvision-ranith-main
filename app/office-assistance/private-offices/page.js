@@ -31,8 +31,8 @@ export default function PrivateOfficesPage() {
           <div className="private-offer-content">
             <h2 className="private-offer-title">Private Office <span className="private-offer-highlight">for Rent in Dubai</span></h2>
             <div className="private-offer-buttons">
-              <button className="private-offer-btn-primary">Book Private Office</button>
-              <button className="private-offer-btn-secondary">Schedule Tour</button>
+              <a href="#contact" className="private-offer-btn-primary">Book Private Office</a>
+              <a href="#contact" className="private-offer-btn-secondary">Schedule Tour</a>
             </div>
           </div>
           <div className="private-offer-image-wrapper">
@@ -174,7 +174,7 @@ export default function PrivateOfficesPage() {
             <span>+971 50 419 3507</span>
             <span>info@globalvisionuae.com</span>
           </div>
-          <button className="private-cta-btn">Contact Us Today</button>
+          <a href="#contact" className="private-cta-btn">Contact Us Today</a>
         </div>
       </section>
 

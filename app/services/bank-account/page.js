@@ -111,7 +111,7 @@ export default function BankAccountPage() {
                 <li>Online & mobile banking</li>
                 <li>Multi-currency support</li>
               </ul>
-              <a href="#" style={{ color: '#1ec6b6', fontWeight: 600, display: 'inline-block', textDecoration: 'underline', fontSize: '0.98rem' }}>Apply for Personal Account →</a>
+              <a href="#contact" style={{ color: '#1ec6b6', fontWeight: 600, display: 'inline-block', textDecoration: 'underline', fontSize: '0.98rem' }}>Apply for Personal Account →</a>
             </div>
             {/* Corporate Account */}
             <div className="bank-account-type" style={{ flex: 1, minWidth: 320, background: '#f7f7f7', borderRadius: 14, padding: 24, boxShadow: '0 2px 8px rgba(30,198,182,0.06)', border: '1.5px solid #e0e0e0' }}>
@@ -132,7 +132,7 @@ export default function BankAccountPage() {
                 <li>Online & mobile banking</li>
                 <li>Multi-currency support</li>
               </ul>
-              <a href="#" style={{ color: '#1ec6b6', fontWeight: 600, display: 'inline-block', textDecoration: 'underline', fontSize: '0.98rem' }}>Apply for Corporate Account →</a>
+              <a href="#contact" style={{ color: '#1ec6b6', fontWeight: 600, display: 'inline-block', textDecoration: 'underline', fontSize: '0.98rem' }}>Apply for Corporate Account →</a>
             </div>
           </div>
         </div>
@@ -177,7 +177,7 @@ export default function BankAccountPage() {
           </div>
           <div style={{ color: '#888', fontSize: '0.98rem', marginBottom: 12, textAlign: 'center' }}>Plus many other local and international banks.</div>
           <div style={{ display: 'flex', justifyContent: 'center' }}>
-            <a href="#" className="bank-account-btn" style={{ background: '#1ec6b6', color: '#fff', padding: '10px 28px', borderRadius: 30, fontWeight: 600, fontSize: '1rem', textDecoration: 'none', display: 'inline-block', margin: '0 auto' }}>View All Banking Partners</a>
+            <a href="#contact" className="bank-account-btn" style={{ background: '#1ec6b6', color: '#fff', padding: '10px 28px', borderRadius: 30, fontWeight: 600, fontSize: '1rem', textDecoration: 'none', display: 'inline-block', margin: '0 auto' }}>View All Banking Partners</a>
           </div>
         </div>
       </section>

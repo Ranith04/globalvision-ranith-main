@@ -130,7 +130,7 @@ export default function GlobalVisaPage() {
                 ))}
               </div>
               
-              <button className="global-visa-btn" style={{ 
+              <a href="#contact" className="global-visa-btn" style={{ 
                 background: 'transparent', 
                 border: 'none', 
                 color: '#333', 
@@ -140,13 +140,14 @@ export default function GlobalVisaPage() {
                 display: 'flex',
                 alignItems: 'center',
                 gap: 8,
-                padding: 0
+                padding: 0,
+                textDecoration: 'none'
               }}>
                 Apply Now 
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M9 18L15 12L9 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
-              </button>
+              </a>
             </div>
 
             {/* Family Visit Visas */}
@@ -206,7 +207,7 @@ export default function GlobalVisaPage() {
                 ))}
               </div>
               
-              <button className="global-visa-btn" style={{ 
+              <a href="#contact" className="global-visa-btn" style={{ 
                 background: 'transparent', 
                 border: 'none', 
                 color: '#333', 
@@ -216,13 +217,14 @@ export default function GlobalVisaPage() {
                 display: 'flex',
                 alignItems: 'center',
                 gap: 8,
-                padding: 0
+                padding: 0,
+                textDecoration: 'none'
               }}>
                 Apply Now 
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M9 18L15 12L9 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
-              </button>
+              </a>
             </div>
 
             {/* Business Visas */}
@@ -281,7 +283,7 @@ export default function GlobalVisaPage() {
                 ))}
               </div>
               
-              <button className="global-visa-btn" style={{ 
+              <a href="#contact" className="global-visa-btn" style={{ 
                 background: 'transparent', 
                 border: 'none', 
                 color: '#333', 
@@ -291,13 +293,14 @@ export default function GlobalVisaPage() {
                 display: 'flex',
                 alignItems: 'center',
                 gap: 8,
-                padding: 0
+                padding: 0,
+                textDecoration: 'none'
               }}>
                 Apply Now 
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M9 18L15 12L9 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
-              </button>
+              </a>
             </div>
           </div>
         </div>

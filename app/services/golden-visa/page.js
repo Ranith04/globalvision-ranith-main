@@ -129,7 +129,7 @@ export default function GoldenVisaPage() {
                 </div>
                 <h3 style={{ fontSize: '1.4rem', fontWeight: 600, color: '#333', marginBottom: 16 }}>Company Investor</h3>
               </div>
-              <button style={{ 
+              <a href="#contact" style={{ 
                 background: 'transparent', 
                 border: 'none', 
                 color: '#333', 
@@ -139,13 +139,14 @@ export default function GoldenVisaPage() {
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                gap: 8
+                gap: 8,
+                textDecoration: 'none'
               }}>
                 Learn More 
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M9 18L15 12L9 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
-              </button>
+              </a>
             </div>
 
             {/* Property Investor */}
@@ -181,7 +182,7 @@ export default function GoldenVisaPage() {
                 </div>
                 <h3 style={{ fontSize: '1.4rem', fontWeight: 600, color: '#333', marginBottom: 16 }}>Property Investor</h3>
               </div>
-              <button style={{ 
+              <a href="#contact" style={{ 
                 background: 'transparent', 
                 border: 'none', 
                 color: '#333', 
@@ -191,13 +192,14 @@ export default function GoldenVisaPage() {
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                gap: 8
+                gap: 8,
+                textDecoration: 'none'
               }}>
                 Learn More 
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M9 18L15 12L9 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
-              </button>
+              </a>
             </div>
 
             {/* Senior Manager */}
@@ -231,7 +233,7 @@ export default function GoldenVisaPage() {
                 </div>
                 <h3 style={{ fontSize: '1.4rem', fontWeight: 600, color: '#333', marginBottom: 16 }}>Senior Manager</h3>
               </div>
-              <button style={{ 
+              <a href="#contact" style={{ 
                 background: 'transparent', 
                 border: 'none', 
                 color: '#333', 
@@ -241,13 +243,14 @@ export default function GoldenVisaPage() {
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                gap: 8
+                gap: 8,
+                textDecoration: 'none'
               }}>
                 Learn More 
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M9 18L15 12L9 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
-              </button>
+              </a>
             </div>
 
             {/* University Graduate */}
@@ -282,7 +285,7 @@ export default function GoldenVisaPage() {
                 </div>
                 <h3 style={{ fontSize: '1.4rem', fontWeight: 600, color: '#333', marginBottom: 16 }}>University Graduate</h3>
               </div>
-              <button style={{ 
+              <a href="#contact" style={{ 
                 background: 'transparent', 
                 border: 'none', 
                 color: '#333', 
@@ -292,13 +295,14 @@ export default function GoldenVisaPage() {
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                gap: 8
+                gap: 8,
+                textDecoration: 'none'
               }}>
                 Learn More 
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M9 18L15 12L9 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -337,7 +341,7 @@ export default function GoldenVisaPage() {
               <li>Multiple business opportunities in free zones and mainland</li>
               <li>Path to long-term stability in the UAE</li>
             </ul>
-            <a href="#" className="golden-visa-btn" style={{ background: '#1ec6b6', color: '#fff', padding: '12px 32px', borderRadius: 30, fontWeight: 600, fontSize: '1.1rem', textDecoration: 'none', display: 'inline-block' }}>Apply Now</a>
+            <a href="#contact" className="golden-visa-btn" style={{ background: '#1ec6b6', color: '#fff', padding: '12px 32px', borderRadius: 30, fontWeight: 600, fontSize: '1.1rem', textDecoration: 'none', display: 'inline-block' }}>Apply Now</a>
           </div>
           <div style={{ flex: 1, minWidth: 320 }}>
             <Image src="/images/go;den-2.jpg" alt="Dubai Night" width={500} height={300} className="golden-visa-image" style={{ borderRadius: 16, width: '100%', height: 'auto' }} />

@@ -33,8 +33,8 @@ export default function FlexiOfficesPage() {
               Flexi Desk<br /><span className="flexi-intro-highlight">Dubai Smart Office</span>
             </h2>
             <div className="flexi-intro-buttons">
-              <a href="#" className="flexi-intro-btn-primary">Book Flexi Desk</a>
-              <a href="#" className="flexi-intro-btn-secondary">Learn More</a>
+              <a href="#contact" className="flexi-intro-btn-primary">Book Flexi Desk</a>
+              <a href="#contact" className="flexi-intro-btn-secondary">Learn More</a>
             </div>
           </div>
           {/* Right: Image Card */}
@@ -248,7 +248,7 @@ export default function FlexiOfficesPage() {
           </div>
         </div>
         <div className="flexi-footer-bottom">
-          © 2024 Global Vision Services. All rights reserved. &nbsp; &nbsp; <a href="#" className="flexi-footer-links">Privacy Policy</a> &nbsp; | &nbsp; <a href="#" className="flexi-footer-links">Terms of Service</a>
+          © 2024 Global Vision Services. All rights reserved. &nbsp; &nbsp; <a href="#contact" className="flexi-footer-links">Privacy Policy</a> &nbsp; | &nbsp; <a href="#contact" className="flexi-footer-links">Terms of Service</a>
         </div>
       </footer>
     </>
