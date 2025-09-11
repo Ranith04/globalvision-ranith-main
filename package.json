@@ -4,14 +4,14 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "postbuild": "next-sitemap",
+    "build": "next build && npx next-sitemap || echo 'Sitemap generation failed, using static files'",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "aos": "^2.3.4",
     "next": "latest",
+    "next-sitemap": "^4.2.3",
     "nodemailer": "^7.0.4",
     "react": "latest",
     "react-dom": "latest",
