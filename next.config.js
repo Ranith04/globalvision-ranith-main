@@ -1,4 +1,4 @@
- /** @type {import('next').NextConfig} */
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
 
@@ -15,8 +15,37 @@ const nextConfig = {
       },
     ];
   },
+
   async headers() {
     return [
+      // Allow proper caching for sitemap and robots.txt
+      {
+        source: '/sitemap.xml',
+        headers: [
+          {
+            key: 'Content-Type',
+            value: 'application/xml',
+          },
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=3600, s-maxage=3600',
+          },
+        ],
+      },
+      {
+        source: '/robots.txt',
+        headers: [
+          {
+            key: 'Content-Type',
+            value: 'text/plain',
+          },
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=3600, s-maxage=3600',
+          },
+        ],
+      },
+      // No cache for videos
       {
         source: '/video/:path*',
         headers: [
@@ -26,22 +55,9 @@ const nextConfig = {
           },
         ],
       },
+      // No cache for HTML pages only (not static files)
       {
-        source: '/video/1.mp4',
-        headers: [
-          {
-            key: 'Cache-Control',
-            value: 'no-cache, no-store, must-revalidate',
-          },
-        ],
-      },
-    ];
-  },
-
-  async headers() {
-    return [
-      {
-        source: '/(.*)', // Applies to all routes and static files
+        source: '/((?!sitemap\\.xml|robots\\.txt|images/|video/|logo\\.png).*)',
         headers: [
           {
             key: 'Cache-Control',
@@ -60,7 +76,7 @@ const nextConfig = {
     ];
   },
 
-  generateEtags: false, // Optional: disables ETag generation
+  generateEtags: false,
 };
 
 module.exports = nextConfig;
