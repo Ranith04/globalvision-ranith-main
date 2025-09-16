@@ -69,6 +69,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <meta name="google-site-verification" content="gDr4eCUUo-lP_JaLX9y9TNG4Xh5PExHz_18L1yLKPT0" />
+        <link rel="canonical" href="https://globalvisionuae.com/" />
+      </head>
       <body>
         {children}
         <WhatsappWidget />  {/* This adds the WhatsApp button on every page */}
