@@ -18,8 +18,8 @@ export default function Mission() {
               Our Mission<br />
               <span className="accent">&amp;</span> <span className="mission-vision">Vision</span>
             </h2>
-            <p>At Global Vision, our mission is to serve as a catalyst for sustainable business growth by delivering integrated workspace solutions and strategic advisory services tailored to the evolving needs of modern enterprises. We are committed to enabling entrepreneurs and organizations to navigate Dubai's dynamic business landscape with confidence, efficiency, and regulatory clarity.</p>
-            <p>Our vision is to establish a benchmark for excellence in business infrastructure by creating a future-ready ecosystem that fosters innovation, accelerates opportunity, and supports long-term enterprise value.</p>
+            <p><strong>Our Mission</strong><br />Enable entrepreneurs and enterprises to set up and scale in Dubai with clear guidance, reliable execution, and compliant business infrastructure.</p>
+            <p><strong>Our Vision</strong><br />Be the most trusted business setup ecosystem in the UAE—combining premium workspaces, streamlined licensing, and ongoing PRO services to empower long-term growth.</p>
           </div>
         </div>
       </div>

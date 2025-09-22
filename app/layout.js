@@ -6,7 +6,7 @@ import WhatsappWidget from './components/WhatsappWidget'; // adjust if path is d
 // Metadata for SEO and social media sharing
 export const metadata = {
   title: 'Start Your Own Company in Dubai | Global Vision UAE',
-  description: 'Empowering Your Business Journey in Dubai. Ready-to-move-in offices & complete business setup solutions in the heart of Dubai.',
+  description: 'Start your business in Dubai easily with Global Vision UAE. Expert company formation, freezone or mainland licensing, visa services, and PRO support. Book a free consultation today.',
   keywords: 'Dubai company setup, business setup Dubai, freezone company, mainland company, Dubai office, UAE business, company formation Dubai',
   authors: [{ name: 'Global Vision UAE' }],
   creator: 'Global Vision UAE',
@@ -16,7 +16,7 @@ export const metadata = {
   // Open Graph metadata for social media sharing
   openGraph: {
     title: 'Start Your Own Company in Dubai | Global Vision UAE',
-    description: 'Empowering Your Business Journey in Dubai. Ready-to-move-in offices & complete business setup solutions in the heart of Dubai.',
+    description: 'Start your business in Dubai easily with Global Vision UAE. Expert company formation, freezone or mainland licensing, visa services, and PRO support. Book a free consultation today.',
     url: 'https://globalvisionuae.com',
     siteName: 'Global Vision UAE',
     images: [
@@ -35,7 +35,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Start Your Own Company in Dubai | Global Vision UAE',
-    description: 'Empowering Your Business Journey in Dubai. Ready-to-move-in offices & complete business setup solutions in the heart of Dubai.',
+    description: 'Start your business in Dubai easily with Global Vision UAE. Expert company formation, freezone or mainland licensing, visa services, and PRO support. Book a free consultation today.',
     images: ['/logo.png'],
     creator: '@globalvisionuae',
     site: '@globalvisionuae',
@@ -71,7 +71,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <meta name="google-site-verification" content="gDr4eCUUo-lP_JaLX9y9TNG4Xh5PExHz_18L1yLKPT0" />
-        <link rel="canonical" href="https://globalvisionuae.com/" />
+        <link rel="canonical" href="https://www.globalvisionuae.com/" />
       </head>
       <body>
         {children}

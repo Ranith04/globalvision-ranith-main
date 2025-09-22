@@ -6,16 +6,16 @@ export default function About() {
         <div className="about-content">
           <div className="about-left">
             <span className="about-label">Who we are</span>
-            <h2 className="about-title">Empowering Your Business Journey in Dubai</h2>
+            <h2 className="about-title">Business Setup & Visa Services—Empowering Your Journey in Dubai</h2>
             <p className="about-desc">
-            At Global Vision, we provide ready-to-move-in offices and complete business setup solutions in the heart of Dubai. Whether you're a startup, freelancer, or a global firm, our premium locations and end-to-end services ensure you launch with impact.
+            We provide ready-to-move offices and end-to-end business setup in Dubai. From company formation (freezone or mainland) to bank account assistance, visa services, and PRO support, our team helps you launch fast and stay compliant.
             </p>
             <ul className="about-list">
               <li><span className="about-dot" />Flexible office solutions: virtual, private, shared
               </li>
-              <li><span className="about-dot" />Dedicated team for legal, admin, and visa services
+              <li><span className="about-dot" />Dedicated legal, admin, visa & PRO support
               </li>
-              <li><span className="about-dot" />1000+ satisfied clients across UAE</li>
+              <li><span className="about-dot" />1000+ clients supported across the UAE</li>
             </ul>
           </div>
           <div className="about-right">

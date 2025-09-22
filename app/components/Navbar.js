@@ -49,7 +49,7 @@ const businessSetupTabs = [
         <div>
           <div className="dropdown-col-title exact-freezone-title">Other Freezones</div>
           <div onClick={() => { if (typeof window !== 'undefined') window.location.href = '/freezone/other/rak'; }} style={{ cursor: 'pointer' }}>Ras Al Khaimah Freezone</div>
-          <div onClick={() => { if (typeof window !== 'undefined') window.location.href = '/freezone/other/ajman'; }} style={{ cursor: 'pointer' }}>Ajaman Freezone</div>
+          <div onClick={() => { if (typeof window !== 'undefined') window.location.href = '/freezone/other/ajman'; }} style={{ cursor: 'pointer' }}>Ajman Freezone</div>
           <div onClick={() => { if (typeof window !== 'undefined') window.location.href = '/freezone/other/uaq'; }} style={{ cursor: 'pointer' }}>Umm Al Quwain Freezone</div>
         </div>
       </div>
@@ -97,7 +97,7 @@ const servicesList = [
   { key: 'golden-visa', label: 'Golden visa services', icon: <FaCrown /> },
   { key: 'local-sponsorship', label: 'Local sponsorship', icon: <FaShieldAlt /> },
   { key: 'bank-account', label: 'Bank account opening assistance', icon: <FaUniversity /> },
-  { key: 'notary', label: 'Notery services', icon: <FaRegEdit /> },
+  { key: 'notary', label: 'Notary Services', icon: <FaRegEdit /> },
   { key: 'global-visa', label: 'Global visa assistance', icon: <FaGlobe /> },
   { key: 'trademark', label: 'Trade mark registrations', icon: <FaRegFileAlt /> },
   { key: 'visa', label: 'Visa services', icon: <FaPassport /> },
@@ -130,7 +130,7 @@ const mobileMenuData = {
       ],
       'Other Freezones': [
         { label: 'Ras Al Khaimah Freezone', href: '/freezone/other/rak' },
-        { label: 'Ajaman Freezone', href: '/freezone/other/ajman' },
+        { label: 'Ajman Freezone', href: '/freezone/other/ajman' },
         { label: 'Umm Al Quwain Freezone', href: '/freezone/other/uaq' }
       ]
     },

@@ -81,10 +81,11 @@ export default function Hero() {
         <div className="hero-content">
           <h1 className="hero-title">
             Start Your Own<br />
-            Company in <span className="hero-title-accent">Dubai</span>
+            Company in <span className="hero-title-accent">Dubai</span><br />
+            with Global Vision UAE
           </h1>
           <p className="hero-subtitle">
-          Establish your company with confidence through Global Vision — your trusted partner for premium office solutions and complete business setup services in Dubai.
+          Launch your business in Dubai with confidence. We provide complete business setup, freezone and mainland licensing, bank account assistance, visa services, and PRO support—tailored to entrepreneurs, SMEs, and global teams.
           </p>
           <a href="#contact" className="hero-cta-btn" style={{background: '#00c89d', display: 'inline-flex', alignItems: 'center', gap: '8px'}}>
             Start Now <span style={{fontSize: '1.2em', marginLeft: '4px'}}>&#8594;</span>
