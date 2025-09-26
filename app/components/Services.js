@@ -1,9 +1,9 @@
 import Image from 'next/image';
 
 const services = [
-  { img: '/images/Container.png', title: 'Want to start a company?', link: '#contact' },
-  { img: '/images/Container2.png', title: 'Already have a company?', link: '#contact' },
-  { img: '/images/Container3.png', title: "Can\'t be our partner?", link: '#contact' },
+  { img: '/images/Container.png', title: 'Start a Company in Dubai', link: '#contact' },
+  { img: '/images/Container2.png', title: 'Already Have a Company? Expand or Relocate to Dubai', link: '#contact' },
+  { img: '/images/Container3.png', title: 'Partner With Global Vision UAE', link: '#contact' },
   { img: '/images/Overlay.png', title: 'Need a business loan?', link: '#contact' }
 ];
 
@@ -12,7 +12,8 @@ export default function Services() {
     <section className="services-section services-section-teal">
       <div className="services-container">
         <h2 className="services-heading">Business Setup<br />Services</h2>
-        <p className="services-subheading">Comprehensive solutions for establishing and growing your business in Dubai's thriving economy</p>
+        <h2 className="services-heading">Business Setup & Company Formation Services in Dubai</h2>
+        <p className="services-subheading">Comprehensive company formation across freezone and mainland, with licensing, visa, bank account assistance, and ongoing PRO services.</p>
         <div className="services-cards-row">
           {services.map((service, idx) => (
             <div className="services-card-modern" key={idx}>

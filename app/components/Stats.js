@@ -1,7 +1,7 @@
 export default function Stats() {
   return (
     <section className="stats">
-      <h2>Global Vision has been a leading provider of <span className="accent">business setup<br />& PRO services</span> in Dubai since 2015</h2>
+      <h2>Leading Business Setup & PRO Services in Dubai Since 2015</h2>
       <div className="stats__grid">
         <div className="stats__item">
           <span className="stats__number">1000+</span>

@@ -5,19 +5,19 @@ import WhatsappWidget from './components/WhatsappWidget'; // adjust if path is d
 
 // Metadata for SEO and social media sharing
 export const metadata = {
-  title: 'Start Your Own Company in Dubai | Global Vision UAE',
-  description: 'Start your business in Dubai easily with Global Vision UAE. Expert company formation, freezone or mainland licensing, visa services, and PRO support. Book a free consultation today.',
+  title: 'Business Setup in Dubai | Company Formation & Visa Services – Global Vision UAE',
+  description: 'Start your business in Dubai easily with Global Vision UAE. Expert company formation, freezone or mainland licensing, visa services, and PRO support.',
   keywords: 'Dubai company setup, business setup Dubai, freezone company, mainland company, Dubai office, UAE business, company formation Dubai',
   authors: [{ name: 'Global Vision UAE' }],
   creator: 'Global Vision UAE',
   publisher: 'Global Vision UAE',
-  metadataBase: new URL('https://globalvisionuae.com'),
+  metadataBase: new URL('https://www.globalvisionuae.com/'),
   
   // Open Graph metadata for social media sharing
   openGraph: {
-    title: 'Start Your Own Company in Dubai | Global Vision UAE',
-    description: 'Start your business in Dubai easily with Global Vision UAE. Expert company formation, freezone or mainland licensing, visa services, and PRO support. Book a free consultation today.',
-    url: 'https://globalvisionuae.com',
+    title: 'Business Setup in Dubai | Company Formation & Visa Services – Global Vision UAE',
+    description: 'Start your business in Dubai easily with Global Vision UAE. Expert company formation, freezone or mainland licensing, visa services, and PRO support.',
+    url: 'https://www.globalvisionuae.com/',
     siteName: 'Global Vision UAE',
     images: [
       {
@@ -34,8 +34,8 @@ export const metadata = {
   // Twitter Card metadata
   twitter: {
     card: 'summary_large_image',
-    title: 'Start Your Own Company in Dubai | Global Vision UAE',
-    description: 'Start your business in Dubai easily with Global Vision UAE. Expert company formation, freezone or mainland licensing, visa services, and PRO support. Book a free consultation today.',
+    title: 'Business Setup in Dubai | Company Formation & Visa Services – Global Vision UAE',
+    description: 'Start your business in Dubai easily with Global Vision UAE. Expert company formation, licensing, visa services, and PRO support.',
     images: ['/logo.png'],
     creator: '@globalvisionuae',
     site: '@globalvisionuae',

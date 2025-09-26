@@ -41,8 +41,8 @@ export default function Contact() {
   return (
     <footer className="contact" id="contact">
       <div className="contact__cta">
-        <h2>Be Your Own <span className="accent">Boss</span></h2>
-        <p>Get in touch with us to begin your business journey in Dubai</p>
+        <h2>Start Your Business Setup in Dubai Today</h2>
+        <p>From freezone licenses to mainland setups, we handle company formation, visa processing, and PRO services end to end. Speak to an advisor and get a clear, step-by-step plan.</p>
       </div>
       <div className="contact__form-info">
         <div className="contact__info">

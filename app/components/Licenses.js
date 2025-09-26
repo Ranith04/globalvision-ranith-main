@@ -1,34 +1,31 @@
 export default function Licenses() {
   const licenses = [
     {
-      title: 'Business License',
+      title: 'Dubai Business License Packages — From AED 4,888',
       price: '4,888',
       features: [
         'Business License',
-        'Unlimited Share Holders',
-        'MOA',
+        'Unlimited Shareholders',
+        'Memorandum of Association (MoA)',
         'Bank Account Assistance',
-        '5-10 Mix And Match Activities',
-        'Commercial Registry And',
-        'Lease Agreement',
-         
+        '5–10 Mix-and-Match Activities',
+        'Commercial Registry and Lease Agreement',
       ],
     },
     {
-      title: 'Freezone License',
+      title: 'Freezone Company Setup in Dubai — From AED 10,800',
       price: '10,800',
       features: [
         'Business License',
-        '10 Mix And Match Activities',
+        '10 Mix-and-Match Activities',
         'Establishment Card',
         'Residence Visa',
         'Emirates ID', 
         'Bank Account Assistance',
-         
       ],
     },
     {
-      title: 'Dubai Mainland License',
+      title: 'Mainland Business Setup in Dubai — From AED 14,999',
       price: '14,999',
       features: [
         'Professional License',
@@ -38,7 +35,6 @@ export default function Licenses() {
         'Residence Visa',
         'Emirates ID',
         'Bank Account Assistance',
-        
       ],
     },
   ];
