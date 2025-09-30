@@ -4,14 +4,13 @@ const services = [
   { img: '/images/Container.png', title: 'Start a Company in Dubai', link: '#contact' },
   { img: '/images/Container2.png', title: 'Already Have a Company? Expand or Relocate to Dubai', link: '#contact' },
   { img: '/images/Container3.png', title: 'Partner With Global Vision UAE', link: '#contact' },
-  { img: '/images/Overlay.png', title: 'Need a business loan?', link: '#contact' }
+  { img: '/images/Overlay.png', title: 'Business Loan & Banking Assistance', link: '#contact' }
 ];
 
 export default function Services() {
   return (
     <section className="services-section services-section-teal">
       <div className="services-container">
-        <h2 className="services-heading">Business Setup<br />Services</h2>
         <h2 className="services-heading">Business Setup & Company Formation Services in Dubai</h2>
         <p className="services-subheading">Comprehensive company formation across freezone and mainland, with licensing, visa, bank account assistance, and ongoing PRO services.</p>
         <div className="services-cards-row">
