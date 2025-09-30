@@ -71,7 +71,15 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <meta name="google-site-verification" content="gDr4eCUUo-lP_JaLX9y9TNG4Xh5PExHz_18L1yLKPT0" />
-        <link rel="canonical" href="https://www.globalvisionuae.com/" />
+        <link rel="canonical" href="https://globalvisionuae.com/" />
+        {/* Google Analytics */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-BSPHRNVSFG"></script>
+        <script dangerouslySetInnerHTML={{ __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);} 
+          gtag('js', new Date());
+          gtag('config', 'G-BSPHRNVSFG');
+        `}} />
       </head>
       <body>
         {children}

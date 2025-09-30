@@ -240,7 +240,7 @@ export default function Navbar() {
             onMouseEnter={() => setDropdownOpen(true)}
             onMouseLeave={() => setDropdownOpen(false)}
           >
-            <Link href="/mainland" className={"navbar__dropdown" + (isBusinessSetup ? " active" : "")} onClick={(e) => { e.preventDefault(); setMobileMenuOpen(false); }}>Business Setup <span className="navbar__arrow">▼</span></Link>
+            <Link href="/mainland" className={"navbar__dropdown" + (isBusinessSetup ? " active" : "")} onClick={(e) => { /* allow click to navigate to landing */ setMobileMenuOpen(false); }}>Business Setup <span className="navbar__arrow">▼</span></Link>
             {dropdownOpen && (
               <div className="business-dropdown exact-business-dropdown-bg" style={{position: 'absolute', left: '50%', top: '100%', transform: 'translateX(-50%)', zIndex: 1000}}>
                 <div className="business-dropdown-tabs exact-dropdown-tabs">

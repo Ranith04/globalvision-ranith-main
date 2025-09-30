@@ -42,7 +42,7 @@ export default function Home() {
             <a href="#" aria-label="Instagram" style={{ color: '#009688', fontSize: 28 }}><i className="fa-brands fa-instagram"></i></a>
             <a href="#" aria-label="Facebook" style={{ color: '#009688', fontSize: 28 }}><i className="fa-brands fa-facebook-f"></i></a>
             <a href="#" aria-label="X" style={{ color: '#009688', fontSize: 28 }}><i className="fa-brands fa-x-twitter"></i></a>
-            <a href="#" aria-label="YouTube" style={{ color: '#009688', fontSize: 28 }}><i className="fa-brands fa-youtube"></i></a>
+            <a href="https://www.youtube.com/@globalvisionuae" target="_blank" rel="noopener noreferrer" aria-label="YouTube" style={{ color: '#009688', fontSize: 28 }}><i className="fa-brands fa-youtube"></i></a>
           </div>
         </div>
       </Modal>

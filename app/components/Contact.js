@@ -63,6 +63,7 @@ export default function Contact() {
               </svg>
             </a>
             <a href="https://www.linkedin.com/company/global-vision-business-hub/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+            <a href="https://www.youtube.com/@globalvisionuae" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i className="fa-brands fa-youtube" style={{ fontSize: 20 }}></i></a>
           </div>
         </div>
         <div className="contact__form">
